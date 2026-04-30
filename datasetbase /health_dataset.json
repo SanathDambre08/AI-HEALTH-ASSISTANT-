@@ -1,0 +1,5028 @@
+{
+  "symptoms": [
+    {
+      "name": "Fever",
+      "category": "General",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Headache",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Cough",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Sore Throat",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Runny Nose",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Nasal Congestion",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Sneezing",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Shortness of Breath",
+      "category": "Respiratory",
+      "severity_level": "high"
+    },
+    {
+      "name": "Chest Pain",
+      "category": "Cardiovascular",
+      "severity_level": "high"
+    },
+    {
+      "name": "Palpitations",
+      "category": "Cardiovascular",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Fatigue",
+      "category": "General",
+      "severity_level": "low"
+    },
+    {
+      "name": "Weakness",
+      "category": "General",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Dizziness",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Nausea",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Vomiting",
+      "category": "Digestive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Diarrhea",
+      "category": "Digestive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Constipation",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Abdominal Pain",
+      "category": "Digestive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Bloating",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Heartburn",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Loss of Appetite",
+      "category": "General",
+      "severity_level": "low"
+    },
+    {
+      "name": "Weight Loss",
+      "category": "General",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Weight Gain",
+      "category": "General",
+      "severity_level": "low"
+    },
+    {
+      "name": "Swollen Lymph Nodes",
+      "category": "Immune",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Night Sweats",
+      "category": "General",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Chills",
+      "category": "General",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Joint Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Muscle Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "low"
+    },
+    {
+      "name": "Back Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Neck Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Shoulder Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Knee Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Ankle Swelling",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Skin Rash",
+      "category": "Dermatological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Itching",
+      "category": "Dermatological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Dry Skin",
+      "category": "Dermatological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Hives",
+      "category": "Dermatological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Acne",
+      "category": "Dermatological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Hair Loss",
+      "category": "Dermatological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Yellowing of Skin",
+      "category": "Dermatological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Excessive Thirst",
+      "category": "Endocrine",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Frequent Urination",
+      "category": "Urological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Burning Urination",
+      "category": "Urological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Blood in Urine",
+      "category": "Urological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Decreased Urine Output",
+      "category": "Urological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Painful Urination",
+      "category": "Urological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Eye Redness",
+      "category": "Ophthalmological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Blurred Vision",
+      "category": "Ophthalmological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Eye Discharge",
+      "category": "Ophthalmological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Eye Pain",
+      "category": "Ophthalmological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Ear Pain",
+      "category": "ENT",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Hearing Loss",
+      "category": "ENT",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Tinnitus",
+      "category": "ENT",
+      "severity_level": "low"
+    },
+    {
+      "name": "Ear Discharge",
+      "category": "ENT",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Toothache",
+      "category": "Dental",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Bleeding Gums",
+      "category": "Dental",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Mouth Sores",
+      "category": "Dental",
+      "severity_level": "low"
+    },
+    {
+      "name": "Bad Breath",
+      "category": "Dental",
+      "severity_level": "low"
+    },
+    {
+      "name": "Swollen Gums",
+      "category": "Dental",
+      "severity_level": "low"
+    },
+    {
+      "name": "Difficulty Swallowing",
+      "category": "Digestive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Hoarseness",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Excessive Sweating",
+      "category": "General",
+      "severity_level": "low"
+    },
+    {
+      "name": "Cold Hands and Feet",
+      "category": "Cardiovascular",
+      "severity_level": "low"
+    },
+    {
+      "name": "High Blood Pressure",
+      "category": "Cardiovascular",
+      "severity_level": "high"
+    },
+    {
+      "name": "Low Blood Pressure",
+      "category": "Cardiovascular",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Irregular Heartbeat",
+      "category": "Cardiovascular",
+      "severity_level": "high"
+    },
+    {
+      "name": "Fainting",
+      "category": "Neurological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Numbness in Hands",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Numbness in Feet",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Tingling Sensation",
+      "category": "Neurological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Tremors",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Memory Problems",
+      "category": "Neurological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Confusion",
+      "category": "Neurological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Insomnia",
+      "category": "Mental Health",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Anxiety",
+      "category": "Mental Health",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Depression",
+      "category": "Mental Health",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Irritability",
+      "category": "Mental Health",
+      "severity_level": "low"
+    },
+    {
+      "name": "Mood Swings",
+      "category": "Mental Health",
+      "severity_level": "low"
+    },
+    {
+      "name": "Panic Attacks",
+      "category": "Mental Health",
+      "severity_level": "high"
+    },
+    {
+      "name": "Excessive Hunger",
+      "category": "Endocrine",
+      "severity_level": "low"
+    },
+    {
+      "name": "Heat Intolerance",
+      "category": "Endocrine",
+      "severity_level": "low"
+    },
+    {
+      "name": "Cold Intolerance",
+      "category": "Endocrine",
+      "severity_level": "low"
+    },
+    {
+      "name": "Swelling in Neck",
+      "category": "Endocrine",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Puffy Face",
+      "category": "Endocrine",
+      "severity_level": "low"
+    },
+    {
+      "name": "Menstrual Irregularities",
+      "category": "Reproductive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Pelvic Pain",
+      "category": "Reproductive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Vaginal Discharge",
+      "category": "Reproductive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Breast Pain",
+      "category": "Reproductive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Testicular Pain",
+      "category": "Reproductive",
+      "severity_level": "high"
+    },
+    {
+      "name": "Erectile Dysfunction",
+      "category": "Reproductive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Decreased Libido",
+      "category": "Reproductive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Frequent Infections",
+      "category": "Immune",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Easy Bruising",
+      "category": "Haematological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Excessive Bleeding",
+      "category": "Haematological",
+      "severity_level": "high"
+    },
+    {
+      "name": "Pale Skin",
+      "category": "Haematological",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Nosebleed",
+      "category": "ENT",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Wheezing",
+      "category": "Respiratory",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Productive Cough",
+      "category": "Respiratory",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Dry Cough",
+      "category": "Respiratory",
+      "severity_level": "low"
+    },
+    {
+      "name": "Loss of Smell",
+      "category": "ENT",
+      "severity_level": "low"
+    },
+    {
+      "name": "Loss of Taste",
+      "category": "General",
+      "severity_level": "low"
+    },
+    {
+      "name": "Excessive Gas",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Acid Reflux",
+      "category": "Digestive",
+      "severity_level": "low"
+    },
+    {
+      "name": "Blood in Stool",
+      "category": "Digestive",
+      "severity_level": "high"
+    },
+    {
+      "name": "Dark Stool",
+      "category": "Digestive",
+      "severity_level": "high"
+    },
+    {
+      "name": "Rectal Pain",
+      "category": "Digestive",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Leg Cramps",
+      "category": "Musculoskeletal",
+      "severity_level": "low"
+    },
+    {
+      "name": "Foot Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "low"
+    },
+    {
+      "name": "Hip Pain",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Stiff Joints",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Swollen Joints",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Muscle Weakness",
+      "category": "Musculoskeletal",
+      "severity_level": "medium"
+    },
+    {
+      "name": "Difficulty Walking",
+      "category": "Musculoskeletal",
+      "severity_level": "high"
+    },
+    {
+      "name": "Sun Sensitivity",
+      "category": "Dermatological",
+      "severity_level": "low"
+    },
+    {
+      "name": "Wound That Won't Heal",
+      "category": "Dermatological",
+      "severity_level": "high"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Viral Fever",
+      "description": "A common viral infection causing elevated body temperature and general discomfort.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fever",
+        "Headache",
+        "Fatigue",
+        "Chills",
+        "Muscle Pain"
+      ]
+    },
+    {
+      "name": "Bacterial Infection",
+      "description": "An infection caused by bacteria that may affect various body parts.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fever",
+        "Swollen Lymph Nodes",
+        "Fatigue",
+        "Weakness"
+      ]
+    },
+    {
+      "name": "Common Cold",
+      "description": "A mild viral respiratory infection affecting the nose and throat.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Runny Nose",
+        "Sore Throat",
+        "Cough",
+        "Sneezing",
+        "Nasal Congestion"
+      ]
+    },
+    {
+      "name": "Influenza (Flu)",
+      "description": "A contagious respiratory illness caused by influenza viruses.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fever",
+        "Cough",
+        "Muscle Pain",
+        "Fatigue",
+        "Headache",
+        "Chills"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "description": "A neurological condition causing severe, recurring headaches often with nausea.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Headache",
+        "Nausea",
+        "Blurred Vision",
+        "Dizziness"
+      ]
+    },
+    {
+      "name": "Tension Headache",
+      "description": "The most common type of headache caused by stress or muscle tension.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Headache",
+        "Neck Pain",
+        "Fatigue"
+      ]
+    },
+    {
+      "name": "Sinusitis",
+      "description": "Inflammation of the sinuses, often due to infection or allergy.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Nasal Congestion",
+        "Headache",
+        "Sore Throat",
+        "Loss of Smell",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Allergic Rhinitis",
+      "description": "An allergic response causing cold-like symptoms triggered by allergens.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Sneezing",
+        "Runny Nose",
+        "Nasal Congestion",
+        "Eye Redness",
+        "Itching"
+      ]
+    },
+    {
+      "name": "Bronchitis",
+      "description": "Inflammation of the bronchial tubes causing cough and mucus production.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Cough",
+        "Productive Cough",
+        "Fatigue",
+        "Shortness of Breath",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "description": "A chronic respiratory condition causing airway narrowing and breathing difficulty.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Wheezing",
+        "Shortness of Breath",
+        "Dry Cough",
+        "Chest Pain"
+      ]
+    },
+    {
+      "name": "Pneumonia",
+      "description": "An infection that inflames the air sacs in one or both lungs.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Productive Cough",
+        "Shortness of Breath",
+        "Chest Pain",
+        "Fatigue"
+      ]
+    },
+    {
+      "name": "Hypertension",
+      "description": "Persistently high blood pressure that increases the risk of heart disease.",
+      "urgency": "high",
+      "related_symptoms": [
+        "High Blood Pressure",
+        "Headache",
+        "Dizziness",
+        "Palpitations"
+      ]
+    },
+    {
+      "name": "Hypotension",
+      "description": "Abnormally low blood pressure causing dizziness and fainting.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Low Blood Pressure",
+        "Dizziness",
+        "Fainting",
+        "Weakness"
+      ]
+    },
+    {
+      "name": "Gastroenteritis",
+      "description": "Inflammation of the stomach and intestines, typically caused by infection.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Abdominal Pain",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Acid Reflux / GERD",
+      "description": "A condition where stomach acid frequently flows back into the esophagus.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Heartburn",
+        "Acid Reflux",
+        "Difficulty Swallowing",
+        "Hoarseness"
+      ]
+    },
+    {
+      "name": "Irritable Bowel Syndrome",
+      "description": "A chronic gastrointestinal disorder affecting the large intestine.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Abdominal Pain",
+        "Bloating",
+        "Diarrhea",
+        "Constipation",
+        "Excessive Gas"
+      ]
+    },
+    {
+      "name": "Urinary Tract Infection",
+      "description": "An infection in any part of the urinary system caused by bacteria.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Burning Urination",
+        "Frequent Urination",
+        "Painful Urination",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Kidney Stones",
+      "description": "Hard deposits of minerals and salts that form inside the kidneys.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Back Pain",
+        "Blood in Urine",
+        "Painful Urination",
+        "Nausea",
+        "Vomiting"
+      ]
+    },
+    {
+      "name": "Conjunctivitis (Pink Eye)",
+      "description": "Inflammation or infection of the transparent membrane lining the eyelid.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Eye Redness",
+        "Eye Discharge",
+        "Eye Pain",
+        "Itching"
+      ]
+    },
+    {
+      "name": "Otitis Media (Ear Infection)",
+      "description": "An infection of the middle ear, most common in children.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Ear Pain",
+        "Hearing Loss",
+        "Ear Discharge",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "description": "A chronic metabolic condition where blood sugar levels remain too high.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Excessive Thirst",
+        "Frequent Urination",
+        "Fatigue",
+        "Blurred Vision",
+        "Wound That Won't Heal"
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "description": "A condition where the thyroid gland doesn't produce enough thyroid hormone.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fatigue",
+        "Weight Gain",
+        "Cold Intolerance",
+        "Hair Loss",
+        "Puffy Face",
+        "Depression"
+      ]
+    },
+    {
+      "name": "Hyperthyroidism",
+      "description": "A condition where the thyroid produces too much thyroid hormone.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Weight Loss",
+        "Heat Intolerance",
+        "Palpitations",
+        "Excessive Sweating",
+        "Swelling in Neck"
+      ]
+    },
+    {
+      "name": "Iron Deficiency Anemia",
+      "description": "A blood disorder caused by insufficient iron, resulting in fewer red blood cells.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fatigue",
+        "Pale Skin",
+        "Weakness",
+        "Shortness of Breath",
+        "Hair Loss"
+      ]
+    },
+    {
+      "name": "Anxiety Disorder",
+      "description": "A mental health condition characterized by persistent, excessive worry.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Anxiety",
+        "Palpitations",
+        "Insomnia",
+        "Excessive Sweating",
+        "Panic Attacks"
+      ]
+    },
+    {
+      "name": "Depression",
+      "description": "A mood disorder causing persistent feelings of sadness and loss of interest.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Depression",
+        "Insomnia",
+        "Fatigue",
+        "Loss of Appetite",
+        "Irritability"
+      ]
+    },
+    {
+      "name": "Osteoarthritis",
+      "description": "Degeneration of joint cartilage, causing pain and stiffness.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Joint Pain",
+        "Stiff Joints",
+        "Swollen Joints",
+        "Knee Pain",
+        "Hip Pain"
+      ]
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "description": "An autoimmune disorder that primarily affects joints causing inflammation.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Joint Pain",
+        "Swollen Joints",
+        "Fatigue",
+        "Fever",
+        "Easy Bruising"
+      ]
+    },
+    {
+      "name": "Eczema",
+      "description": "A condition making the skin red, inflamed, and itchy.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Skin Rash",
+        "Itching",
+        "Dry Skin",
+        "Sun Sensitivity"
+      ]
+    },
+    {
+      "name": "Psoriasis",
+      "description": "An autoimmune disease causing rapid skin cell growth and scaling patches.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Skin Rash",
+        "Itching",
+        "Dry Skin",
+        "Joint Pain"
+      ]
+    },
+    {
+      "name": "Dengue Fever",
+      "description": "A mosquito-borne viral infection causing severe flu-like illness.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Muscle Pain",
+        "Joint Pain",
+        "Skin Rash",
+        "Headache",
+        "Easy Bruising"
+      ]
+    },
+    {
+      "name": "Malaria",
+      "description": "A life-threatening disease transmitted by infected mosquitoes.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Chills",
+        "Headache",
+        "Nausea",
+        "Vomiting",
+        "Excessive Sweating"
+      ]
+    },
+    {
+      "name": "Typhoid Fever",
+      "description": "A bacterial infection spread through contaminated food and water.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Abdominal Pain",
+        "Weakness",
+        "Loss of Appetite",
+        "Diarrhea"
+      ]
+    },
+    {
+      "name": "Peptic Ulcer",
+      "description": "Open sores on the inner lining of the stomach or upper small intestine.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Abdominal Pain",
+        "Heartburn",
+        "Nausea",
+        "Blood in Stool",
+        "Dark Stool"
+      ]
+    },
+    {
+      "name": "Gallstones",
+      "description": "Hardened deposits in the gallbladder that can cause abdominal pain.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Abdominal Pain",
+        "Nausea",
+        "Vomiting",
+        "Yellowing of Skin"
+      ]
+    },
+    {
+      "name": "Hepatitis A",
+      "description": "A viral liver infection spread through contaminated food and water.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Yellowing of Skin",
+        "Fatigue",
+        "Nausea",
+        "Abdominal Pain",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Hepatitis B",
+      "description": "A serious liver infection caused by the hepatitis B virus.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Yellowing of Skin",
+        "Fatigue",
+        "Abdominal Pain",
+        "Nausea",
+        "Dark Stool"
+      ]
+    },
+    {
+      "name": "Chickenpox",
+      "description": "A highly contagious viral infection causing an itchy blister-like rash.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Skin Rash",
+        "Itching",
+        "Fever",
+        "Fatigue",
+        "Loss of Appetite"
+      ]
+    },
+    {
+      "name": "Scabies",
+      "description": "A contagious skin infestation caused by tiny mites burrowing under the skin.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Itching",
+        "Skin Rash",
+        "Hives"
+      ]
+    },
+    {
+      "name": "Fungal Infection (Skin)",
+      "description": "Skin infections caused by various types of fungi, e.g., ringworm.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Skin Rash",
+        "Itching",
+        "Dry Skin"
+      ]
+    },
+    {
+      "name": "COVID-19",
+      "description": "A respiratory illness caused by the SARS-CoV-2 virus.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Dry Cough",
+        "Fatigue",
+        "Loss of Smell",
+        "Loss of Taste",
+        "Shortness of Breath"
+      ]
+    },
+    {
+      "name": "Appendicitis",
+      "description": "Inflammation of the appendix causing acute abdominal pain.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Abdominal Pain",
+        "Nausea",
+        "Vomiting",
+        "Fever"
+      ]
+    },
+    {
+      "name": "Haemorrhoids (Piles)",
+      "description": "Swollen veins in the lower rectum causing discomfort and bleeding.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Rectal Pain",
+        "Blood in Stool",
+        "Constipation",
+        "Bloating"
+      ]
+    },
+    {
+      "name": "Polycystic Ovary Syndrome (PCOS)",
+      "description": "A hormonal disorder causing irregular periods and polycystic ovaries.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Menstrual Irregularities",
+        "Weight Gain",
+        "Acne",
+        "Hair Loss",
+        "Excessive Hunger"
+      ]
+    },
+    {
+      "name": "Dysmenorrhea",
+      "description": "Painful menstruation causing cramping in the lower abdomen.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Pelvic Pain",
+        "Abdominal Pain",
+        "Menstrual Irregularities",
+        "Nausea"
+      ]
+    },
+    {
+      "name": "Lower Back Pain (Muscular)",
+      "description": "Pain in the lower back due to muscle strain or poor posture.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Back Pain",
+        "Muscle Pain",
+        "Stiff Joints",
+        "Difficulty Walking"
+      ]
+    },
+    {
+      "name": "Cervical Spondylosis",
+      "description": "Age-related wear of the spinal discs in the neck.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Neck Pain",
+        "Numbness in Hands",
+        "Headache",
+        "Tingling Sensation"
+      ]
+    },
+    {
+      "name": "Peripheral Neuropathy",
+      "description": "Damage to the peripheral nerves causing weakness, numbness, and pain.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Numbness in Feet",
+        "Tingling Sensation",
+        "Muscle Weakness",
+        "Burning Urination"
+      ]
+    },
+    {
+      "name": "Insomnia",
+      "description": "A sleep disorder causing difficulty falling or staying asleep.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Insomnia",
+        "Anxiety",
+        "Fatigue",
+        "Irritability"
+      ]
+    },
+    {
+      "name": "Panic Disorder",
+      "description": "A type of anxiety disorder characterized by recurring panic attacks.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Panic Attacks",
+        "Palpitations",
+        "Chest Pain",
+        "Shortness of Breath",
+        "Dizziness"
+      ]
+    },
+    {
+      "name": "Vitamin D Deficiency",
+      "description": "A common condition where the body lacks adequate Vitamin D.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Fatigue",
+        "Muscle Pain",
+        "Bone Pain",
+        "Weakness",
+        "Mood Swings"
+      ]
+    },
+    {
+      "name": "Vitamin B12 Deficiency",
+      "description": "Low B12 levels causing neurological and blood-related symptoms.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Fatigue",
+        "Tingling Sensation",
+        "Numbness in Hands",
+        "Numbness in Feet",
+        "Memory Problems"
+      ]
+    },
+    {
+      "name": "Dehydration",
+      "description": "A condition where the body loses more fluids than it takes in.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Excessive Thirst",
+        "Dizziness",
+        "Fatigue",
+        "Decreased Urine Output",
+        "Confusion"
+      ]
+    },
+    {
+      "name": "Heat Stroke",
+      "description": "A serious condition where the body overheats due to prolonged exposure to high temperatures.",
+      "urgency": "high",
+      "related_symptoms": [
+        "Fever",
+        "Confusion",
+        "Excessive Sweating",
+        "Weakness",
+        "Fainting"
+      ]
+    },
+    {
+      "name": "Tonsillitis",
+      "description": "Inflammation of the tonsils, usually due to viral or bacterial infection.",
+      "urgency": "medium",
+      "related_symptoms": [
+        "Sore Throat",
+        "Fever",
+        "Difficulty Swallowing",
+        "Swollen Lymph Nodes"
+      ]
+    },
+    {
+      "name": "Dental Cavity",
+      "description": "Permanently damaged areas in the hard surface of teeth.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Toothache",
+        "Bad Breath",
+        "Swollen Gums"
+      ]
+    },
+    {
+      "name": "Gingivitis",
+      "description": "Inflammation of the gums due to plaque build-up.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Bleeding Gums",
+        "Swollen Gums",
+        "Bad Breath",
+        "Mouth Sores"
+      ]
+    },
+    {
+      "name": "Varicose Veins",
+      "description": "Enlarged, twisted veins, commonly in the legs.",
+      "urgency": "low",
+      "related_symptoms": [
+        "Leg Cramps",
+        "Ankle Swelling",
+        "Foot Pain",
+        "Cold Hands and Feet"
+      ]
+    }
+  ],
+  "medicines": [
+    {
+      "name": "Paracetamol (Acetaminophen)",
+      "use": "Reduces fever and relieves mild to moderate pain",
+      "dosage_guidance": "500mg\u20131000mg every 4\u20136 hours; max 4g per day",
+      "precautions": "Avoid alcohol; do not exceed recommended dose; caution in liver disease",
+      "category": "Analgesic / Antipyretic",
+      "alternative": "Generic Paracetamol, Calpol"
+    },
+    {
+      "name": "Ibuprofen",
+      "use": "Anti-inflammatory, relieves pain, reduces fever",
+      "dosage_guidance": "200\u2013400mg every 6\u20138 hours with food",
+      "precautions": "Avoid on empty stomach; caution in kidney/stomach issues",
+      "category": "NSAID",
+      "alternative": "Generic Ibuprofen, Brufen"
+    },
+    {
+      "name": "Aspirin",
+      "use": "Pain relief, fever reduction, blood thinning",
+      "dosage_guidance": "300\u2013600mg every 4 hours; low-dose 75\u2013100mg for cardiac use",
+      "precautions": "Not for children under 16; avoid with blood thinners; avoid in bleeding disorders",
+      "category": "NSAID / Antiplatelet",
+      "alternative": "Generic Aspirin, Ecosprin"
+    },
+    {
+      "name": "Amoxicillin",
+      "use": "Treats bacterial infections of the ear, throat, chest, and urinary tract",
+      "dosage_guidance": "250\u2013500mg three times daily; complete full course",
+      "precautions": "Check for penicillin allergy; complete the course",
+      "category": "Antibiotic",
+      "alternative": "Generic Amoxicillin"
+    },
+    {
+      "name": "Cetirizine",
+      "use": "Relieves symptoms of allergies, hay fever, hives",
+      "dosage_guidance": "10mg once daily",
+      "precautions": "May cause drowsiness; avoid alcohol",
+      "category": "Antihistamine",
+      "alternative": "Generic Cetirizine, Zyrtec"
+    },
+    {
+      "name": "Loratadine",
+      "use": "Non-drowsy antihistamine for allergies and hives",
+      "dosage_guidance": "10mg once daily",
+      "precautions": "Fewer sedation effects than older antihistamines",
+      "category": "Antihistamine",
+      "alternative": "Generic Loratadine, Claritin"
+    },
+    {
+      "name": "Omeprazole",
+      "use": "Reduces stomach acid for heartburn, GERD, ulcers",
+      "dosage_guidance": "20mg once daily before meals",
+      "precautions": "Long-term use may affect B12 and magnesium levels",
+      "category": "Proton Pump Inhibitor",
+      "alternative": "Generic Omeprazole, Prilosec"
+    },
+    {
+      "name": "Pantoprazole",
+      "use": "Treats acid reflux, GERD, and peptic ulcers",
+      "dosage_guidance": "40mg once daily before breakfast",
+      "precautions": "Not for long-term use without medical supervision",
+      "category": "Proton Pump Inhibitor",
+      "alternative": "Generic Pantoprazole"
+    },
+    {
+      "name": "Ranitidine",
+      "use": "Reduces stomach acid in heartburn and ulcers",
+      "dosage_guidance": "150mg twice daily or 300mg at night",
+      "precautions": "Consult doctor for prolonged use; note: some brands recalled in some countries",
+      "category": "H2 Blocker",
+      "alternative": "Generic Ranitidine, Famotidine"
+    },
+    {
+      "name": "Metformin",
+      "use": "Controls blood sugar in Type 2 Diabetes",
+      "dosage_guidance": "500mg once or twice daily with meals; increase gradually",
+      "precautions": "Monitor kidney function; take with food to reduce nausea",
+      "category": "Antidiabetic",
+      "alternative": "Generic Metformin"
+    },
+    {
+      "name": "Amlodipine",
+      "use": "Treats high blood pressure and chest pain (angina)",
+      "dosage_guidance": "5\u201310mg once daily",
+      "precautions": "May cause ankle swelling; do not stop suddenly",
+      "category": "Calcium Channel Blocker",
+      "alternative": "Generic Amlodipine"
+    },
+    {
+      "name": "Atenolol",
+      "use": "Treats high blood pressure and heart rhythm problems",
+      "dosage_guidance": "25\u2013100mg once daily",
+      "precautions": "Do not stop abruptly; caution in asthma patients",
+      "category": "Beta Blocker",
+      "alternative": "Generic Atenolol"
+    },
+    {
+      "name": "Lisinopril",
+      "use": "Treats high blood pressure and heart failure",
+      "dosage_guidance": "10\u201340mg once daily",
+      "precautions": "May cause dry cough; check potassium levels regularly",
+      "category": "ACE Inhibitor",
+      "alternative": "Generic Lisinopril"
+    },
+    {
+      "name": "Metronidazole",
+      "use": "Treats bacterial and parasitic infections",
+      "dosage_guidance": "400mg three times daily for 5\u20137 days",
+      "precautions": "Avoid alcohol during treatment and 48 hrs after",
+      "category": "Antibiotic / Antiprotozoal",
+      "alternative": "Generic Metronidazole, Flagyl"
+    },
+    {
+      "name": "Azithromycin",
+      "use": "Treats respiratory and skin infections",
+      "dosage_guidance": "500mg on day 1, then 250mg for 4 days",
+      "precautions": "Take on empty stomach; watch for heart rhythm issues",
+      "category": "Antibiotic (Macrolide)",
+      "alternative": "Generic Azithromycin, Zithromax"
+    },
+    {
+      "name": "Ciprofloxacin",
+      "use": "Treats UTI, respiratory, and gastrointestinal infections",
+      "dosage_guidance": "250\u2013500mg twice daily; complete full course",
+      "precautions": "Drink plenty of water; avoid antacids within 2 hrs",
+      "category": "Antibiotic (Fluoroquinolone)",
+      "alternative": "Generic Ciprofloxacin"
+    },
+    {
+      "name": "Levothyroxine",
+      "use": "Replaces thyroid hormone in hypothyroidism",
+      "dosage_guidance": "Take on empty stomach 30 min before breakfast",
+      "precautions": "Do not adjust dose without doctor approval; avoid calcium/iron supplements at same time",
+      "category": "Thyroid Hormone",
+      "alternative": "Generic Levothyroxine, Synthroid"
+    },
+    {
+      "name": "Salbutamol (Albuterol) Inhaler",
+      "use": "Relieves asthma and breathing difficulty",
+      "dosage_guidance": "1\u20132 puffs as needed; not more than 4 times/day",
+      "precautions": "Overuse can reduce effectiveness; use spacer for children",
+      "category": "Bronchodilator",
+      "alternative": "Generic Salbutamol Inhaler"
+    },
+    {
+      "name": "Montelukast",
+      "use": "Prevents asthma attacks and relieves allergy symptoms",
+      "dosage_guidance": "10mg once daily in the evening",
+      "precautions": "May affect mood and behaviour; report any mental health changes",
+      "category": "Leukotriene Inhibitor",
+      "alternative": "Generic Montelukast, Singulair"
+    },
+    {
+      "name": "Hydroxychloroquine",
+      "use": "Treats malaria and rheumatoid arthritis",
+      "dosage_guidance": "As directed by doctor; not for self-use",
+      "precautions": "Regular eye checks needed for long-term use",
+      "category": "Antimalarial / DMARD",
+      "alternative": "Generic Hydroxychloroquine"
+    },
+    {
+      "name": "Chloroquine",
+      "use": "Prevents and treats malaria",
+      "dosage_guidance": "As directed by doctor",
+      "precautions": "Not used in regions with resistant strains; regular eye monitoring",
+      "category": "Antimalarial",
+      "alternative": "Generic Chloroquine"
+    },
+    {
+      "name": "Artemether + Lumefantrine",
+      "use": "First-line treatment for uncomplicated malaria",
+      "dosage_guidance": "6 doses over 3 days; take with food",
+      "precautions": "Complete the full course; do not use in first trimester",
+      "category": "Antimalarial",
+      "alternative": "Coartem, Riamet"
+    },
+    {
+      "name": "Domperidone",
+      "use": "Relieves nausea, vomiting, and bloating",
+      "dosage_guidance": "10mg up to three times daily before meals",
+      "precautions": "Not for long-term use; caution in heart conditions",
+      "category": "Antiemetic / Prokinetic",
+      "alternative": "Generic Domperidone, Motilium"
+    },
+    {
+      "name": "Ondansetron",
+      "use": "Prevents and treats nausea and vomiting",
+      "dosage_guidance": "4\u20138mg every 8 hours as needed",
+      "precautions": "May affect heart rhythm; use minimum effective dose",
+      "category": "Antiemetic",
+      "alternative": "Generic Ondansetron, Zofran"
+    },
+    {
+      "name": "ORS (Oral Rehydration Salts)",
+      "use": "Rehydration during diarrhea, vomiting, and fever",
+      "dosage_guidance": "Dissolve one sachet in 1 litre of clean water; drink as needed",
+      "precautions": "Not a substitute for medical treatment in severe dehydration",
+      "category": "Electrolyte Replenisher",
+      "alternative": "Homemade: water + salt + sugar solution"
+    },
+    {
+      "name": "Loperamide",
+      "use": "Reduces diarrhea by slowing bowel movement",
+      "dosage_guidance": "4mg initially, then 2mg after each loose stool; max 16mg/day",
+      "precautions": "Not for children under 2; stop if symptoms worsen after 48 hrs",
+      "category": "Antidiarrheal",
+      "alternative": "Generic Loperamide, Imodium"
+    },
+    {
+      "name": "Bisacodyl",
+      "use": "Relieves occasional constipation",
+      "dosage_guidance": "5\u201310mg at night; effect usually in 6\u201312 hours",
+      "precautions": "Not for prolonged use; ensure adequate fluid intake",
+      "category": "Laxative",
+      "alternative": "Generic Bisacodyl, Dulcolax"
+    },
+    {
+      "name": "Lactulose",
+      "use": "Treats constipation and liver-related conditions",
+      "dosage_guidance": "15\u201330ml once or twice daily; adjust for effect",
+      "precautions": "May cause bloating initially; drink plenty of fluids",
+      "category": "Osmotic Laxative",
+      "alternative": "Generic Lactulose"
+    },
+    {
+      "name": "Antacid (Aluminium Hydroxide + Magnesium Hydroxide)",
+      "use": "Neutralises stomach acid for heartburn and indigestion",
+      "dosage_guidance": "1\u20132 tablets or 10ml after meals and at bedtime",
+      "precautions": "Do not take within 2 hours of other medications",
+      "category": "Antacid",
+      "alternative": "Gelusil, Digene, Maalox"
+    },
+    {
+      "name": "Simethicone",
+      "use": "Relieves gas and bloating",
+      "dosage_guidance": "40\u2013125mg after meals and at bedtime",
+      "precautions": "Generally safe; not absorbed systemically",
+      "category": "Antiflatulent",
+      "alternative": "Gas-X, Infacol"
+    },
+    {
+      "name": "Diclofenac",
+      "use": "Relieves pain and inflammation in joints and muscles",
+      "dosage_guidance": "25\u201350mg two to three times daily with food",
+      "precautions": "Avoid in kidney/heart conditions; take with food",
+      "category": "NSAID",
+      "alternative": "Generic Diclofenac, Voltaren"
+    },
+    {
+      "name": "Naproxen",
+      "use": "Treats pain, inflammation, and fever",
+      "dosage_guidance": "250\u2013500mg twice daily",
+      "precautions": "Take with food; not for long-term use without supervision",
+      "category": "NSAID",
+      "alternative": "Generic Naproxen, Aleve"
+    },
+    {
+      "name": "Tramadol",
+      "use": "Moderate to severe pain relief",
+      "dosage_guidance": "50\u2013100mg every 4\u20136 hours; max 400mg/day",
+      "precautions": "Risk of dependence; avoid alcohol; not for children",
+      "category": "Opioid Analgesic",
+      "alternative": "Generic Tramadol"
+    },
+    {
+      "name": "Prednisolone",
+      "use": "Reduces inflammation in allergic and autoimmune conditions",
+      "dosage_guidance": "Short-term: 5\u201360mg/day; taper as directed",
+      "precautions": "Do not stop abruptly; monitor blood sugar and bone density",
+      "category": "Corticosteroid",
+      "alternative": "Generic Prednisolone"
+    },
+    {
+      "name": "Hydrocortisone Cream",
+      "use": "Treats skin inflammation, eczema, and allergic rashes",
+      "dosage_guidance": "Apply thin layer 1\u20132 times daily",
+      "precautions": "Avoid on face and broken skin; not for long-term use",
+      "category": "Topical Corticosteroid",
+      "alternative": "Generic Hydrocortisone Cream"
+    },
+    {
+      "name": "Clotrimazole Cream",
+      "use": "Treats fungal skin infections like ringworm and athlete's foot",
+      "dosage_guidance": "Apply twice daily for 2\u20134 weeks",
+      "precautions": "Continue use for full duration even if symptoms improve",
+      "category": "Antifungal",
+      "alternative": "Generic Clotrimazole, Canesten"
+    },
+    {
+      "name": "Fluconazole",
+      "use": "Treats yeast infections and fungal diseases",
+      "dosage_guidance": "150mg single dose for yeast infection; other infections as directed",
+      "precautions": "Check for drug interactions; caution in liver disease",
+      "category": "Antifungal",
+      "alternative": "Generic Fluconazole, Diflucan"
+    },
+    {
+      "name": "Acyclovir",
+      "use": "Treats herpes simplex, chickenpox, and shingles",
+      "dosage_guidance": "200\u2013800mg 5 times daily for 5\u20137 days",
+      "precautions": "Stay well hydrated; start early in infection for best effect",
+      "category": "Antiviral",
+      "alternative": "Generic Acyclovir, Zovirax"
+    },
+    {
+      "name": "Iron Supplement (Ferrous Sulphate)",
+      "use": "Treats iron deficiency anemia",
+      "dosage_guidance": "200mg 2\u20133 times daily; take with Vitamin C for better absorption",
+      "precautions": "May cause constipation and dark stools; take on empty stomach if tolerated",
+      "category": "Iron Supplement",
+      "alternative": "Generic Ferrous Sulphate, Feosol"
+    },
+    {
+      "name": "Folic Acid",
+      "use": "Treats and prevents folate deficiency; essential in pregnancy",
+      "dosage_guidance": "400mcg\u20135mg daily as directed",
+      "precautions": "Essential for pregnant women; high doses need medical guidance",
+      "category": "Vitamin / Supplement",
+      "alternative": "Generic Folic Acid"
+    },
+    {
+      "name": "Vitamin D3 (Cholecalciferol)",
+      "use": "Treats Vitamin D deficiency; supports bone health",
+      "dosage_guidance": "600\u20132000 IU daily; higher doses only as prescribed",
+      "precautions": "Avoid high-dose supplementation without blood test",
+      "category": "Vitamin / Supplement",
+      "alternative": "Generic Vitamin D3, Calcirol"
+    },
+    {
+      "name": "Vitamin B12 (Cyanocobalamin)",
+      "use": "Treats B12 deficiency and nerve-related symptoms",
+      "dosage_guidance": "500\u20131000mcg daily; injection for severe deficiency",
+      "precautions": "Injections may be needed if absorption is poor",
+      "category": "Vitamin / Supplement",
+      "alternative": "Generic B12, Methylcobalamin"
+    },
+    {
+      "name": "Calcium + Vitamin D3",
+      "use": "Supports bone health; prevents osteoporosis",
+      "dosage_guidance": "500\u20131000mg Calcium with 400 IU D3 twice daily",
+      "precautions": "Avoid excess calcium; separate from iron supplements",
+      "category": "Mineral / Supplement",
+      "alternative": "Shelcal, Calcimax"
+    },
+    {
+      "name": "Zinc Supplement",
+      "use": "Supports immunity, wound healing, and diarrhea treatment",
+      "dosage_guidance": "10\u201320mg daily; 20mg/day for 10\u201314 days in diarrhea",
+      "precautions": "Excessive zinc can interfere with copper absorption",
+      "category": "Mineral / Supplement",
+      "alternative": "Generic Zinc Sulphate"
+    },
+    {
+      "name": "Doxycycline",
+      "use": "Treats bacterial infections and malaria prophylaxis",
+      "dosage_guidance": "100mg twice daily; take with food and water",
+      "precautions": "Avoid sunlight exposure; not for children under 8 or pregnant women",
+      "category": "Antibiotic (Tetracycline)",
+      "alternative": "Generic Doxycycline"
+    },
+    {
+      "name": "Cephalexin",
+      "use": "Treats skin, throat, and urinary tract bacterial infections",
+      "dosage_guidance": "250\u2013500mg four times daily",
+      "precautions": "Complete full course; caution in penicillin allergy",
+      "category": "Antibiotic (Cephalosporin)",
+      "alternative": "Generic Cephalexin, Keflex"
+    },
+    {
+      "name": "Cotrimoxazole (Trimethoprim + Sulfamethoxazole)",
+      "use": "Treats UTI, respiratory, and ear infections",
+      "dosage_guidance": "One double-strength tablet twice daily for 5\u201310 days",
+      "precautions": "Drink plenty of water; allergic reactions possible",
+      "category": "Antibiotic (Sulfonamide)",
+      "alternative": "Generic Cotrimoxazole, Bactrim"
+    },
+    {
+      "name": "Atorvastatin",
+      "use": "Lowers cholesterol and reduces cardiovascular risk",
+      "dosage_guidance": "10\u201380mg once daily at night",
+      "precautions": "Monitor liver enzymes; report muscle pain",
+      "category": "Statin",
+      "alternative": "Generic Atorvastatin, Lipitor"
+    },
+    {
+      "name": "Rosuvastatin",
+      "use": "Reduces bad cholesterol (LDL) and triglycerides",
+      "dosage_guidance": "5\u201340mg once daily",
+      "precautions": "Avoid grapefruit; monitor for muscle weakness",
+      "category": "Statin",
+      "alternative": "Generic Rosuvastatin, Crestor"
+    },
+    {
+      "name": "Warfarin",
+      "use": "Blood thinner for preventing clots in heart conditions",
+      "dosage_guidance": "Dose adjusted based on INR levels; as prescribed",
+      "precautions": "Regular INR monitoring required; many food/drug interactions",
+      "category": "Anticoagulant",
+      "alternative": "Generic Warfarin"
+    },
+    {
+      "name": "Clopidogrel",
+      "use": "Prevents blood clots after heart attack or stroke",
+      "dosage_guidance": "75mg once daily",
+      "precautions": "Increased bleeding risk; avoid NSAIDs without doctor advice",
+      "category": "Antiplatelet",
+      "alternative": "Generic Clopidogrel, Plavix"
+    },
+    {
+      "name": "Sertraline",
+      "use": "Treats depression, anxiety, OCD, and PTSD",
+      "dosage_guidance": "50\u2013200mg once daily; takes 4\u20136 weeks to show full effect",
+      "precautions": "Do not stop abruptly; monitor for mood changes initially",
+      "category": "Antidepressant (SSRI)",
+      "alternative": "Generic Sertraline, Zoloft"
+    },
+    {
+      "name": "Escitalopram",
+      "use": "Treats depression and generalised anxiety disorder",
+      "dosage_guidance": "10\u201320mg once daily",
+      "precautions": "May cause initial anxiety; do not stop suddenly",
+      "category": "Antidepressant (SSRI)",
+      "alternative": "Generic Escitalopram, Lexapro"
+    },
+    {
+      "name": "Alprazolam",
+      "use": "Short-term relief of anxiety and panic disorders",
+      "dosage_guidance": "0.25\u20130.5mg three times daily as needed",
+      "precautions": "Risk of dependence; avoid alcohol; not for long-term use",
+      "category": "Benzodiazepine / Anxiolytic",
+      "alternative": "Generic Alprazolam, Xanax"
+    },
+    {
+      "name": "Melatonin",
+      "use": "Helps regulate sleep-wake cycle for insomnia",
+      "dosage_guidance": "0.5\u20135mg 30\u201360 minutes before bedtime",
+      "precautions": "Short-term use recommended; may cause drowsiness",
+      "category": "Sleep Aid",
+      "alternative": "Generic Melatonin"
+    },
+    {
+      "name": "Diphenhydramine",
+      "use": "Antihistamine that also aids sleep and motion sickness",
+      "dosage_guidance": "25\u201350mg at bedtime",
+      "precautions": "Causes significant drowsiness; not for long-term sleep use",
+      "category": "Antihistamine / Sedative",
+      "alternative": "Benadryl, Nytol"
+    },
+    {
+      "name": "Promethazine",
+      "use": "Treats allergies, nausea, and motion sickness",
+      "dosage_guidance": "25mg at night or 10\u201325mg twice daily",
+      "precautions": "Causes sedation; avoid driving; not for children under 2",
+      "category": "Antihistamine / Antiemetic",
+      "alternative": "Generic Promethazine, Phenergan"
+    },
+    {
+      "name": "Betahistine",
+      "use": "Treats vertigo and Meniere's disease",
+      "dosage_guidance": "8\u201316mg three times daily",
+      "precautions": "Caution in asthma and peptic ulcer",
+      "category": "Antivertigo",
+      "alternative": "Generic Betahistine, Serc"
+    },
+    {
+      "name": "Prochlorperazine",
+      "use": "Treats nausea, vomiting, and vertigo",
+      "dosage_guidance": "5\u201310mg three to four times daily",
+      "precautions": "May cause drowsiness and movement side effects",
+      "category": "Antiemetic",
+      "alternative": "Generic Prochlorperazine, Stemetil"
+    },
+    {
+      "name": "Dexamethasone",
+      "use": "Treats severe inflammation and allergic conditions",
+      "dosage_guidance": "0.5\u201310mg daily; taper as per doctor's advice",
+      "precautions": "Do not stop abruptly; raises blood sugar; immune suppression",
+      "category": "Corticosteroid",
+      "alternative": "Generic Dexamethasone"
+    },
+    {
+      "name": "Mometasone Nasal Spray",
+      "use": "Reduces nasal congestion and inflammation in allergic rhinitis",
+      "dosage_guidance": "2 sprays in each nostril once daily",
+      "precautions": "For nasal use only; rinse mouth after use",
+      "category": "Nasal Corticosteroid",
+      "alternative": "Nasonex, Flonase"
+    },
+    {
+      "name": "Xylometazoline Nasal Drops",
+      "use": "Relieves nasal congestion",
+      "dosage_guidance": "2\u20133 drops in each nostril every 8\u201310 hours; max 3 days",
+      "precautions": "Do not use more than 3 days; rebound congestion may occur",
+      "category": "Nasal Decongestant",
+      "alternative": "Otrivin, Sinarest"
+    },
+    {
+      "name": "Benzydamine Gargle / Spray",
+      "use": "Relieves sore throat and mouth inflammation",
+      "dosage_guidance": "Gargle 15ml every 3 hours; don't swallow",
+      "precautions": "Not for children under 6; do not swallow",
+      "category": "Topical Anti-inflammatory (ENT)",
+      "alternative": "Difflam, Tantum Verde"
+    },
+    {
+      "name": "Chlorhexidine Mouthwash",
+      "use": "Prevents and treats gum disease and oral infections",
+      "dosage_guidance": "Rinse with 10\u201315ml for 30 seconds twice daily",
+      "precautions": "May stain teeth with prolonged use; do not swallow",
+      "category": "Antiseptic Mouthwash",
+      "alternative": "Corsodyl, Periogard"
+    },
+    {
+      "name": "Povidone-Iodine (Betadine)",
+      "use": "Antiseptic for wound cleaning and skin infections",
+      "dosage_guidance": "Apply diluted solution to affected area 1\u20132 times daily",
+      "precautions": "Not for large wounds; avoid if thyroid issues present",
+      "category": "Topical Antiseptic",
+      "alternative": "Generic Povidone-Iodine"
+    },
+    {
+      "name": "Silver Sulfadiazine Cream",
+      "use": "Prevents and treats infection in burns and wounds",
+      "dosage_guidance": "Apply 1\u20132 times daily to affected area",
+      "precautions": "Avoid in pregnancy; monitor for allergic reaction",
+      "category": "Topical Antibiotic",
+      "alternative": "Flamazine, SSD Cream"
+    },
+    {
+      "name": "Mupirocin Cream",
+      "use": "Treats bacterial skin infections like impetigo",
+      "dosage_guidance": "Apply 3 times daily for 5\u201310 days",
+      "precautions": "For external use only; avoid eyes",
+      "category": "Topical Antibiotic",
+      "alternative": "Bactroban, Generic Mupirocin"
+    },
+    {
+      "name": "Permethrin Cream",
+      "use": "Treats scabies and head lice",
+      "dosage_guidance": "Apply full body below neck; wash off after 8\u201314 hours",
+      "precautions": "Avoid eyes and broken skin; repeat in 1 week if needed",
+      "category": "Antiparasitic",
+      "alternative": "Elimite, Kwellada"
+    },
+    {
+      "name": "Albendazole",
+      "use": "Treats intestinal worm infections",
+      "dosage_guidance": "400mg single dose or as directed",
+      "precautions": "Avoid in pregnancy; take with fatty meal for best absorption",
+      "category": "Antiparasitic / Anthelmintic",
+      "alternative": "Generic Albendazole, Zentel"
+    },
+    {
+      "name": "Mebendazole",
+      "use": "Treats threadworm, roundworm, and hookworm infections",
+      "dosage_guidance": "100mg twice daily for 3 days or 500mg single dose",
+      "precautions": "Treat all household members; ensure hand hygiene",
+      "category": "Antiparasitic / Anthelmintic",
+      "alternative": "Generic Mebendazole, Vermox"
+    },
+    {
+      "name": "Colchicine",
+      "use": "Treats and prevents gout attacks",
+      "dosage_guidance": "0.5\u20131mg daily or as directed for acute attack",
+      "precautions": "Do not exceed recommended dose; may cause diarrhea",
+      "category": "Antigout",
+      "alternative": "Generic Colchicine"
+    },
+    {
+      "name": "Allopurinol",
+      "use": "Reduces uric acid levels to prevent gout",
+      "dosage_guidance": "100\u2013300mg daily; not during acute attack",
+      "precautions": "Start after acute attack subsides; drink plenty of water",
+      "category": "Antigout / Uricosuric",
+      "alternative": "Generic Allopurinol, Zyloprim"
+    },
+    {
+      "name": "Furosemide",
+      "use": "Reduces fluid retention in heart failure and hypertension",
+      "dosage_guidance": "20\u201380mg once daily in the morning",
+      "precautions": "Monitor electrolytes; avoid at night",
+      "category": "Diuretic",
+      "alternative": "Generic Furosemide, Lasix"
+    },
+    {
+      "name": "Spironolactone",
+      "use": "Treats fluid retention and heart failure; used in PCOS",
+      "dosage_guidance": "25\u2013100mg daily",
+      "precautions": "Monitor potassium levels; avoid in kidney failure",
+      "category": "Potassium-Sparing Diuretic",
+      "alternative": "Generic Spironolactone, Aldactone"
+    },
+    {
+      "name": "Glibenclamide",
+      "use": "Lowers blood sugar in Type 2 Diabetes",
+      "dosage_guidance": "2.5\u201315mg daily with breakfast",
+      "precautions": "Risk of hypoglycemia; avoid skipping meals",
+      "category": "Antidiabetic (Sulfonylurea)",
+      "alternative": "Generic Glibenclamide, Daonil"
+    },
+    {
+      "name": "Insulin (Regular)",
+      "use": "Controls blood glucose in diabetes (Type 1 and Type 2)",
+      "dosage_guidance": "As prescribed; administered subcutaneously",
+      "precautions": "Monitor blood sugar frequently; proper injection technique required",
+      "category": "Antidiabetic (Insulin)",
+      "alternative": "Humulin R, Actrapid"
+    },
+    {
+      "name": "Methylprednisolone",
+      "use": "Reduces severe inflammation in autoimmune and allergic conditions",
+      "dosage_guidance": "As prescribed; available as tablet and injection",
+      "precautions": "Short courses preferred; taper gradually",
+      "category": "Corticosteroid",
+      "alternative": "Medrol, Generic Methylprednisolone"
+    },
+    {
+      "name": "Clobetasol Cream",
+      "use": "Treats severe skin inflammation, psoriasis, and eczema",
+      "dosage_guidance": "Apply thin layer once or twice daily for up to 2 weeks",
+      "precautions": "Potent steroid; do not use on face or for extended periods",
+      "category": "Topical Corticosteroid (High Potency)",
+      "alternative": "Generic Clobetasol, Dermovate"
+    },
+    {
+      "name": "Calamine Lotion",
+      "use": "Soothes itching from insect bites, rashes, and chickenpox",
+      "dosage_guidance": "Apply to affected area as needed",
+      "precautions": "External use only; avoid eyes; reapply as needed",
+      "category": "Topical Soothing Agent",
+      "alternative": "Generic Calamine Lotion"
+    },
+    {
+      "name": "Minoxidil (Topical)",
+      "use": "Treats hair loss and stimulates hair regrowth",
+      "dosage_guidance": "Apply 1ml twice daily to scalp; takes 3\u20136 months to see results",
+      "precautions": "Do not use on broken skin; wash hands after application",
+      "category": "Hair Growth Agent",
+      "alternative": "Rogaine, Generic Minoxidil"
+    },
+    {
+      "name": "Eye Drops (Lubricating / Artificial Tears)",
+      "use": "Relieves dry, irritated eyes",
+      "dosage_guidance": "1\u20132 drops in each eye as needed",
+      "precautions": "Discard 28 days after opening; avoid touching dropper tip to eye",
+      "category": "Ophthalmic",
+      "alternative": "Systane, Refresh Tears"
+    },
+    {
+      "name": "Tobramycin Eye Drops",
+      "use": "Treats bacterial eye infections",
+      "dosage_guidance": "1\u20132 drops every 4 hours for 7 days",
+      "precautions": "Complete full course; do not share eye drops",
+      "category": "Ophthalmic Antibiotic",
+      "alternative": "Tobrex, Generic Tobramycin"
+    },
+    {
+      "name": "Ear Drops (Otosporin / Sofradex)",
+      "use": "Treats ear infections and inflammation",
+      "dosage_guidance": "3\u20134 drops in affected ear 3\u20134 times daily",
+      "precautions": "Warm drops to body temperature before use; do not use if eardrum is perforated",
+      "category": "Otic Antibiotic",
+      "alternative": "Generic Polymyxin B + Neomycin drops"
+    },
+    {
+      "name": "Nystatin",
+      "use": "Treats oral and intestinal candida (yeast) infections",
+      "dosage_guidance": "100,000\u2013500,000 units four times daily; swish and swallow",
+      "precautions": "Complete full course; shake suspension well",
+      "category": "Antifungal",
+      "alternative": "Mycostatin, Generic Nystatin"
+    },
+    {
+      "name": "Amlodipine + Atorvastatin Combination",
+      "use": "Controls blood pressure and cholesterol simultaneously",
+      "dosage_guidance": "As prescribed; once daily at night",
+      "precautions": "Monitor liver and renal function; report muscle pain",
+      "category": "Cardiovascular Combination",
+      "alternative": "Caduet, Generic combination"
+    },
+    {
+      "name": "Hydralazine",
+      "use": "Treats high blood pressure",
+      "dosage_guidance": "25\u2013100mg twice daily",
+      "precautions": "May cause rapid heart rate; often used in combination",
+      "category": "Vasodilator / Antihypertensive",
+      "alternative": "Generic Hydralazine"
+    },
+    {
+      "name": "Gabapentin",
+      "use": "Treats nerve pain and seizures",
+      "dosage_guidance": "300\u2013600mg three times daily",
+      "precautions": "Causes dizziness and sedation; do not stop abruptly",
+      "category": "Anticonvulsant / Neuropathic Pain",
+      "alternative": "Generic Gabapentin, Neurontin"
+    },
+    {
+      "name": "Pregabalin",
+      "use": "Treats neuropathic pain, fibromyalgia, and anxiety",
+      "dosage_guidance": "75\u2013150mg twice daily",
+      "precautions": "Risk of dizziness; do not stop abruptly; caution if operating machinery",
+      "category": "Anticonvulsant / Neuropathic Pain",
+      "alternative": "Generic Pregabalin, Lyrica"
+    },
+    {
+      "name": "Sucralfate",
+      "use": "Treats peptic ulcers by coating the stomach lining",
+      "dosage_guidance": "1g four times daily on empty stomach",
+      "precautions": "Separate from other medications by 2 hours",
+      "category": "Ulcer Protectant",
+      "alternative": "Generic Sucralfate, Carafate"
+    },
+    {
+      "name": "Mefenamic Acid",
+      "use": "Treats period pain and mild to moderate pain",
+      "dosage_guidance": "500mg three times daily with food",
+      "precautions": "Not for more than 7 days; avoid in kidney disease",
+      "category": "NSAID",
+      "alternative": "Generic Mefenamic Acid, Ponstan"
+    },
+    {
+      "name": "Tranexamic Acid",
+      "use": "Reduces excessive menstrual bleeding and controls clotting",
+      "dosage_guidance": "500mg\u20131g three times daily during menstruation",
+      "precautions": "Not for use in thromboembolic conditions",
+      "category": "Haemostatic Agent",
+      "alternative": "Generic Tranexamic Acid, Cyklokapron"
+    },
+    {
+      "name": "Drotaverine",
+      "use": "Relieves smooth muscle spasms in abdominal and pelvic pain",
+      "dosage_guidance": "40\u201380mg three times daily",
+      "precautions": "Avoid in severe heart/liver/kidney disease",
+      "category": "Antispasmodic",
+      "alternative": "No-Spa, Generic Drotaverine"
+    },
+    {
+      "name": "Hyoscine Butylbromide",
+      "use": "Treats abdominal cramps, IBS, and gastric spasm",
+      "dosage_guidance": "20mg three to four times daily",
+      "precautions": "Avoid in glaucoma; may cause dry mouth",
+      "category": "Antispasmodic",
+      "alternative": "Buscopan, Generic Hyoscine"
+    },
+    {
+      "name": "Rabeprazole",
+      "use": "Treats GERD, peptic ulcers, and stomach acid issues",
+      "dosage_guidance": "20mg once daily before meals",
+      "precautions": "Long-term use requires monitoring; may affect magnesium levels",
+      "category": "Proton Pump Inhibitor",
+      "alternative": "Generic Rabeprazole, AcipHex"
+    },
+    {
+      "name": "Glimepiride",
+      "use": "Lowers blood sugar in Type 2 Diabetes",
+      "dosage_guidance": "1\u20134mg once daily with breakfast",
+      "precautions": "Risk of hypoglycemia; do not skip meals",
+      "category": "Antidiabetic (Sulfonylurea)",
+      "alternative": "Generic Glimepiride, Amaryl"
+    },
+    {
+      "name": "Sitagliptin",
+      "use": "Manages blood sugar in Type 2 Diabetes",
+      "dosage_guidance": "100mg once daily",
+      "precautions": "Adjust dose in kidney disease; rare risk of pancreatitis",
+      "category": "Antidiabetic (DPP-4 Inhibitor)",
+      "alternative": "Generic Sitagliptin, Januvia"
+    },
+    {
+      "name": "Empagliflozin",
+      "use": "Lowers blood sugar and has cardiovascular and kidney protective benefits",
+      "dosage_guidance": "10\u201325mg once daily",
+      "precautions": "May cause genital infections; maintain hygiene",
+      "category": "Antidiabetic (SGLT-2 Inhibitor)",
+      "alternative": "Generic Empagliflozin, Jardiance"
+    },
+    {
+      "name": "Clindamycin",
+      "use": "Treats skin, bone, and dental bacterial infections",
+      "dosage_guidance": "150\u2013300mg every 6 hours",
+      "precautions": "Take with full glass of water; report severe diarrhea (C. diff risk)",
+      "category": "Antibiotic (Lincosamide)",
+      "alternative": "Generic Clindamycin, Dalacin C"
+    },
+    {
+      "name": "Tinidazole",
+      "use": "Treats bacterial and parasitic gut infections",
+      "dosage_guidance": "2g single dose or as directed",
+      "precautions": "Avoid alcohol during and 72 hrs after treatment",
+      "category": "Antibiotic / Antiprotozoal",
+      "alternative": "Generic Tinidazole, Fasigyn"
+    },
+    {
+      "name": "Doxazosin",
+      "use": "Treats high blood pressure and urinary symptoms",
+      "dosage_guidance": "1\u20138mg once daily at bedtime",
+      "precautions": "May cause dizziness on standing; start at night",
+      "category": "Alpha Blocker / Antihypertensive",
+      "alternative": "Generic Doxazosin, Cardura"
+    },
+    {
+      "name": "Tamsulosin",
+      "use": "Relieves urinary symptoms of enlarged prostate",
+      "dosage_guidance": "0.4mg once daily 30 minutes after meal",
+      "precautions": "Caution with other blood pressure medicines; may affect ejaculation",
+      "category": "Alpha Blocker",
+      "alternative": "Generic Tamsulosin, Flomax"
+    },
+    {
+      "name": "Multivitamin Tablet",
+      "use": "Provides essential vitamins and minerals for overall health",
+      "dosage_guidance": "One tablet daily with meals",
+      "precautions": "Not a substitute for balanced diet; high-dose supplementation should be avoided",
+      "category": "General Supplement",
+      "alternative": "Centrum, Revital, Supradyn"
+    },
+    {
+      "name": "Probiotics (Lactobacillus)",
+      "use": "Restores gut flora after antibiotics and treats IBS",
+      "dosage_guidance": "One capsule daily with or after meals",
+      "precautions": "Refrigerate if required; generally safe; immunocompromised patients should consult doctor",
+      "category": "Probiotic / Gut Health",
+      "alternative": "Darolac, Bifilac, Enterogermina"
+    },
+    {
+      "name": "Ibuprofen (Advil, Motrin)",
+      "use": "Relieves pain, reduces inflammation, and lowers fever",
+      "dosage_guidance": "200mg\u2013400mg every 4\u20136 hours; max 3200mg per day",
+      "precautions": "Take with food to prevent stomach upset; avoid in severe kidney disease or active ulcers",
+      "category": "NSAID",
+      "alternative": "Naproxen, Diclofenac"
+    },
+    {
+      "name": "Loratadine (Claritin)",
+      "use": "Treats allergies, hives, and allergic rhinitis without causing drowsiness",
+      "dosage_guidance": "10mg once daily",
+      "precautions": "Caution in severe liver disease; consult doctor if pregnant",
+      "category": "Antihistamine",
+      "alternative": "Cetirizine, Fexofenadine"
+    },
+    {
+      "name": "Cetirizine (Zyrtec)",
+      "use": "Relieves allergy symptoms like runny nose, sneezing, and itchy eyes",
+      "dosage_guidance": "5mg\u201310mg once daily",
+      "precautions": "May cause mild drowsiness; avoid alcohol",
+      "category": "Antihistamine",
+      "alternative": "Loratadine, Levocetirizine"
+    },
+    {
+      "name": "Omeprazole (Prilosec)",
+      "use": "Treats GERD, stomach ulcers, and acid reflux",
+      "dosage_guidance": "20mg once daily before a meal",
+      "precautions": "Do not chew or crush delayed-release capsules; long-term use may affect bone density",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "alternative": "Pantoprazole, Esomeprazole"
+    },
+    {
+      "name": "Pantoprazole (Protonix)",
+      "use": "Reduces stomach acid, treats severe acid reflux and ulcers",
+      "dosage_guidance": "40mg once daily before food",
+      "precautions": "May cause vitamin B12 deficiency on long-term use; watch for signs of magnesium deficiency",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "alternative": "Rabeprazole, Omeprazole"
+    },
+    {
+      "name": "Metformin (Glucophage)",
+      "use": "First-line treatment for Type 2 Diabetes to control blood sugar",
+      "dosage_guidance": "500mg\u20131000mg twice daily with meals",
+      "precautions": "Take with food to avoid nausea; monitor kidney function periodically; risk of lactic acidosis",
+      "category": "Antidiabetic",
+      "alternative": "Glimepiride, Sitagliptin"
+    },
+    {
+      "name": "Atorvastatin (Lipitor)",
+      "use": "Lowers cholesterol and triglyceride levels, reducing heart disease risk",
+      "dosage_guidance": "10mg\u201380mg once daily",
+      "precautions": "Avoid grapefruit juice; report unexplained muscle pain immediately; caution in liver disease",
+      "category": "Statin",
+      "alternative": "Rosuvastatin, Simvastatin"
+    },
+    {
+      "name": "Rosuvastatin (Crestor)",
+      "use": "Effectively lowers bad cholesterol (LDL) and increases good cholesterol (HDL)",
+      "dosage_guidance": "5mg\u201340mg once daily",
+      "precautions": "Monitor liver function; watch for severe muscle cramps",
+      "category": "Statin",
+      "alternative": "Atorvastatin, Pitavastatin"
+    },
+    {
+      "name": "Amoxicillin (Amoxil)",
+      "use": "Treats bacterial infections such as ear, throat, and urinary tract infections",
+      "dosage_guidance": "250mg\u2013500mg every 8 hours",
+      "precautions": "Finish entire course even if feeling better; do not use if allergic to penicillin",
+      "category": "Antibiotic",
+      "alternative": "Cefixime, Azithromycin"
+    },
+    {
+      "name": "Azithromycin (Zithromax)",
+      "use": "Treats respiratory infections, skin infections, and certain STDs",
+      "dosage_guidance": "500mg on day 1, then 250mg daily for 4 days",
+      "precautions": "Can cause stomach upset; report irregular heartbeats; take at least 1 hour before antacids",
+      "category": "Antibiotic",
+      "alternative": "Clarithromycin, Erythromycin"
+    },
+    {
+      "name": "Amlodipine (Norvasc)",
+      "use": "Treats high blood pressure and chest pain (angina)",
+      "dosage_guidance": "5mg\u201310mg once daily",
+      "precautions": "May cause swelling in ankles or feet; do not stop abruptly",
+      "category": "Antihypertensive (Calcium Channel Blocker)",
+      "alternative": "Nifedipine, Diltiazem"
+    },
+    {
+      "name": "Losartan (Cozaar)",
+      "use": "Treats high blood pressure and protects kidneys in diabetics",
+      "dosage_guidance": "50mg\u2013100mg once daily",
+      "precautions": "Do not use in pregnancy; may increase potassium levels",
+      "category": "Antihypertensive (ARB)",
+      "alternative": "Telmisartan, Valsartan"
+    },
+    {
+      "name": "Levothyroxine (Synthroid)",
+      "use": "Treats hypothyroidism (underactive thyroid)",
+      "dosage_guidance": "Varies individually; usually taken once daily on an empty stomach",
+      "precautions": "Take 30-60 mins before breakfast; avoid calcium/iron supplements within 4 hours",
+      "category": "Thyroid Hormone",
+      "alternative": "Liothyronine"
+    },
+    {
+      "name": "Albuterol / Salbutamol (Ventolin)",
+      "use": "Relieves asthma attacks, bronchospasm, and COPD symptoms",
+      "dosage_guidance": "1-2 puffs every 4-6 hours as needed",
+      "precautions": "May cause fast heartbeat or tremors; use proper inhaler technique",
+      "category": "Bronchodilator",
+      "alternative": "Levalbuterol, Formoterol"
+    },
+    {
+      "name": "Montelukast (Singulair)",
+      "use": "Prevents asthma attacks and treats severe allergic rhinitis",
+      "dosage_guidance": "10mg once daily in the evening",
+      "precautions": "Watch for mood changes or vivid dreams; not for acute asthma attacks",
+      "category": "Antiasthmatic",
+      "alternative": "Zafirlukast"
+    },
+    {
+      "name": "Ondansetron (Zofran)",
+      "use": "Prevents nausea and vomiting caused by surgery, chemotherapy, or gastroenteritis",
+      "dosage_guidance": "4mg\u20138mg every 8 hours as needed",
+      "precautions": "May cause headache or constipation; caution in irregular heartbeats",
+      "category": "Antiemetic",
+      "alternative": "Promethazine, Metoclopramide"
+    },
+    {
+      "name": "Aspirin (Ecotrin)",
+      "use": "Relieves minor aches, reduces fever, and prevents blood clots/heart attacks",
+      "dosage_guidance": "75mg-81mg daily for heart protection; 325mg for pain",
+      "precautions": "Do not give to children with fever (Reye's syndrome risk); watch for GI bleeding",
+      "category": "NSAID / Antiplatelet",
+      "alternative": "Clopidogrel (for blood thinning)"
+    },
+    {
+      "name": "Clopidogrel (Plavix)",
+      "use": "Prevents stroke, heart attack, and other heart problems",
+      "dosage_guidance": "75mg once daily",
+      "precautions": "Increases bleeding risk; tell your doctor before any surgery",
+      "category": "Antiplatelet",
+      "alternative": "Ticagrelor, Prasugrel"
+    },
+    {
+      "name": "Gabapentin (Neurontin)",
+      "use": "Treats nerve pain and prevents seizures",
+      "dosage_guidance": "Starts at 300mg daily, increased gradually",
+      "precautions": "Do not stop abruptly; causes dizziness and drowsiness",
+      "category": "Anticonvulsant / Nerve Pain",
+      "alternative": "Pregabalin"
+    },
+    {
+      "name": "Sertraline (Zoloft)",
+      "use": "Treats depression, panic attacks, OCD, and PTSD",
+      "dosage_guidance": "50mg\u2013200mg once daily",
+      "precautions": "May take weeks to work; do not stop suddenly; watch for mood changes",
+      "category": "Antidepressant (SSRI)",
+      "alternative": "Escitalopram, Fluoxetine"
+    },
+    {
+      "name": "Escitalopram (Lexapro)",
+      "use": "Treats depression and generalized anxiety disorder",
+      "dosage_guidance": "10mg\u201320mg once daily",
+      "precautions": "Can cause nausea or drowsiness; risk of serotonin syndrome if mixed with certain meds",
+      "category": "Antidepressant (SSRI)",
+      "alternative": "Sertraline, Citalopram"
+    },
+    {
+      "name": "Alprazolam (Xanax)",
+      "use": "Treats severe anxiety and panic disorders",
+      "dosage_guidance": "0.25mg\u20130.5mg up to 3 times a day",
+      "precautions": "High potential for dependence; do not mix with alcohol; causes extreme drowsiness",
+      "category": "Anxiolytic (Benzodiazepine)",
+      "alternative": "Clonazepam, Lorazepam"
+    },
+    {
+      "name": "Zolpidem (Ambien)",
+      "use": "Short-term treatment for insomnia",
+      "dosage_guidance": "5mg\u201310mg right before bedtime",
+      "precautions": "Ensure you have 7-8 hours to sleep; risk of complex sleep behaviors (sleepwalking)",
+      "category": "Sedative / Hypnotic",
+      "alternative": "Zopiclone, Eszopiclone"
+    },
+    {
+      "name": "Diphenhydramine (Benadryl)",
+      "use": "Treats allergic reactions, motion sickness, and occasionally used as a sleep aid",
+      "dosage_guidance": "25mg\u201350mg every 4-6 hours",
+      "precautions": "Causes significant drowsiness; avoid driving; dry mouth is common",
+      "category": "Antihistamine (1st Generation)",
+      "alternative": "Chlorpheniramine"
+    },
+    {
+      "name": "Loperamide (Imodium)",
+      "use": "Treats acute and chronic diarrhea",
+      "dosage_guidance": "4mg initially, then 2mg after each loose stool (max 16mg/day)",
+      "precautions": "Do not use if diarrhea is accompanied by high fever or bloody stools",
+      "category": "Antidiarrheal",
+      "alternative": "Bismuth Subsalicylate"
+    },
+    {
+      "name": "Bismuth Subsalicylate (Pepto-Bismol)",
+      "use": "Treats indigestion, heartburn, nausea, and diarrhea",
+      "dosage_guidance": "524mg every 30-60 mins as needed (max 8 doses in 24 hours)",
+      "precautions": "May cause black stools or darkened tongue; do not use if allergic to aspirin",
+      "category": "Antacid / Antidiarrheal",
+      "alternative": "Loperamide"
+    },
+    {
+      "name": "Docusate Sodium (Colace)",
+      "use": "Stool softener used to treat occasional constipation",
+      "dosage_guidance": "50mg\u2013300mg daily",
+      "precautions": "Drink plenty of water; not for immediate relief (takes 1-3 days)",
+      "category": "Laxative",
+      "alternative": "Bisacodyl, Senna"
+    },
+    {
+      "name": "Bisacodyl (Dulcolax)",
+      "use": "Stimulant laxative for constipation relief or bowel prep",
+      "dosage_guidance": "5mg\u201315mg once daily",
+      "precautions": "Do not chew or crush tablets; do not take within 1 hour of antacids or milk",
+      "category": "Laxative",
+      "alternative": "Senna, Polyethylene Glycol"
+    },
+    {
+      "name": "Ciprofloxacin (Cipro)",
+      "use": "Treats severe bacterial infections including UTI and respiratory infections",
+      "dosage_guidance": "250mg\u2013500mg twice daily",
+      "precautions": "Risk of tendon rupture; avoid dairy products and antacids near dosing time",
+      "category": "Antibiotic (Fluoroquinolone)",
+      "alternative": "Levofloxacin"
+    },
+    {
+      "name": "Levofloxacin (Levaquin)",
+      "use": "Treats pneumonia, kidney infections, and sinus infections",
+      "dosage_guidance": "500mg\u2013750mg once daily",
+      "precautions": "May cause dizziness or tendon issues; stay hydrated",
+      "category": "Antibiotic (Fluoroquinolone)",
+      "alternative": "Ciprofloxacin"
+    },
+    {
+      "name": "Doxycycline (Vibramycin)",
+      "use": "Treats acne, rosacea, tick-borne diseases, and respiratory infections",
+      "dosage_guidance": "100mg once or twice daily",
+      "precautions": "Take with full glass of water; makes skin sensitive to sunlight; avoid in children under 8",
+      "category": "Antibiotic (Tetracycline)",
+      "alternative": "Minocycline"
+    },
+    {
+      "name": "Metronidazole (Flagyl)",
+      "use": "Treats bacterial and parasitic infections (e.g., BV, Giardia)",
+      "dosage_guidance": "250mg\u2013500mg 2-3 times daily",
+      "precautions": "Strictly avoid alcohol for at least 3 days after finishing course; causes metallic taste",
+      "category": "Antibiotic / Antiprotozoal",
+      "alternative": "Tinidazole"
+    },
+    {
+      "name": "Fluconazole (Diflucan)",
+      "use": "Treats vaginal, oral, and systemic fungal/yeast infections",
+      "dosage_guidance": "150mg single dose for vaginal yeast infections",
+      "precautions": "Caution in liver disease; interacts with many other medications",
+      "category": "Antifungal",
+      "alternative": "Itraconazole, Clotrimazole"
+    },
+    {
+      "name": "Valacyclovir (Valtrex)",
+      "use": "Treats cold sores, genital herpes, and shingles",
+      "dosage_guidance": "500mg\u20131000mg twice daily depending on infection",
+      "precautions": "Drink plenty of water to protect kidneys; start at first sign of outbreak",
+      "category": "Antiviral",
+      "alternative": "Acyclovir"
+    },
+    {
+      "name": "Acyclovir (Zovirax)",
+      "use": "Treats herpes simplex and varicella-zoster (chickenpox/shingles)",
+      "dosage_guidance": "200mg\u2013400mg 5 times a day",
+      "precautions": "Requires frequent dosing; maintain hydration",
+      "category": "Antiviral",
+      "alternative": "Valacyclovir"
+    },
+    {
+      "name": "Oseltamivir (Tamiflu)",
+      "use": "Treats and prevents influenza (flu)",
+      "dosage_guidance": "75mg twice daily for 5 days",
+      "precautions": "Must start within 48 hours of symptom onset; may cause nausea",
+      "category": "Antiviral",
+      "alternative": "Zanamivir"
+    },
+    {
+      "name": "Prednisone",
+      "use": "Reduces severe inflammation, allergic reactions, and autoimmune flare-ups",
+      "dosage_guidance": "Varies highly; usually 5mg\u201360mg daily",
+      "precautions": "Take with food; never stop abruptly; long term use causes weight gain and bone thinning",
+      "category": "Corticosteroid",
+      "alternative": "Methylprednisolone, Dexamethasone"
+    },
+    {
+      "name": "Dexamethasone (Decadron)",
+      "use": "Treats severe inflammation, brain swelling, and severe asthma",
+      "dosage_guidance": "Varies by condition",
+      "precautions": "Potent steroid; monitor blood sugar; can suppress immune system",
+      "category": "Corticosteroid",
+      "alternative": "Prednisone"
+    },
+    {
+      "name": "Folic Acid (Vitamin B9)",
+      "use": "Prevents neural tube defects in pregnancy; treats anemia",
+      "dosage_guidance": "400mcg\u20131mg daily",
+      "precautions": "Excessively high doses can mask Vitamin B12 deficiency",
+      "category": "Vitamin / Supplement",
+      "alternative": "Multivitamins with Folate"
+    },
+    {
+      "name": "Iron Supplement (Ferrous Sulfate)",
+      "use": "Treats iron deficiency anemia",
+      "dosage_guidance": "325mg daily or every other day",
+      "precautions": "Take on empty stomach or with Vitamin C; causes black stools and constipation",
+      "category": "Mineral Supplement",
+      "alternative": "Ferrous Fumarate"
+    },
+    {
+      "name": "Warfarin (Coumadin)",
+      "use": "Prevents blood clots, deep vein thrombosis, and stroke in atrial fibrillation",
+      "dosage_guidance": "Highly individualized based on INR blood tests",
+      "precautions": "Requires strict diet (consistent Vitamin K); high risk of bleeding; many drug interactions",
+      "category": "Anticoagulant",
+      "alternative": "Apixaban, Rivaroxaban"
+    },
+    {
+      "name": "Apixaban (Eliquis)",
+      "use": "Prevents blood clots and strokes without needing routine blood tests",
+      "dosage_guidance": "2.5mg\u20135mg twice daily",
+      "precautions": "Increases bleeding risk; do not stop suddenly without doctor's advice",
+      "category": "Anticoagulant (DOAC)",
+      "alternative": "Rivaroxaban, Dabigatran"
+    },
+    {
+      "name": "Insulin Glargine (Lantus)",
+      "use": "Long-acting insulin for Type 1 and Type 2 diabetes",
+      "dosage_guidance": "Injected once daily under the skin",
+      "precautions": "Monitor blood sugar closely; rotate injection sites; risk of hypoglycemia",
+      "category": "Insulin",
+      "alternative": "Insulin Detemir"
+    },
+    {
+      "name": "Sildenafil (Viagra)",
+      "use": "Treats erectile dysfunction and pulmonary arterial hypertension",
+      "dosage_guidance": "50mg about 1 hour before sexual activity",
+      "precautions": "Never take with nitrates (chest pain meds); seek help for erections lasting >4 hours",
+      "category": "Phosphodiesterase-5 (PDE5) Inhibitor",
+      "alternative": "Tadalafil, Vardenafil"
+    },
+    {
+      "name": "Tadalafil (Cialis)",
+      "use": "Treats erectile dysfunction and enlarged prostate (BPH)",
+      "dosage_guidance": "5mg daily or 10mg-20mg as needed",
+      "precautions": "Effects last up to 36 hours; do not use with nitrates",
+      "category": "Phosphodiesterase-5 (PDE5) Inhibitor",
+      "alternative": "Sildenafil"
+    },
+    {
+      "name": "Tamsulosin (Flomax)",
+      "use": "Relieves urinary symptoms of enlarged prostate (BPH)",
+      "dosage_guidance": "0.4mg once daily after the same meal",
+      "precautions": "May cause dizziness or drop in blood pressure when standing up",
+      "category": "Alpha Blocker",
+      "alternative": "Silodosin, Alfuzosin"
+    },
+    {
+      "name": "Finasteride (Proscar, Propecia)",
+      "use": "Treats enlarged prostate and male pattern hair loss",
+      "dosage_guidance": "1mg for hair loss; 5mg for BPH daily",
+      "precautions": "Women who are pregnant must not touch crushed tablets; may cause sexual side effects",
+      "category": "5-Alpha Reductase Inhibitor",
+      "alternative": "Dutasteride"
+    },
+    {
+      "name": "Methylphenidate (Ritalin, Concerta)",
+      "use": "Treats ADHD and narcolepsy",
+      "dosage_guidance": "Varies by formulation; typically taken in the morning",
+      "precautions": "Can cause insomnia, loss of appetite, and increased heart rate; high abuse potential",
+      "category": "CNS Stimulant",
+      "alternative": "Amphetamine salts (Adderall)"
+    },
+    {
+      "name": "Amphetamine/Dextroamphetamine (Adderall)",
+      "use": "Treats ADHD and narcolepsy",
+      "dosage_guidance": "Varies heavily; 5mg\u201330mg doses",
+      "precautions": "High addiction potential; monitor blood pressure; causes weight loss",
+      "category": "CNS Stimulant",
+      "alternative": "Methylphenidate"
+    },
+    {
+      "name": "Bupropion (Wellbutrin)",
+      "use": "Treats depression and helps with smoking cessation",
+      "dosage_guidance": "150mg\u2013300mg daily",
+      "precautions": "Lowers seizure threshold; do not use if history of seizures or eating disorders",
+      "category": "Antidepressant (NDRI)",
+      "alternative": "Varenicline (for smoking cessation)"
+    },
+    {
+      "name": "Amitriptyline (Elavil)",
+      "use": "Treats depression, nerve pain, and prevents migraines",
+      "dosage_guidance": "10mg\u201350mg at bedtime",
+      "precautions": "Causes dry mouth, weight gain, and severe drowsiness; risk of arrhythmias",
+      "category": "Tricyclic Antidepressant",
+      "alternative": "Nortriptyline"
+    },
+    {
+      "name": "Diclofenac (Voltaren)",
+      "use": "Strong pain relief for arthritis, gout, and joint pain",
+      "dosage_guidance": "50mg 2-3 times daily; or as a topical gel",
+      "precautions": "High risk of stomach ulcers; avoid in heart disease",
+      "category": "NSAID",
+      "alternative": "Ibuprofen, Naproxen"
+    },
+    {
+      "name": "Naproxen (Aleve)",
+      "use": "Relieves pain, inflammation, and menstrual cramps",
+      "dosage_guidance": "220mg\u2013500mg every 12 hours",
+      "precautions": "Longer acting than ibuprofen; take with food to protect stomach",
+      "category": "NSAID",
+      "alternative": "Ibuprofen, Meloxicam"
+    },
+    {
+      "name": "Meloxicam (Mobic)",
+      "use": "Treats osteoarthritis and rheumatoid arthritis",
+      "dosage_guidance": "7.5mg\u201315mg once daily",
+      "precautions": "Take with food; monitor for stomach pain and bleeding",
+      "category": "NSAID",
+      "alternative": "Celecoxib"
+    },
+    {
+      "name": "Celecoxib (Celebrex)",
+      "use": "Treats arthritis and acute pain with lower risk of stomach ulcers",
+      "dosage_guidance": "100mg\u2013200mg once or twice daily",
+      "precautions": "Do not use if allergic to sulfa drugs; carries cardiovascular risks",
+      "category": "COX-2 Inhibitor (NSAID)",
+      "alternative": "Meloxicam"
+    },
+    {
+      "name": "Allopurinol (Zyloprim)",
+      "use": "Prevents gout attacks and kidney stones by lowering uric acid",
+      "dosage_guidance": "100mg\u2013300mg once daily",
+      "precautions": "Drink plenty of water; stop immediately if skin rash occurs (serious risk)",
+      "category": "Xanthine Oxidase Inhibitor",
+      "alternative": "Febuxostat"
+    },
+    {
+      "name": "Colchicine (Colcrys)",
+      "use": "Treats and prevents acute gout flare-ups",
+      "dosage_guidance": "1.2mg at first sign of flare, then 0.6mg an hour later",
+      "precautions": "High toxicity risk; can cause severe diarrhea and muscle weakness",
+      "category": "Anti-gout",
+      "alternative": "NSAIDs or Corticosteroids for acute attacks"
+    },
+    {
+      "name": "Propranolol (Inderal)",
+      "use": "Treats high blood pressure, tremors, performance anxiety, and prevents migraines",
+      "dosage_guidance": "10mg\u201340mg 2-3 times daily",
+      "precautions": "Avoid in asthma; do not stop abruptly; causes fatigue",
+      "category": "Beta Blocker",
+      "alternative": "Metoprolol, Atenolol"
+    },
+    {
+      "name": "Metoprolol (Lopressor, Toprol XL)",
+      "use": "Treats high blood pressure, angina, and heart failure",
+      "dosage_guidance": "25mg\u2013100mg daily",
+      "precautions": "May cause dizziness or slow heart rate; take with food",
+      "category": "Beta Blocker",
+      "alternative": "Carvedilol, Bisoprolol"
+    },
+    {
+      "name": "Lisinopril (Prinivil, Zestril)",
+      "use": "Treats high blood pressure and heart failure; protects diabetic kidneys",
+      "dosage_guidance": "10mg\u201340mg once daily",
+      "precautions": "Can cause a persistent dry cough; do not use in pregnancy",
+      "category": "ACE Inhibitor",
+      "alternative": "Enalapril, Ramipril"
+    },
+    {
+      "name": "Furosemide (Lasix)",
+      "use": "Strong diuretic (water pill) used to treat fluid retention and edema",
+      "dosage_guidance": "20mg\u201380mg once or twice daily",
+      "precautions": "Will cause frequent urination; depletes potassium (may need supplement)",
+      "category": "Loop Diuretic",
+      "alternative": "Torsemide, Hydrochlorothiazide"
+    },
+    {
+      "name": "Hydrochlorothiazide (HCTZ)",
+      "use": "Mild diuretic used to treat high blood pressure",
+      "dosage_guidance": "12.5mg\u201325mg once daily",
+      "precautions": "Take in the morning to avoid night urination; increases sun sensitivity",
+      "category": "Thiazide Diuretic",
+      "alternative": "Chlorthalidone"
+    },
+    {
+      "name": "Spironolactone (Aldactone)",
+      "use": "Treats heart failure, edema, and hormonal acne",
+      "dosage_guidance": "25mg\u2013100mg daily",
+      "precautions": "Potassium-sparing (do not take potassium supplements); may cause breast tenderness",
+      "category": "Potassium-Sparing Diuretic",
+      "alternative": "Eplerenone"
+    },
+    {
+      "name": "Clonidine (Catapres)",
+      "use": "Treats high blood pressure, ADHD, and withdrawal symptoms",
+      "dosage_guidance": "0.1mg\u20130.2mg twice daily",
+      "precautions": "Causes severe dry mouth and sedation; rebound high BP if stopped abruptly",
+      "category": "Alpha-2 Agonist",
+      "alternative": "Guanfacine"
+    },
+    {
+      "name": "Duloxetine (Cymbalta)",
+      "use": "Treats depression, anxiety, fibromyalgia, and nerve pain",
+      "dosage_guidance": "30mg\u201360mg once daily",
+      "precautions": "Can cause nausea and sweating; difficult to stop taking (withdrawals)",
+      "category": "Antidepressant (SNRI)",
+      "alternative": "Venlafaxine"
+    },
+    {
+      "name": "Venlafaxine (Effexor)",
+      "use": "Treats severe depression and anxiety disorders",
+      "dosage_guidance": "75mg\u2013150mg once daily",
+      "precautions": "May increase blood pressure; severe withdrawal symptoms if missed a dose",
+      "category": "Antidepressant (SNRI)",
+      "alternative": "Duloxetine, Desvenlafaxine"
+    },
+    {
+      "name": "Quetiapine (Seroquel)",
+      "use": "Treats schizophrenia, bipolar disorder, and sometimes insomnia",
+      "dosage_guidance": "50mg\u2013400mg daily (varies by condition)",
+      "precautions": "Causes significant weight gain and severe drowsiness; monitor blood sugar",
+      "category": "Atypical Antipsychotic",
+      "alternative": "Olanzapine, Risperidone"
+    },
+    {
+      "name": "Aripiprazole (Abilify)",
+      "use": "Treats bipolar disorder, schizophrenia, and depression",
+      "dosage_guidance": "2mg\u201315mg once daily",
+      "precautions": "May cause restlessness or compulsive behaviors (gambling, eating)",
+      "category": "Atypical Antipsychotic",
+      "alternative": "Lurasidone, Quetiapine"
+    },
+    {
+      "name": "Lithium (Lithobid)",
+      "use": "Mood stabilizer for bipolar disorder",
+      "dosage_guidance": "Varies; guided by frequent blood level tests",
+      "precautions": "Requires blood tests for toxicity; stay hydrated and maintain normal salt intake",
+      "category": "Mood Stabilizer",
+      "alternative": "Valproic Acid, Lamotrigine"
+    },
+    {
+      "name": "Lamotrigine (Lamictal)",
+      "use": "Prevents bipolar depression and treats seizures",
+      "dosage_guidance": "Must be slowly titrated up from 25mg",
+      "precautions": "Risk of life-threatening rash (Stevens-Johnson syndrome) if escalated too fast",
+      "category": "Anticonvulsant / Mood Stabilizer",
+      "alternative": "Lithium, Carbamazepine"
+    },
+    {
+      "name": "Topiramate (Topamax)",
+      "use": "Prevents migraines and treats seizures",
+      "dosage_guidance": "25mg\u2013100mg twice daily",
+      "precautions": "Can cause weight loss, memory issues ('brain fog'), and kidney stones",
+      "category": "Anticonvulsant",
+      "alternative": "Valproic acid, Propranolol (for migraines)"
+    },
+    {
+      "name": "Sumatriptan (Imitrex)",
+      "use": "Stops acute migraine headaches",
+      "dosage_guidance": "50mg\u2013100mg at onset of migraine",
+      "precautions": "Causes tightness in chest/throat; avoid if you have history of heart attack or stroke",
+      "category": "Triptan",
+      "alternative": "Rizatriptan, Zolmitriptan"
+    },
+    {
+      "name": "Cyclobenzaprine (Flexeril)",
+      "use": "Treats muscle spasms and back pain",
+      "dosage_guidance": "5mg\u201310mg up to 3 times daily",
+      "precautions": "Highly sedating; do not drive; causes severe dry mouth",
+      "category": "Muscle Relaxant",
+      "alternative": "Methocarbamol, Tizanidine"
+    },
+    {
+      "name": "Tizanidine (Zanaflex)",
+      "use": "Treats severe muscle spasticity (e.g., in MS)",
+      "dosage_guidance": "2mg\u20134mg every 6-8 hours",
+      "precautions": "Causes low blood pressure and drowsiness; monitor liver enzymes",
+      "category": "Muscle Relaxant",
+      "alternative": "Baclofen"
+    },
+    {
+      "name": "Levocetirizine (Xyzal)",
+      "use": "Treats allergies and hives",
+      "dosage_guidance": "5mg once daily at evening",
+      "precautions": "Can cause mild drowsiness; avoid alcohol",
+      "category": "Antihistamine",
+      "alternative": "Cetirizine, Loratadine"
+    },
+    {
+      "name": "Fluticasone nasal spray (Flonase)",
+      "use": "Prevents and treats nasal allergy symptoms (stuffy/runny nose)",
+      "dosage_guidance": "1-2 sprays per nostril once daily",
+      "precautions": "Takes days to work optimally; may cause minor nosebleeds",
+      "category": "Nasal Corticosteroid",
+      "alternative": "Budesonide, Mometasone"
+    },
+    {
+      "name": "Budesonide inhaler (Pulmicort)",
+      "use": "Controller inhaler to prevent asthma attacks",
+      "dosage_guidance": "1-2 puffs twice daily",
+      "precautions": "Rinse mouth with water and spit after use to prevent oral thrush",
+      "category": "Inhaled Corticosteroid",
+      "alternative": "Fluticasone inhaler"
+    },
+    {
+      "name": "Alendronate (Fosamax)",
+      "use": "Treats and prevents osteoporosis",
+      "dosage_guidance": "70mg once a week",
+      "precautions": "Take with full glass of water first thing in morning; must stand/sit upright for 30 mins after",
+      "category": "Bisphosphonate",
+      "alternative": "Risedronate"
+    },
+    {
+      "name": "Tretinoin topical (Retin-A)",
+      "use": "Treats severe acne and reduces fine wrinkles",
+      "dosage_guidance": "Apply pea-sized amount nightly",
+      "precautions": "Makes skin highly sensitive to sun; causes initial redness and peeling",
+      "category": "Topical Retinoid",
+      "alternative": "Adapalene"
+    },
+    {
+      "name": "Mupirocin topical (Bactroban)",
+      "use": "Treats skin infections like impetigo and MRSA colonization",
+      "dosage_guidance": "Apply small amount 3 times daily",
+      "precautions": "For external use only; finish the entire prescribed duration",
+      "category": "Topical Antibiotic",
+      "alternative": "Bacitracin / Neosporin"
+    },
+    {
+      "name": "Clotrimazole topical (Lotrimin)",
+      "use": "Treats athlete's foot, jock itch, and ringworm",
+      "dosage_guidance": "Apply twice daily for 2-4 weeks",
+      "precautions": "Keep affected area clean and dry",
+      "category": "Topical Antifungal",
+      "alternative": "Terbinafine, Ketoconazole"
+    },
+    {
+      "name": "Ketoconazole shampoo (Nizoral)",
+      "use": "Treats severe dandruff and fungal scalp conditions",
+      "dosage_guidance": "Use every 3-4 days; leave on scalp for 5 mins",
+      "precautions": "Can cause hair dryness or slight discoloration",
+      "category": "Antifungal",
+      "alternative": "Selenium Sulfide"
+    },
+    {
+      "name": "Mirtazapine (Remeron)",
+      "use": "Treats depression, and helps with insomnia and appetite loss",
+      "dosage_guidance": "15mg at bedtime",
+      "precautions": "Causes significant weight gain and drowsiness; lower doses are more sedating than higher ones",
+      "category": "Atypical Antidepressant",
+      "alternative": "Trazodone"
+    },
+    {
+      "name": "Trazodone",
+      "use": "Primarily used off-label for insomnia; treats depression at high doses",
+      "dosage_guidance": "50mg\u2013100mg at bedtime",
+      "precautions": "Can cause grogginess the next day; rare risk of prolonged erection (priapism)",
+      "category": "Atypical Antidepressant / Hypnotic",
+      "alternative": "Zolpidem, Mirtazapine"
+    },
+    {
+      "name": "Tramadol (Ultram)",
+      "use": "Treats moderate to severe pain",
+      "dosage_guidance": "50mg every 4-6 hours",
+      "precautions": "Risk of addiction; lowers seizure threshold; risk of serotonin syndrome",
+      "category": "Opioid Analgesic",
+      "alternative": "Codeine, Hydrocodone"
+    },
+    {
+      "name": "Oxycodone/Acetaminophen (Percocet)",
+      "use": "Treats severe pain not relieved by non-opioids",
+      "dosage_guidance": "As prescribed; typically every 4-6 hours",
+      "precautions": "High addiction and overdose risk; causes constipation; do not combine with alcohol or benzos",
+      "category": "Opioid Analgesic",
+      "alternative": "Hydrocodone/Acetaminophen"
+    },
+    {
+      "name": "Codeine/Guaifenesin",
+      "use": "Prescription cough suppressant for severe cough",
+      "dosage_guidance": "10ml every 4-6 hours",
+      "precautions": "Can cause drowsiness and constipation; potential for abuse",
+      "category": "Cough Suppressant",
+      "alternative": "Dextromethorphan"
+    },
+    {
+      "name": "Dextromethorphan (Delsym, Robitussin)",
+      "use": "Over-the-counter cough suppressant",
+      "dosage_guidance": "Varies by formulation; typically 15mg-30mg every 6-8 hours",
+      "precautions": "Do not use if taking MAOI antidepressants; does not cure the underlying cause",
+      "category": "Antitussive",
+      "alternative": "Codeine"
+    },
+    {
+      "name": "Guaifenesin (Mucinex)",
+      "use": "Thins and loosens mucus in chest congestion",
+      "dosage_guidance": "600mg\u20131200mg every 12 hours",
+      "precautions": "Drink plenty of water to help thin the mucus",
+      "category": "Expectorant",
+      "alternative": "Bromhexine"
+    },
+    {
+      "name": "Pseudoephedrine (Sudafed)",
+      "use": "Relieves severe nasal and sinus congestion",
+      "dosage_guidance": "30mg\u201360mg every 4-6 hours",
+      "precautions": "Can raise blood pressure and cause insomnia; avoid taking near bedtime",
+      "category": "Decongestant",
+      "alternative": "Phenylephrine"
+    },
+    {
+      "name": "Phenylephrine",
+      "use": "Over-the-counter decongestant for stuffy nose",
+      "dosage_guidance": "10mg every 4 hours",
+      "precautions": "Less effective than pseudoephedrine but does not require pharmacy check",
+      "category": "Decongestant",
+      "alternative": "Pseudoephedrine"
+    },
+    {
+      "name": "Oxybutynin (Ditropan)",
+      "use": "Treats overactive bladder and urinary incontinence",
+      "dosage_guidance": "5mg 2-3 times daily",
+      "precautions": "Causes significant dry mouth and constipation; avoid overheating as it reduces sweating",
+      "category": "Anticholinergic",
+      "alternative": "Tolterodine, Mirabegron"
+    },
+    {
+      "name": "Mirabegron (Myrbetriq)",
+      "use": "Treats overactive bladder with fewer dry mouth side effects",
+      "dosage_guidance": "25mg\u201350mg once daily",
+      "precautions": "Can raise blood pressure; monitor regularly",
+      "category": "Beta-3 Agonist",
+      "alternative": "Oxybutynin"
+    },
+    {
+      "name": "Donepezil (Aricept)",
+      "use": "Treats symptoms of Alzheimer's disease and dementia",
+      "dosage_guidance": "5mg\u201310mg once daily at bedtime",
+      "precautions": "Can cause nausea, diarrhea, and slow heart rate; does not cure Alzheimer's",
+      "category": "Cholinesterase Inhibitor",
+      "alternative": "Memantine"
+    },
+    {
+      "name": "Memantine (Namenda)",
+      "use": "Treats moderate to severe Alzheimer's disease",
+      "dosage_guidance": "5mg\u201320mg daily",
+      "precautions": "Can cause dizziness and confusion; often used with Donepezil",
+      "category": "NMDA Receptor Antagonist",
+      "alternative": "Donepezil"
+    },
+    {
+      "name": "Methotrexate",
+      "use": "Treats severe rheumatoid arthritis, psoriasis, and certain cancers",
+      "dosage_guidance": "Typically taken ONCE WEEKLY (not daily) for arthritis",
+      "precautions": "Highly toxic; requires strict folic acid supplementation and regular liver/blood tests; strictly avoid in pregnancy",
+      "category": "Immunosuppressant",
+      "alternative": "Leflunomide, Biologics"
+    },
+    {
+      "name": "Hydroxychloroquine (Plaquenil)",
+      "use": "Treats lupus, rheumatoid arthritis, and prevents malaria",
+      "dosage_guidance": "200mg\u2013400mg daily",
+      "precautions": "Requires regular eye exams due to risk of retinal toxicity; take with food",
+      "category": "DMARD / Antimalarial",
+      "alternative": "Methotrexate"
+    },
+    {
+      "name": "Buprenorphine/Naloxone (Suboxone)",
+      "use": "Treats opioid use disorder and prevents withdrawal",
+      "dosage_guidance": "Taken sublingually; highly individualized dosing",
+      "precautions": "Can cause fatal respiratory depression if mixed with benzos or alcohol",
+      "category": "Opioid Partial Agonist",
+      "alternative": "Methadone"
+    },
+    {
+      "name": "Methadone",
+      "use": "Treats severe chronic pain and opioid dependence",
+      "dosage_guidance": "Administered strictly via certified clinics for dependence",
+      "precautions": "Extremely high overdose risk; prolongs QT interval in heart",
+      "category": "Opioid Agonist",
+      "alternative": "Buprenorphine"
+    },
+    {
+      "name": "Levetiracetam (Keppra)",
+      "use": "Prevents and treats seizures",
+      "dosage_guidance": "500mg twice daily to start",
+      "precautions": "Can cause extreme mood swings, aggression, and depression ('Keppra rage')",
+      "category": "Anticonvulsant",
+      "alternative": "Lacosamide"
+    },
+    {
+      "name": "Pregabalin (Lyrica)",
+      "use": "Treats nerve pain, fibromyalgia, and prevents seizures",
+      "dosage_guidance": "75mg twice daily to start",
+      "precautions": "May cause weight gain, swelling, and dizziness; taper slowly to stop",
+      "category": "Anticonvulsant / Nerve Pain",
+      "alternative": "Gabapentin"
+    },
+    {
+      "name": "Risperidone (Risperdal)",
+      "use": "Treats schizophrenia, bipolar mania, and irritability in autism",
+      "dosage_guidance": "1mg\u20132mg daily to start",
+      "precautions": "May increase prolactin levels leading to breast enlargement (even in males); risk of weight gain",
+      "category": "Atypical Antipsychotic",
+      "alternative": "Olanzapine"
+    },
+    {
+      "name": "Olanzapine (Zyprexa)",
+      "use": "Treats schizophrenia and bipolar disorder",
+      "dosage_guidance": "5mg\u201310mg once daily",
+      "precautions": "Causes massive weight gain and high blood sugar; monitor metabolic panels",
+      "category": "Atypical Antipsychotic",
+      "alternative": "Quetiapine"
+    },
+    {
+      "name": "Naloxone (Narcan)",
+      "use": "Reverses opioid overdoses",
+      "dosage_guidance": "4mg nasal spray; repeat every 2-3 mins if no response",
+      "precautions": "Immediately call 911 after administering; induces sudden withdrawal",
+      "category": "Opioid Antagonist",
+      "alternative": "Naltrexone (for long term)"
+    },
+    {
+      "name": "Naltrexone (Vivitrol)",
+      "use": "Prevents relapse in alcohol and opioid use disorders",
+      "dosage_guidance": "50mg daily oral or monthly injection",
+      "precautions": "Must be completely opioid-free for 7-10 days before starting to avoid severe withdrawal",
+      "category": "Opioid Antagonist",
+      "alternative": "Acamprosate (for alcohol)"
+    },
+    {
+      "name": "Acamprosate (Campral)",
+      "use": "Helps maintain alcohol abstinence",
+      "dosage_guidance": "666mg three times a day",
+      "precautions": "Not effective if patient is still actively drinking; requires frequent dosing",
+      "category": "Alcohol deterrent",
+      "alternative": "Naltrexone"
+    },
+    {
+      "name": "Disulfiram (Antabuse)",
+      "use": "Deterrent for alcohol use",
+      "dosage_guidance": "250mg once daily",
+      "precautions": "Causes violent vomiting, flushing, and heart palpitations if ANY alcohol is consumed (even mouthwash)",
+      "category": "Alcohol deterrent",
+      "alternative": "Naltrexone"
+    },
+    {
+      "name": "Varenicline (Chantix)",
+      "use": "Helps quit smoking by blocking nicotine receptors",
+      "dosage_guidance": "0.5mg\u20131mg twice daily",
+      "precautions": "May cause vivid nightmares and mood changes; take with full glass of water",
+      "category": "Smoking Cessation",
+      "alternative": "Bupropion"
+    },
+    {
+      "name": "Liraglutide (Victoza, Saxenda)",
+      "use": "Treats Type 2 Diabetes and aids in weight loss",
+      "dosage_guidance": "Daily subcutaneous injection",
+      "precautions": "May cause severe nausea; risk of thyroid tumors (animal studies)",
+      "category": "GLP-1 Agonist",
+      "alternative": "Semaglutide"
+    },
+    {
+      "name": "Semaglutide (Ozempic, Wegovy)",
+      "use": "Treats Type 2 Diabetes and significant weight loss aid",
+      "dosage_guidance": "Weekly subcutaneous injection",
+      "precautions": "Causes delayed gastric emptying (nausea, vomiting); risk of pancreatitis",
+      "category": "GLP-1 Agonist",
+      "alternative": "Tirzepatide"
+    },
+    {
+      "name": "Tirzepatide (Mounjaro)",
+      "use": "Treats Type 2 Diabetes; highly effective for weight loss",
+      "dosage_guidance": "Weekly subcutaneous injection",
+      "precautions": "Monitor for severe gastrointestinal issues; adjust dose slowly",
+      "category": "GIP and GLP-1 Agonist",
+      "alternative": "Semaglutide"
+    },
+    {
+      "name": "Sitagliptin (Januvia)",
+      "use": "Treats Type 2 diabetes by increasing insulin release",
+      "dosage_guidance": "100mg once daily",
+      "precautions": "Risk of joint pain and pancreatitis; well tolerated overall",
+      "category": "DPP-4 Inhibitor",
+      "alternative": "Linagliptin"
+    },
+    {
+      "name": "Empagliflozin (Jardiance)",
+      "use": "Treats Type 2 diabetes and reduces risk of heart failure",
+      "dosage_guidance": "10mg\u201325mg once daily",
+      "precautions": "Causes sugar in urine leading to high risk of yeast infections and UTIs",
+      "category": "SGLT2 Inhibitor",
+      "alternative": "Dapagliflozin"
+    },
+    {
+      "name": "Dapagliflozin (Farxiga)",
+      "use": "Treats Type 2 diabetes, heart failure, and chronic kidney disease",
+      "dosage_guidance": "10mg once daily",
+      "precautions": "Risk of severe urinary infections; keeps kidneys functioning longer",
+      "category": "SGLT2 Inhibitor",
+      "alternative": "Empagliflozin"
+    },
+    {
+      "name": "Gliclazide (Diamicron)",
+      "use": "Treats Type 2 diabetes by stimulating pancreas to make more insulin",
+      "dosage_guidance": "30mg\u2013120mg daily",
+      "precautions": "High risk of low blood sugar (hypoglycemia); must take with food",
+      "category": "Sulfonylurea",
+      "alternative": "Glimepiride"
+    },
+    {
+      "name": "Ezetimibe (Zetia)",
+      "use": "Lowers cholesterol by blocking absorption in the intestine",
+      "dosage_guidance": "10mg once daily",
+      "precautions": "Often used alongside a statin; monitor liver function",
+      "category": "Cholesterol Absorption Inhibitor",
+      "alternative": "Statins"
+    },
+    {
+      "name": "Evolocumab (Repatha)",
+      "use": "Dramatically lowers LDL (bad) cholesterol",
+      "dosage_guidance": "Injection every 2 or 4 weeks",
+      "precautions": "Expensive; may cause injection site reactions or muscle pain",
+      "category": "PCSK9 Inhibitor",
+      "alternative": "Alirocumab"
+    },
+    {
+      "name": "Amiodarone (Pacerone)",
+      "use": "Treats life-threatening irregular heartbeats (arrhythmias)",
+      "dosage_guidance": "Varies highly; usually 100mg-200mg daily for maintenance",
+      "precautions": "Highly toxic to lungs, thyroid, and eyes; requires constant monitoring",
+      "category": "Antiarrhythmic",
+      "alternative": "Sotalol"
+    },
+    {
+      "name": "Digoxin (Lanoxin)",
+      "use": "Treats heart failure and atrial fibrillation",
+      "dosage_guidance": "0.125mg\u20130.25mg daily",
+      "precautions": "Narrow therapeutic window; toxicity causes nausea and yellow-tinted vision",
+      "category": "Cardiac Glycoside",
+      "alternative": "Beta blockers"
+    },
+    {
+      "name": "Rivaroxaban (Xarelto)",
+      "use": "Prevents blood clots, stroke, and treats deep vein thrombosis",
+      "dosage_guidance": "15mg\u201320mg once daily with food",
+      "precautions": "Must be taken with evening meal; high risk of bleeding; no routine blood tests needed",
+      "category": "Anticoagulant (DOAC)",
+      "alternative": "Apixaban"
+    },
+    {
+      "name": "Dabigatran (Pradaxa)",
+      "use": "Prevents blood clots and stroke",
+      "dosage_guidance": "150mg twice daily",
+      "precautions": "Capsules must be kept in original bottle to prevent moisture damage; bleeding risk",
+      "category": "Anticoagulant (DOAC)",
+      "alternative": "Apixaban"
+    },
+    {
+      "name": "Enoxaparin (Lovenox)",
+      "use": "Prevents and treats blood clots; often used post-surgery or in pregnancy",
+      "dosage_guidance": "Subcutaneous injection daily or twice daily",
+      "precautions": "May cause bruising at injection site; monitor platelet counts",
+      "category": "Low Molecular Weight Heparin",
+      "alternative": "Heparin"
+    },
+    {
+      "name": "Clindamycin (Cleocin)",
+      "use": "Treats serious bacterial infections, acne, and dental infections",
+      "dosage_guidance": "150mg\u2013300mg every 6 hours",
+      "precautions": "High risk of causing severe C. difficile diarrhea; stop if diarrhea occurs",
+      "category": "Antibiotic (Lincosamide)",
+      "alternative": "Amoxicillin"
+    },
+    {
+      "name": "Vancomycin (Vancocin)",
+      "use": "Treats severe MRSA infections and C. difficile (oral form only)",
+      "dosage_guidance": "Varies heavily; IV for systemic, oral for GI",
+      "precautions": "Can cause kidney damage or 'Red Man Syndrome' if given via IV too fast",
+      "category": "Antibiotic (Glycopeptide)",
+      "alternative": "Linezolid"
+    },
+    {
+      "name": "Cefalexin (Keflex)",
+      "use": "Treats skin, ear, and urinary tract infections",
+      "dosage_guidance": "250mg\u2013500mg every 6 hours",
+      "precautions": "Caution if allergic to penicillin; take with food to avoid nausea",
+      "category": "Antibiotic (Cephalosporin)",
+      "alternative": "Cefuroxime"
+    },
+    {
+      "name": "Nitrofurantoin (Macrobid)",
+      "use": "Treats and prevents uncomplicated urinary tract infections (UTIs)",
+      "dosage_guidance": "100mg twice daily for 5-7 days",
+      "precautions": "Will turn urine brown/dark yellow; take with food; avoid in poor kidney function",
+      "category": "Antibiotic",
+      "alternative": "Bactrim (Sulfamethoxazole)"
+    },
+    {
+      "name": "Sulfamethoxazole/Trimethoprim (Bactrim)",
+      "use": "Treats UTIs, MRSA skin infections, and certain pneumonias",
+      "dosage_guidance": "1 tablet twice daily",
+      "precautions": "High risk of allergic skin reactions (sulfa allergy); drink plenty of water",
+      "category": "Antibiotic",
+      "alternative": "Nitrofurantoin"
+    },
+    {
+      "name": "Terbinafine (Lamisil)",
+      "use": "Treats fungal nail infections and severe ringworm",
+      "dosage_guidance": "250mg once daily for 6-12 weeks (oral)",
+      "precautions": "Oral form requires liver function tests; can cause temporary taste loss",
+      "category": "Antifungal",
+      "alternative": "Itraconazole"
+    },
+    {
+      "name": "Itraconazole (Sporanox)",
+      "use": "Treats severe systemic fungal infections and nail fungus",
+      "dosage_guidance": "200mg once or twice daily",
+      "precautions": "Avoid in heart failure; interacts with numerous medications",
+      "category": "Antifungal",
+      "alternative": "Terbinafine"
+    },
+    {
+      "name": "Mupirocin (Bactroban)",
+      "use": "Topical antibiotic for impetigo and MRSA in the nose",
+      "dosage_guidance": "Apply to affected area 3 times daily",
+      "precautions": "For external use only; clean area before applying",
+      "category": "Topical Antibiotic",
+      "alternative": "Bacitracin"
+    },
+    {
+      "name": "Tretinoin (Retin-A)",
+      "use": "Topical treatment for acne, wrinkles, and sun damage",
+      "dosage_guidance": "Apply pea-sized amount every night",
+      "precautions": "Makes skin extremely sensitive to sun; causes initial purging/peeling",
+      "category": "Topical Retinoid",
+      "alternative": "Adapalene"
+    },
+    {
+      "name": "Adapalene (Differin)",
+      "use": "Topical acne treatment",
+      "dosage_guidance": "Apply thin layer once daily",
+      "precautions": "Less irritating than Tretinoin but still causes sun sensitivity",
+      "category": "Topical Retinoid",
+      "alternative": "Tretinoin"
+    },
+    {
+      "name": "Benzoyl Peroxide",
+      "use": "Over-the-counter topical treatment for acne",
+      "dosage_guidance": "Wash or gel used 1-2 times daily",
+      "precautions": "Bleaches hair and fabrics/towels; can dry out skin",
+      "category": "Acne Treatment",
+      "alternative": "Salicylic Acid"
+    },
+    {
+      "name": "Isotretinoin (Accutane)",
+      "use": "Treats severe, cystic acne that hasn't responded to other treatments",
+      "dosage_guidance": "Dosed by weight; daily for 4-6 months",
+      "precautions": "Causes severe birth defects; requires strict pregnancy prevention (iPLEDGE); causes extreme dry skin",
+      "category": "Systemic Retinoid",
+      "alternative": "Oral Antibiotics (Doxycycline)"
+    },
+    {
+      "name": "Finasteride (Propecia, Proscar)",
+      "use": "Treats male pattern baldness and enlarged prostate",
+      "dosage_guidance": "1mg daily for hair loss; 5mg for prostate",
+      "precautions": "Can cause sexual dysfunction; women who are pregnant must not handle crushed pills",
+      "category": "5-Alpha Reductase Inhibitor",
+      "alternative": "Minoxidil"
+    },
+    {
+      "name": "Minoxidil (Rogaine)",
+      "use": "Topical solution or oral pill to stimulate hair growth",
+      "dosage_guidance": "Apply to scalp twice daily",
+      "precautions": "Oral form lowers blood pressure and can cause fluid retention; toxic to cats",
+      "category": "Vasodilator / Hair Growth",
+      "alternative": "Finasteride"
+    },
+    {
+      "name": "Fluoxetine (Prozac)",
+      "use": "Treats depression, OCD, bulimia, and panic disorder",
+      "dosage_guidance": "20mg\u201340mg daily",
+      "precautions": "Long half-life means it stays in body for weeks after stopping; take in the morning",
+      "category": "Antidepressant (SSRI)",
+      "alternative": "Sertraline"
+    },
+    {
+      "name": "Trazodone (Desyrel)",
+      "use": "Treats depression, but most commonly used off-label for insomnia",
+      "dosage_guidance": "50mg\u2013100mg at bedtime",
+      "precautions": "May cause grogginess the next day; rare risk of prolonged erection",
+      "category": "Atypical Antidepressant / Sleep Aid",
+      "alternative": "Zolpidem"
+    },
+    {
+      "name": "Clonazepam (Klonopin)",
+      "use": "Treats panic disorder, seizures, and anxiety",
+      "dosage_guidance": "0.5mg\u20131mg twice daily",
+      "precautions": "Longer acting than Xanax; severe withdrawal if stopped abruptly",
+      "category": "Benzodiazepine",
+      "alternative": "Lorazepam"
+    },
+    {
+      "name": "Lorazepam (Ativan)",
+      "use": "Treats acute anxiety, seizures, and alcohol withdrawal",
+      "dosage_guidance": "0.5mg\u20131mg as needed",
+      "precautions": "High risk of dependence; causes memory impairment",
+      "category": "Benzodiazepine",
+      "alternative": "Diazepam"
+    },
+    {
+      "name": "Diazepam (Valium)",
+      "use": "Treats anxiety, muscle spasms, and alcohol withdrawal",
+      "dosage_guidance": "2mg\u201310mg 2-4 times a day",
+      "precautions": "Very long-acting; accumulates in the body causing prolonged sedation",
+      "category": "Benzodiazepine",
+      "alternative": "Lorazepam"
+    },
+    {
+      "name": "Eszopiclone (Lunesta)",
+      "use": "Treats insomnia for staying asleep",
+      "dosage_guidance": "1mg\u20133mg at bedtime",
+      "precautions": "Can cause an unpleasant metallic taste in the mouth",
+      "category": "Sedative-Hypnotic",
+      "alternative": "Zolpidem"
+    },
+    {
+      "name": "Promethazine (Phenergan)",
+      "use": "Treats nausea, vomiting, allergies, and motion sickness",
+      "dosage_guidance": "12.5mg\u201325mg every 4-6 hours",
+      "precautions": "Highly sedating; do not use in children under 2 (respiratory depression)",
+      "category": "Antiemetic / Antihistamine",
+      "alternative": "Ondansetron"
+    },
+    {
+      "name": "Metoclopramide (Reglan)",
+      "use": "Treats gastroparesis and severe nausea",
+      "dosage_guidance": "10mg 30 mins before meals",
+      "precautions": "Can cause irreversible muscle spasms/twitches (tardive dyskinesia)",
+      "category": "Prokinetic / Antiemetic",
+      "alternative": "Ondansetron"
+    },
+    {
+      "name": "Famotidine (Pepcid)",
+      "use": "Prevents and treats heartburn and acid indigestion",
+      "dosage_guidance": "20mg twice daily",
+      "precautions": "Fewer drug interactions than PPIs; can take as-needed",
+      "category": "H2 Blocker",
+      "alternative": "Cimetidine"
+    },
+    {
+      "name": "Docusate (Colace)",
+      "use": "Stool softener for gentle relief of constipation",
+      "dosage_guidance": "100mg once or twice daily",
+      "precautions": "Take with plenty of water; takes a few days to work",
+      "category": "Laxative",
+      "alternative": "Polyethylene Glycol"
+    },
+    {
+      "name": "Polyethylene Glycol (Miralax)",
+      "use": "Osmotic laxative for constipation",
+      "dosage_guidance": "17g dissolved in 8oz liquid daily",
+      "precautions": "Safe for long-term use; takes 1-3 days to produce a bowel movement",
+      "category": "Laxative",
+      "alternative": "Lactulose"
+    },
+    {
+      "name": "Methimazole (Tapazole)",
+      "use": "Treats hyperthyroidism (overactive thyroid)",
+      "dosage_guidance": "5mg\u201315mg daily",
+      "precautions": "Can suppress white blood cells (watch for sore throat/fever); liver toxicity",
+      "category": "Antithyroid Agent",
+      "alternative": "Propylthiouracil (PTU)"
+    },
+    {
+      "name": "Estradiol (Estrace)",
+      "use": "Hormone replacement therapy for menopause symptoms",
+      "dosage_guidance": "Oral pill, patch, or cream depending on formulation",
+      "precautions": "Increases risk of blood clots and certain cancers; do not smoke",
+      "category": "Estrogen Hormone",
+      "alternative": "Conjugated Estrogens"
+    },
+    {
+      "name": "Levonorgestrel/Ethinyl Estradiol",
+      "use": "Combination oral contraceptive (birth control)",
+      "dosage_guidance": "Take 1 pill at the exact same time every day",
+      "precautions": "Does not protect against STIs; high risk of blood clots if patient smokes over age 35",
+      "category": "Oral Contraceptive",
+      "alternative": "Progestin-only pills"
+    },
+    {
+      "name": "Levonorgestrel (Plan B One-Step)",
+      "use": "Emergency contraception to prevent pregnancy after unprotected sex",
+      "dosage_guidance": "1.5mg single dose within 72 hours of unprotected sex",
+      "precautions": "May cause nausea and irregular bleeding; less effective in heavier individuals",
+      "category": "Emergency Contraceptive",
+      "alternative": "Ulipristal"
+    },
+    {
+      "name": "Adalimumab (Humira)",
+      "use": "Treats severe rheumatoid arthritis, Crohn's disease, and psoriasis",
+      "dosage_guidance": "Subcutaneous injection every 2 weeks",
+      "precautions": "Lowers immune system significantly; test for tuberculosis before starting",
+      "category": "Biologic (TNF Inhibitor)",
+      "alternative": "Infliximab, Etanercept"
+    },
+    {
+      "name": "Albuterol (Ventolin, ProAir)",
+      "use": "Rescue inhaler for acute asthma and COPD symptoms",
+      "dosage_guidance": "1-2 puffs every 4-6 hours as needed",
+      "precautions": "Causes jitteriness, high heart rate; rinse mouth if using combo inhalers",
+      "category": "Short-Acting Beta Agonist (SABA)",
+      "alternative": "Levalbuterol"
+    },
+    {
+      "name": "Fluticasone/Salmeterol (Advair)",
+      "use": "Maintenance inhaler for asthma and COPD",
+      "dosage_guidance": "1 puff twice daily",
+      "precautions": "Must rinse mouth after use to prevent oral thrush; not for acute attacks",
+      "category": "ICS / LABA Combo",
+      "alternative": "Budesonide/Formoterol (Symbicort)"
+    },
+    {
+      "name": "Tiotropium (Spiriva)",
+      "use": "Maintenance inhaler for COPD",
+      "dosage_guidance": "Inhale 1 capsule contents daily",
+      "precautions": "Do not swallow the capsules; can cause dry mouth",
+      "category": "Long-Acting Muscarinic Antagonist (LAMA)",
+      "alternative": "Umeclidinium"
+    },
+    {
+      "name": "Methocarbamol (Robaxin)",
+      "use": "Treats muscle spasms and pain",
+      "dosage_guidance": "1000mg\u20131500mg up to four times daily",
+      "precautions": "Less sedating than cyclobenzaprine; may turn urine black, brown, or green",
+      "category": "Muscle Relaxant",
+      "alternative": "Cyclobenzaprine"
+    },
+    {
+      "name": "Oxycodone (Roxicodone)",
+      "use": "Treats moderate to severe acute pain",
+      "dosage_guidance": "5mg\u201315mg every 4-6 hours",
+      "precautions": "High addiction potential; severe respiratory depression risk",
+      "category": "Opioid Analgesic",
+      "alternative": "Hydrocodone"
+    },
+    {
+      "name": "Hydrocodone/Acetaminophen (Vicodin, Norco)",
+      "use": "Treats moderate to severe pain",
+      "dosage_guidance": "1 tablet every 4-6 hours",
+      "precautions": "Contains Tylenol; do not exceed 4000mg of acetaminophen per day to avoid liver failure",
+      "category": "Opioid Analgesic",
+      "alternative": "Oxycodone/Acetaminophen"
+    },
+    {
+      "name": "Lidocaine patches (Lidoderm)",
+      "use": "Topical pain relief for localized nerve pain (e.g., post-shingles)",
+      "dosage_guidance": "Apply up to 3 patches for 12 hours on, 12 hours off",
+      "precautions": "Do not leave on for >12 hours to avoid systemic toxicity",
+      "category": "Topical Anesthetic",
+      "alternative": "Capsaicin cream"
+    },
+    {
+      "name": "Amiodarone (Cordarone)",
+      "use": "Treats dangerous irregular heart rhythms",
+      "dosage_guidance": "Highly variable",
+      "precautions": "Toxic to lungs, thyroid, liver; can cause skin to turn blue-gray in sun",
+      "category": "Antiarrhythmic",
+      "alternative": "Sotalol"
+    },
+    {
+      "name": "Digoxin (Lanoxin)",
+      "use": "Treats heart failure and atrial fibrillation",
+      "dosage_guidance": "0.125mg\u20130.25mg daily",
+      "precautions": "Very narrow safety margin; toxicity causes nausea, confusion, and visual changes (yellow halos)",
+      "category": "Cardiac Glycoside",
+      "alternative": "Beta-blockers"
+    },
+    {
+      "name": "Isosorbide Mononitrate (Imdur)",
+      "use": "Prevents angina (chest pain)",
+      "dosage_guidance": "30mg\u2013120mg daily",
+      "precautions": "Causes severe headaches and dizziness; never take with PDE5 inhibitors (Viagra)",
+      "category": "Nitrate",
+      "alternative": "Nitroglycerin"
+    },
+    {
+      "name": "Nitroglycerin sublingual (Nitrostat)",
+      "use": "Treats acute angina (chest pain) attacks",
+      "dosage_guidance": "0.4mg under tongue every 5 mins up to 3 doses",
+      "precautions": "Call 911 if pain persists after first dose; do not swallow",
+      "category": "Nitrate",
+      "alternative": "Isosorbide"
+    },
+    {
+      "name": "Cyanocobalamin (Vitamin B12)",
+      "use": "Treats pernicious anemia and B12 deficiency",
+      "dosage_guidance": "1000mcg orally or via injection monthly",
+      "precautions": "Safe; excess is excreted in urine",
+      "category": "Vitamin Supplement",
+      "alternative": "Methylcobalamin"
+    },
+    {
+      "name": "Iron (Ferrous Sulfate)",
+      "use": "Treats iron deficiency anemia",
+      "dosage_guidance": "325mg once or twice daily",
+      "precautions": "Causes constipation and black stools; take on empty stomach with Vitamin C for best absorption",
+      "category": "Mineral Supplement",
+      "alternative": "Ferrous Fumarate"
+    },
+    {
+      "name": "Potassium Chloride (Klor-Con)",
+      "use": "Treats or prevents low potassium (often caused by diuretics)",
+      "dosage_guidance": "10mEq\u201320mEq daily",
+      "precautions": "Can cause severe stomach irritation; swallow pill whole with food and water",
+      "category": "Mineral Supplement",
+      "alternative": "Potassium Citrate"
+    },
+    {
+      "name": "Amoxicillin/Clavulanate (Augmentin)",
+      "use": "Treats bacterial infections such as pneumonia, ear infections, and sinusitis",
+      "dosage_guidance": "500mg-875mg every 12 hours",
+      "precautions": "Take with food to minimize GI upset; risk of severe diarrhea",
+      "category": "Antibiotic (Penicillin/Beta-lactamase inhibitor)",
+      "alternative": "Cefdinir"
+    },
+    {
+      "name": "Bictegravir/Emtricitabine/Tenofovir alafenamide (Biktarvy)",
+      "use": "Complete regimen for HIV-1 treatment",
+      "dosage_guidance": "1 tablet daily",
+      "precautions": "Monitor kidney and bone density; risk of lactic acidosis",
+      "category": "Antiretroviral",
+      "alternative": "Triumeq"
+    },
+    {
+      "name": "Lisinopril (Zestril)",
+      "use": "Treats high blood pressure, heart failure, and protects kidneys in diabetes",
+      "dosage_guidance": "10mg-40mg once daily",
+      "precautions": "Can cause a persistent dry cough and elevated potassium levels; avoid in pregnancy",
+      "category": "ACE Inhibitor",
+      "alternative": "Losartan"
+    },
+    {
+      "name": "Albuterol (ProAir, Ventolin)",
+      "use": "Relieves acute bronchospasm in asthma and COPD",
+      "dosage_guidance": "1-2 puffs every 4-6 hours as needed",
+      "precautions": "Can cause tremors, rapid heart rate, and nervousness",
+      "category": "Short-acting Beta Agonist (SABA)",
+      "alternative": "Levalbuterol"
+    },
+    {
+      "name": "Fluticasone (Flonase)",
+      "use": "Treats nasal congestion, sneezing, and allergy symptoms",
+      "dosage_guidance": "1-2 sprays per nostril daily",
+      "precautions": "May cause nosebleeds; takes a few days to reach full effect",
+      "category": "Nasal Corticosteroid",
+      "alternative": "Budesonide"
+    },
+    {
+      "name": "Glipizide (Glucotrol)",
+      "use": "Lowers blood sugar in Type 2 diabetes",
+      "dosage_guidance": "5mg-10mg daily",
+      "precautions": "Can cause severe low blood sugar (hypoglycemia) and weight gain",
+      "category": "Sulfonylurea",
+      "alternative": "Glimepiride"
+    },
+    {
+      "name": "Acetaminophen (Tylenol)",
+      "use": "Relieves pain and reduces fever",
+      "dosage_guidance": "500mg-1000mg every 4-6 hours",
+      "precautions": "Do not exceed 4000mg per day to prevent severe liver damage",
+      "category": "Analgesic/Antipyretic",
+      "alternative": "Ibuprofen"
+    },
+    {
+      "name": "Oxycodone (Roxicodone, OxyContin)",
+      "use": "Treats severe pain",
+      "dosage_guidance": "5mg-15mg every 4-6 hours for acute pain",
+      "precautions": "Extremely high risk for addiction and respiratory depression",
+      "category": "Opioid Analgesic",
+      "alternative": "Morphine"
+    },
+    {
+      "name": "Latanoprost (Xalatan)",
+      "use": "Treats glaucoma by lowering pressure in the eye",
+      "dosage_guidance": "1 drop in affected eye(s) once daily in the evening",
+      "precautions": "Can permanently change eye color to brown and increase eyelash growth",
+      "category": "Prostaglandin Analog",
+      "alternative": "Bimatoprost"
+    },
+    {
+      "name": "Benzonatate (Tessalon Perles)",
+      "use": "Relieves cough by numbing the throat and lungs",
+      "dosage_guidance": "100mg-200mg three times daily",
+      "precautions": "Swallow whole; chewing can cause dangerous numbness in the mouth/throat",
+      "category": "Antitussive",
+      "alternative": "Dextromethorphan"
+    },
+    {
+      "name": "Divalproex (Depakote)",
+      "use": "Treats bipolar mania, seizures, and prevents migraines",
+      "dosage_guidance": "250mg-500mg twice daily",
+      "precautions": "Toxic to liver; severe birth defects; causes weight gain and hair loss",
+      "category": "Anticonvulsant / Mood Stabilizer",
+      "alternative": "Lamotrigine"
+    },
+    {
+      "name": "Bactrim (Sulfamethoxazole/Trimethoprim)",
+      "use": "Treats UTIs, skin infections (MRSA), and bronchitis",
+      "dosage_guidance": "1 double-strength tablet twice daily",
+      "precautions": "Avoid if sulfa allergy exists; drink lots of water; causes sun sensitivity",
+      "category": "Antibiotic",
+      "alternative": "Nitrofurantoin"
+    },
+    {
+      "name": "Cefdinir (Omnicef)",
+      "use": "Treats ear infections, sinus infections, and bronchitis",
+      "dosage_guidance": "300mg twice daily",
+      "precautions": "May cause reddish stools if taken with iron supplements",
+      "category": "Antibiotic (Cephalosporin)",
+      "alternative": "Amoxicillin"
+    },
+    {
+      "name": "Methotrexate (Trexall)",
+      "use": "Treats rheumatoid arthritis, psoriasis, and some cancers",
+      "dosage_guidance": "Taken ONCE WEEKLY",
+      "precautions": "Highly toxic; requires folic acid supplementation; severe birth defects",
+      "category": "DMARD",
+      "alternative": "Hydroxychloroquine"
+    },
+    {
+      "name": "Carbidopa/Levodopa (Sinemet)",
+      "use": "First-line treatment for Parkinson's disease",
+      "dosage_guidance": "25/100mg 3-4 times daily",
+      "precautions": "Can cause dyskinesias (involuntary movements); darkens urine/sweat",
+      "category": "Dopamine Precursor",
+      "alternative": "Pramipexole"
+    },
+    {
+      "name": "Pramipexole (Mirapex)",
+      "use": "Treats Parkinson's disease and Restless Legs Syndrome",
+      "dosage_guidance": "0.125mg-1.5mg three times daily",
+      "precautions": "Can cause sudden sleep attacks and compulsive behaviors (e.g., gambling)",
+      "category": "Dopamine Agonist",
+      "alternative": "Ropinirole"
+    },
+    {
+      "name": "Baclofen (Lioresal)",
+      "use": "Treats severe muscle spasticity (e.g., in MS or spinal cord injury)",
+      "dosage_guidance": "5mg-20mg three times daily",
+      "precautions": "Do not stop abruptly to avoid severe withdrawal/seizures; causes sedation",
+      "category": "Muscle Relaxant",
+      "alternative": "Tizanidine"
+    },
+    {
+      "name": "Lidocaine Patch (Lidoderm)",
+      "use": "Topical pain relief for shingles (postherpetic neuralgia)",
+      "dosage_guidance": "Apply up to 3 patches for 12 hours on, 12 hours off",
+      "precautions": "Do not wear for more than 12 hours to prevent toxicity",
+      "category": "Topical Anesthetic",
+      "alternative": "Capsaicin cream"
+    },
+    {
+      "name": "Meclizine (Antivert)",
+      "use": "Treats vertigo and motion sickness",
+      "dosage_guidance": "12.5mg-25mg every 8-12 hours",
+      "precautions": "Causes drowsiness; take 1 hour before travel for motion sickness",
+      "category": "Antihistamine",
+      "alternative": "Dimenhydrinate"
+    },
+    {
+      "name": "Ketorolac (Toradol)",
+      "use": "Short-term treatment of moderate to severe pain",
+      "dosage_guidance": "10mg every 4-6 hours",
+      "precautions": "DO NOT use for more than 5 days total due to severe bleeding/kidney risk",
+      "category": "NSAID",
+      "alternative": "Ibuprofen"
+    },
+    {
+      "name": "Chlorpheniramine (Chlor-Trimeton)",
+      "use": "Treats allergy, cold, and hay fever symptoms",
+      "dosage_guidance": "4mg every 4-6 hours",
+      "precautions": "First-generation antihistamine; causes significant drowsiness",
+      "category": "Antihistamine",
+      "alternative": "Loratadine"
+    },
+    {
+      "name": "Fenofibrate (Tricor)",
+      "use": "Lowers very high triglycerides",
+      "dosage_guidance": "48mg-145mg daily",
+      "precautions": "Can increase risk of muscle pain if taken with a statin",
+      "category": "Fibrate",
+      "alternative": "Omega-3 fatty acids"
+    },
+    {
+      "name": "Levonorgestrel (Plan B)",
+      "use": "Emergency contraception",
+      "dosage_guidance": "1.5mg single dose within 72 hours of unprotected sex",
+      "precautions": "May cause irregular bleeding/nausea; less effective in heavier individuals",
+      "category": "Progestin",
+      "alternative": "Ulipristal"
+    },
+    {
+      "name": "Ethinyl Estradiol / Norethindrone",
+      "use": "Oral contraceptive (birth control pill)",
+      "dosage_guidance": "Take 1 pill at the exact same time every day",
+      "precautions": "Does not protect against STIs; increased risk of blood clots if smoking",
+      "category": "Oral Contraceptive",
+      "alternative": "IUD"
+    },
+    {
+      "name": "Fexofenadine (Allegra)",
+      "use": "Treats seasonal allergy symptoms",
+      "dosage_guidance": "180mg once daily or 60mg twice daily",
+      "precautions": "Do not take with fruit juices (apple, orange, grapefruit) as they decrease absorption",
+      "category": "Antihistamine",
+      "alternative": "Loratadine"
+    },
+    {
+      "name": "Esomeprazole (Nexium)",
+      "use": "Treats GERD, stomach ulcers, and acid reflux",
+      "dosage_guidance": "20mg-40mg daily before meals",
+      "precautions": "Long-term use may lower bone density and magnesium levels",
+      "category": "Proton Pump Inhibitor",
+      "alternative": "Omeprazole"
+    },
+    {
+      "name": "Ranitidine (Zantac)",
+      "use": "Treats and prevents heartburn",
+      "dosage_guidance": "150mg twice daily",
+      "precautions": "Note: Has been recalled in many countries due to NDMA impurities",
+      "category": "H2 Blocker",
+      "alternative": "Famotidine"
+    },
+    {
+      "name": "Senna (Senokot)",
+      "use": "Stimulant laxative to relieve constipation",
+      "dosage_guidance": "8.6mg-17.2mg once or twice daily",
+      "precautions": "May cause urine to turn a reddish-brown color; do not use long-term",
+      "category": "Stimulant Laxative",
+      "alternative": "Bisacodyl"
+    },
+    {
+      "name": "Lactulose (Enulose)",
+      "use": "Treats constipation and hepatic encephalopathy",
+      "dosage_guidance": "10g-20g daily for constipation",
+      "precautions": "May cause gas and bloating; takes 24-48 hours to produce a bowel movement",
+      "category": "Osmotic Laxative",
+      "alternative": "Polyethylene Glycol"
+    },
+    {
+      "name": "Calcium Carbonate (Tums)",
+      "use": "Relieves heartburn, acid indigestion, and acts as a calcium supplement",
+      "dosage_guidance": "Chew 2-4 tablets as symptoms occur",
+      "precautions": "Can cause constipation; do not exceed max daily dose to prevent kidney stones",
+      "category": "Antacid",
+      "alternative": "Famotidine"
+    },
+    {
+      "name": "Clarithromycin (Biaxin)",
+      "use": "Treats respiratory, skin, and H. pylori stomach infections",
+      "dosage_guidance": "250mg-500mg twice daily",
+      "precautions": "Strong metallic taste in mouth; many drug interactions",
+      "category": "Antibiotic (Macrolide)",
+      "alternative": "Azithromycin"
+    },
+    {
+      "name": "Minocycline (Minocin)",
+      "use": "Treats severe acne and certain bacterial infections",
+      "dosage_guidance": "50mg-100mg twice daily",
+      "precautions": "May cause dizziness or vertigo; sun sensitivity; tooth discoloration in children",
+      "category": "Antibiotic (Tetracycline)",
+      "alternative": "Doxycycline"
+    },
+    {
+      "name": "Cefuroxime (Ceftin)",
+      "use": "Treats bronchitis, gonorrhea, Lyme disease, and ear infections",
+      "dosage_guidance": "250mg-500mg twice daily",
+      "precautions": "Take with food to increase absorption; caution with penicillin allergies",
+      "category": "Antibiotic (Cephalosporin)",
+      "alternative": "Cefalexin"
+    },
+    {
+      "name": "Tinidazole (Tindamax)",
+      "use": "Treats trichomoniasis, giardiasis, and amebiasis",
+      "dosage_guidance": "Usually a single 2g dose with food",
+      "precautions": "Do not consume alcohol during and for 3 days after treatment",
+      "category": "Antibiotic / Antiprotozoal",
+      "alternative": "Metronidazole"
+    },
+    {
+      "name": "Ketoconazole (Nizoral)",
+      "use": "Treats severe fungal infections (topical mostly used now for dandruff)",
+      "dosage_guidance": "Topical shampoo used twice weekly; oral forms heavily restricted",
+      "precautions": "Oral form has black box warning for severe liver toxicity",
+      "category": "Antifungal",
+      "alternative": "Fluconazole"
+    },
+    {
+      "name": "Clotrimazole (Lotrimin)",
+      "use": "Treats athlete's foot, jock itch, and ringworm",
+      "dosage_guidance": "Apply to affected area twice daily",
+      "precautions": "For external use only; clean and dry area before applying",
+      "category": "Antifungal",
+      "alternative": "Terbinafine"
+    },
+    {
+      "name": "Miconazole (Monistat)",
+      "use": "Treats vaginal yeast infections",
+      "dosage_guidance": "Insert 1 applicatorful at bedtime for 1-7 days depending on product",
+      "precautions": "May weaken latex condoms; causes local burning/irritation initially",
+      "category": "Antifungal",
+      "alternative": "Fluconazole"
+    },
+    {
+      "name": "Terbinafine (Lamisil AT)",
+      "use": "Treats athlete's foot, jock itch, and ringworm",
+      "dosage_guidance": "Apply to affected area once or twice daily",
+      "precautions": "Wash hands after applying; generally very effective for dermatophytes",
+      "category": "Antifungal",
+      "alternative": "Clotrimazole"
+    },
+    {
+      "name": "Atenolol (Tenormin)",
+      "use": "Treats high blood pressure and chest pain",
+      "dosage_guidance": "25mg-100mg daily",
+      "precautions": "May mask signs of low blood sugar; do not stop abruptly",
+      "category": "Beta Blocker",
+      "alternative": "Metoprolol"
+    },
+    {
+      "name": "Carvedilol (Coreg)",
+      "use": "Treats heart failure and high blood pressure",
+      "dosage_guidance": "3.125mg-25mg twice daily",
+      "precautions": "Take with food to lower risk of low blood pressure upon standing",
+      "category": "Alpha/Beta Blocker",
+      "alternative": "Metoprolol"
+    },
+    {
+      "name": "Enalapril (Vasotec)",
+      "use": "Treats high blood pressure and heart failure",
+      "dosage_guidance": "2.5mg-40mg daily",
+      "precautions": "Can cause a dry, hacking cough; do not use if pregnant",
+      "category": "ACE Inhibitor",
+      "alternative": "Lisinopril"
+    },
+    {
+      "name": "Valsartan (Diovan)",
+      "use": "Treats high blood pressure and heart failure",
+      "dosage_guidance": "40mg-320mg daily",
+      "precautions": "Can increase potassium levels; avoid salt substitutes containing potassium",
+      "category": "Angiotensin II Receptor Blocker (ARB)",
+      "alternative": "Losartan"
+    },
+    {
+      "name": "Diltiazem (Cardizem)",
+      "use": "Treats high blood pressure, angina, and irregular heart rates",
+      "dosage_guidance": "120mg-360mg daily (extended release)",
+      "precautions": "Swallow extended-release capsules whole; do not crush or chew",
+      "category": "Calcium Channel Blocker",
+      "alternative": "Verapamil"
+    },
+    {
+      "name": "Verapamil (Calan)",
+      "use": "Treats high blood pressure, angina, and certain arrhythmias",
+      "dosage_guidance": "120mg-360mg daily",
+      "precautions": "Frequently causes constipation; avoid grapefruit juice",
+      "category": "Calcium Channel Blocker",
+      "alternative": "Diltiazem"
+    },
+    {
+      "name": "Nifedipine (Procardia)",
+      "use": "Treats high blood pressure and angina",
+      "dosage_guidance": "30mg-90mg daily (extended release)",
+      "precautions": "Can cause significant swelling in the legs/ankles and flushing",
+      "category": "Calcium Channel Blocker",
+      "alternative": "Amlodipine"
+    },
+    {
+      "name": "Hydrochlorothiazide (Microzide)",
+      "use": "Treats high blood pressure and fluid retention",
+      "dosage_guidance": "12.5mg-50mg daily",
+      "precautions": "Take in the morning to avoid nighttime urination; can lower potassium",
+      "category": "Thiazide Diuretic",
+      "alternative": "Chlorthalidone"
+    },
+    {
+      "name": "Chlorthalidone (Thalitone)",
+      "use": "Treats high blood pressure and edema",
+      "dosage_guidance": "12.5mg-25mg daily",
+      "precautions": "Longer acting and more potent than hydrochlorothiazide; monitor electrolytes",
+      "category": "Thiazide-like Diuretic",
+      "alternative": "Hydrochlorothiazide"
+    },
+    {
+      "name": "Pravastatin (Pravachol)",
+      "use": "Lowers cholesterol and triglycerides",
+      "dosage_guidance": "10mg-80mg daily",
+      "precautions": "Lower risk of muscle pain compared to other statins; no grapefruit juice interaction",
+      "category": "Statin",
+      "alternative": "Atorvastatin"
+    },
+    {
+      "name": "Simvastatin (Zocor)",
+      "use": "Lowers cholesterol and reduces risk of heart disease",
+      "dosage_guidance": "5mg-40mg daily at bedtime",
+      "precautions": "Many drug interactions; avoid grapefruit juice; risk of muscle pain",
+      "category": "Statin",
+      "alternative": "Rosuvastatin"
+    },
+    {
+      "name": "Lovastatin (Mevacor)",
+      "use": "Lowers cholesterol levels",
+      "dosage_guidance": "20mg-40mg daily with the evening meal",
+      "precautions": "Must be taken with food for optimal absorption",
+      "category": "Statin",
+      "alternative": "Pravastatin"
+    },
+    {
+      "name": "Gemfibrozil (Lopid)",
+      "use": "Lowers very high triglyceride levels",
+      "dosage_guidance": "600mg twice daily, 30 minutes before breakfast and dinner",
+      "precautions": "High risk of muscle breakdown if taken with a statin",
+      "category": "Fibrate",
+      "alternative": "Fenofibrate"
+    },
+    {
+      "name": "Omega-3-acid ethyl esters (Lovaza)",
+      "use": "Lowers very high triglyceride levels in adults",
+      "dosage_guidance": "4 capsules daily",
+      "precautions": "May cause fishy burps or taste; use with caution if allergic to fish",
+      "category": "Lipid-Regulating Agent",
+      "alternative": "Fenofibrate"
+    },
+    {
+      "name": "Nitroglycerin patch (Nitro-Dur)",
+      "use": "Prevents angina (chest pain)",
+      "dosage_guidance": "Apply 1 patch daily for 12-14 hours, then remove",
+      "precautions": "Requires a patch-free period to prevent tolerance; can cause headaches",
+      "category": "Nitrate",
+      "alternative": "Isosorbide Mononitrate"
+    },
+    {
+      "name": "Isosorbide Dinitrate (Isordil)",
+      "use": "Prevents angina (chest pain)",
+      "dosage_guidance": "5mg-40mg 2-3 times daily",
+      "precautions": "Requires a 14-hour dose-free interval daily to prevent tolerance",
+      "category": "Nitrate",
+      "alternative": "Isosorbide Mononitrate"
+    },
+    {
+      "name": "Ranolazine (Ranexa)",
+      "use": "Treats chronic angina",
+      "dosage_guidance": "500mg-1000mg twice daily",
+      "precautions": "Does not affect blood pressure/heart rate; can prolong the QT interval",
+      "category": "Antianginal Agent",
+      "alternative": "Beta blockers"
+    },
+    {
+      "name": "Hydralazine (Apresoline)",
+      "use": "Treats high blood pressure",
+      "dosage_guidance": "10mg-50mg up to 4 times daily",
+      "precautions": "Can cause rapid heart rate and a lupus-like syndrome at high doses",
+      "category": "Vasodilator",
+      "alternative": "Minoxidil"
+    },
+    {
+      "name": "Minoxidil (oral)",
+      "use": "Treats severe high blood pressure unresponsive to other drugs",
+      "dosage_guidance": "5mg-40mg daily",
+      "precautions": "Can cause fluid retention, rapid heart rate, and excess hair growth",
+      "category": "Vasodilator",
+      "alternative": "Hydralazine"
+    },
+    {
+      "name": "Methyldopa (Aldomet)",
+      "use": "Treats high blood pressure, often used in pregnancy",
+      "dosage_guidance": "250mg 2-3 times daily",
+      "precautions": "Can cause sedation, depression, and liver issues",
+      "category": "Alpha-2 Agonist",
+      "alternative": "Labetalol"
+    },
+    {
+      "name": "Guanfacine (Tenex, Intuniv)",
+      "use": "Treats high blood pressure and ADHD",
+      "dosage_guidance": "1mg-4mg daily",
+      "precautions": "Less sedating than clonidine but can still cause drowsiness and dry mouth",
+      "category": "Alpha-2 Agonist",
+      "alternative": "Clonidine"
+    },
+    {
+      "name": "Prasugrel (Effient)",
+      "use": "Prevents blood clots after a heart attack or stent placement",
+      "dosage_guidance": "10mg daily",
+      "precautions": "Higher bleeding risk than clopidogrel; contraindicated if history of stroke",
+      "category": "Antiplatelet",
+      "alternative": "Clopidogrel"
+    },
+    {
+      "name": "Ticagrelor (Brilinta)",
+      "use": "Prevents blood clots after a heart attack",
+      "dosage_guidance": "90mg twice daily for first year, then 60mg twice daily",
+      "precautions": "Can cause shortness of breath (dyspnea); avoid taking with high-dose aspirin",
+      "category": "Antiplatelet",
+      "alternative": "Clopidogrel"
+    },
+    {
+      "name": "Edoxaban (Savaysa)",
+      "use": "Prevents strokes in atrial fibrillation and treats DVT/PE",
+      "dosage_guidance": "60mg once daily",
+      "precautions": "Do not use if kidneys work *too* well (CrCl > 95 mL/min)",
+      "category": "Anticoagulant (DOAC)",
+      "alternative": "Apixaban"
+    },
+    {
+      "name": "Desmopressin (DDAVP)",
+      "use": "Treats bedwetting, diabetes insipidus, and certain bleeding disorders",
+      "dosage_guidance": "0.2mg at bedtime for bedwetting",
+      "precautions": "Limit fluid intake at night to prevent dangerous water intoxication/low sodium",
+      "category": "Synthetic Vasopressin",
+      "alternative": "Imipramine"
+    },
+    {
+      "name": "Oxybutynin (Oxytrol)",
+      "use": "Treats overactive bladder and frequent urination",
+      "dosage_guidance": "Available as a patch applied every 3-4 days",
+      "precautions": "Patch causes less dry mouth and constipation than the oral pill",
+      "category": "Anticholinergic",
+      "alternative": "Tolterodine"
+    },
+    {
+      "name": "Tolterodine (Detrol)",
+      "use": "Treats overactive bladder",
+      "dosage_guidance": "2mg-4mg daily",
+      "precautions": "Causes dry mouth, dry eyes, and constipation",
+      "category": "Anticholinergic",
+      "alternative": "Mirabegron"
+    },
+    {
+      "name": "Solifenacin (Vesicare)",
+      "use": "Treats symptoms of an overactive bladder",
+      "dosage_guidance": "5mg-10mg daily",
+      "precautions": "Can cause severe dry mouth and constipation; do not crush or chew",
+      "category": "Anticholinergic",
+      "alternative": "Tolterodine"
+    },
+    {
+      "name": "Phenazopyridine (Azo)",
+      "use": "Relieves pain, burning, and urgency of urinary tract infections",
+      "dosage_guidance": "200mg three times daily for max 2 days",
+      "precautions": "Turns urine and tears a bright red/orange color; can stain contacts/clothes",
+      "category": "Urinary Analgesic",
+      "alternative": "None directly"
+    },
+    {
+      "name": "Sildenafil (Revatio)",
+      "use": "Treats pulmonary arterial hypertension",
+      "dosage_guidance": "20mg three times daily",
+      "precautions": "Never take with nitrates; this is a lower dose formulation of Viagra",
+      "category": "PDE5 Inhibitor",
+      "alternative": "Tadalafil"
+    },
+    {
+      "name": "Bosentan (Tracleer)",
+      "use": "Treats pulmonary arterial hypertension",
+      "dosage_guidance": "62.5mg-125mg twice daily",
+      "precautions": "Highly toxic to liver; severe birth defects (requires REMS program)",
+      "category": "Endothelin Receptor Antagonist",
+      "alternative": "Macitentan"
+    },
+    {
+      "name": "Epoprostenol (Flolan)",
+      "use": "Treats severe pulmonary arterial hypertension",
+      "dosage_guidance": "Continuous IV infusion",
+      "precautions": "Has a half-life of minutes; interruption of infusion can be fatal",
+      "category": "Prostacyclin Analog",
+      "alternative": "Treprostinil"
+    },
+    {
+      "name": "Treprostinil (Remodulin, Tyvaso)",
+      "use": "Treats pulmonary arterial hypertension",
+      "dosage_guidance": "Continuous SC/IV infusion or inhaled",
+      "precautions": "Subcutaneous infusion site pain is very common and severe",
+      "category": "Prostacyclin Analog",
+      "alternative": "Epoprostenol"
+    },
+    {
+      "name": "Riociguat (Adempas)",
+      "use": "Treats pulmonary hypertension (both PAH and CTEPH)",
+      "dosage_guidance": "1mg-2.5mg three times daily",
+      "precautions": "Causes severe birth defects; do not take with nitrates or PDE5 inhibitors",
+      "category": "Soluble Guanylate Cyclase Stimulator",
+      "alternative": "Sildenafil"
+    },
+    {
+      "name": "Salmeterol (Serevent)",
+      "use": "Maintenance treatment for asthma and COPD",
+      "dosage_guidance": "1 inhalation twice daily",
+      "precautions": "Not for acute attacks; must be used with an inhaled corticosteroid in asthma",
+      "category": "Long-Acting Beta Agonist (LABA)",
+      "alternative": "Formoterol"
+    },
+    {
+      "name": "Formoterol (Foradil)",
+      "use": "Maintenance treatment for asthma and COPD",
+      "dosage_guidance": "1 capsule inhaled twice daily via aerolizer",
+      "precautions": "Do not swallow capsules; faster onset than salmeterol",
+      "category": "Long-Acting Beta Agonist (LABA)",
+      "alternative": "Salmeterol"
+    },
+    {
+      "name": "Budesonide (Pulmicort)",
+      "use": "Maintenance treatment for asthma",
+      "dosage_guidance": "Inhaled once or twice daily",
+      "precautions": "Rinse mouth after use to prevent thrush; available as nebulizer solution for kids",
+      "category": "Inhaled Corticosteroid",
+      "alternative": "Fluticasone"
+    },
+    {
+      "name": "Budesonide/Formoterol (Symbicort)",
+      "use": "Maintenance treatment for asthma and COPD",
+      "dosage_guidance": "2 inhalations twice daily",
+      "precautions": "Rinse mouth after use; sometimes used as SMART therapy for acute relief and maintenance",
+      "category": "ICS / LABA Combo",
+      "alternative": "Fluticasone/Salmeterol"
+    },
+    {
+      "name": "Umeclidinium (Incruse Ellipta)",
+      "use": "Maintenance treatment for COPD",
+      "dosage_guidance": "1 inhalation daily",
+      "precautions": "Can worsen narrow-angle glaucoma or urinary retention",
+      "category": "Long-Acting Muscarinic Antagonist (LAMA)",
+      "alternative": "Tiotropium"
+    },
+    {
+      "name": "Ipratropium (Atrovent)",
+      "use": "Relieves acute bronchospasm in COPD",
+      "dosage_guidance": "2 inhalations 4 times a day",
+      "precautions": "Avoid getting spray in eyes (can cause blurred vision or pupil dilation)",
+      "category": "Short-Acting Muscarinic Antagonist (SAMA)",
+      "alternative": "Albuterol"
+    },
+    {
+      "name": "Albuterol/Ipratropium (Combivent, DuoNeb)",
+      "use": "Relieves acute bronchospasm in COPD",
+      "dosage_guidance": "Inhale 4 times daily as needed",
+      "precautions": "Combines two mechanisms for better airway opening; monitor heart rate",
+      "category": "SABA / SAMA Combo",
+      "alternative": "Albuterol alone"
+    },
+    {
+      "name": "Theophylline (Theo-24)",
+      "use": "Maintenance treatment for asthma and COPD",
+      "dosage_guidance": "300mg-600mg daily",
+      "precautions": "Very narrow therapeutic index; requires blood level monitoring; toxicity causes seizures and arrhythmias",
+      "category": "Methylxanthine",
+      "alternative": "Inhaled Corticosteroids"
+    },
+    {
+      "name": "Roflumilast (Daliresp)",
+      "use": "Reduces exacerbations in severe COPD",
+      "dosage_guidance": "500mcg once daily",
+      "precautions": "Causes significant weight loss, diarrhea, and psychiatric events",
+      "category": "PDE4 Inhibitor",
+      "alternative": "Azithromycin"
+    },
+    {
+      "name": "Zafirlukast (Accolate)",
+      "use": "Prevents asthma attacks",
+      "dosage_guidance": "20mg twice daily",
+      "precautions": "Take on an empty stomach (1 hour before or 2 hours after meals); can cause liver toxicity",
+      "category": "Leukotriene Receptor Antagonist",
+      "alternative": "Montelukast"
+    },
+    {
+      "name": "Zileuton (Zyflo)",
+      "use": "Prevents asthma attacks",
+      "dosage_guidance": "600mg four times a day or twice daily (CR formulation)",
+      "precautions": "Can cause liver toxicity; must monitor liver enzymes regularly",
+      "category": "5-Lipoxygenase Inhibitor",
+      "alternative": "Montelukast"
+    },
+    {
+      "name": "Omalizumab (Xolair)",
+      "use": "Treats moderate to severe allergic asthma and chronic hives",
+      "dosage_guidance": "Subcutaneous injection every 2-4 weeks",
+      "precautions": "Risk of severe allergic reaction (anaphylaxis); must carry an EpiPen",
+      "category": "Monoclonal Antibody (Anti-IgE)",
+      "alternative": "Mepolizumab"
+    },
+    {
+      "name": "Mepolizumab (Nucala)",
+      "use": "Treats severe eosinophilic asthma",
+      "dosage_guidance": "100mg subcutaneous injection every 4 weeks",
+      "precautions": "Can cause headache and injection site reactions; treats a specific asthma subtype",
+      "category": "Monoclonal Antibody (Anti-IL-5)",
+      "alternative": "Benralizumab"
+    },
+    {
+      "name": "Benralizumab (Fasenra)",
+      "use": "Treats severe eosinophilic asthma",
+      "dosage_guidance": "30mg subcutaneous injection every 4-8 weeks",
+      "precautions": "Less frequent dosing than mepolizumab; may cause headache or sore throat",
+      "category": "Monoclonal Antibody (Anti-IL-5)",
+      "alternative": "Mepolizumab"
+    },
+    {
+      "name": "Dupilumab (Dupixent)",
+      "use": "Treats moderate to severe eczema, asthma, and nasal polyps",
+      "dosage_guidance": "Subcutaneous injection every 2 weeks",
+      "precautions": "Can cause eye problems like conjunctivitis or keratitis",
+      "category": "Monoclonal Antibody (IL-4/IL-13)",
+      "alternative": "Omalizumab"
+    },
+    {
+      "name": "Carisoprodol (Soma)",
+      "use": "Short-term treatment of acute muscle spasms",
+      "dosage_guidance": "250mg-350mg three times daily and at bedtime",
+      "precautions": "High potential for abuse and dependence; avoid mixing with other CNS depressants",
+      "category": "Muscle Relaxant",
+      "alternative": "Methocarbamol"
+    },
+    {
+      "name": "Orphenadrine (Norflex)",
+      "use": "Treats muscle spasms and Parkinson's disease",
+      "dosage_guidance": "100mg twice daily",
+      "precautions": "Has strong anticholinergic side effects (dry mouth, blurred vision, urinary retention)",
+      "category": "Muscle Relaxant",
+      "alternative": "Cyclobenzaprine"
+    },
+    {
+      "name": "Metaxalone (Skelaxin)",
+      "use": "Treats acute muscle spasms",
+      "dosage_guidance": "800mg 3-4 times daily",
+      "precautions": "Take with food to increase absorption; may cause nausea and drowsiness",
+      "category": "Muscle Relaxant",
+      "alternative": "Methocarbamol"
+    },
+    {
+      "name": "Chlorzoxazone (Lorzone)",
+      "use": "Treats muscle spasms and pain",
+      "dosage_guidance": "250mg-500mg 3-4 times daily",
+      "precautions": "May turn urine orange or reddish-purple; can cause liver toxicity",
+      "category": "Muscle Relaxant",
+      "alternative": "Cyclobenzaprine"
+    },
+    {
+      "name": "Aspirin/Acetaminophen/Caffeine (Excedrin)",
+      "use": "Treats migraine and tension headaches",
+      "dosage_guidance": "2 tablets at symptom onset",
+      "precautions": "Contains significant caffeine; avoid taking near bedtime; watch for stomach bleeding from aspirin",
+      "category": "Analgesic Combination",
+      "alternative": "Sumatriptan"
+    },
+    {
+      "name": "Butalbital/Acetaminophen/Caffeine (Fioricet)",
+      "use": "Treats tension headaches",
+      "dosage_guidance": "1-2 capsules every 4 hours as needed",
+      "precautions": "High risk of rebound headaches and dependence if used frequently",
+      "category": "Analgesic Combination",
+      "alternative": "Excedrin"
+    },
+    {
+      "name": "Rizatriptan (Maxalt)",
+      "use": "Treats acute migraine attacks",
+      "dosage_guidance": "5mg-10mg at onset of migraine",
+      "precautions": "Fast acting but causes chest/throat tightness; contraindicated in ischemic heart disease",
+      "category": "Triptan",
+      "alternative": "Sumatriptan"
+    },
+    {
+      "name": "Zolmitriptan (Zomig)",
+      "use": "Treats acute migraine attacks",
+      "dosage_guidance": "1.25mg-2.5mg at onset of migraine",
+      "precautions": "Available as a nasal spray for rapid onset; causes tingling and dizziness",
+      "category": "Triptan",
+      "alternative": "Sumatriptan"
+    },
+    {
+      "name": "Eletriptan (Relpax)",
+      "use": "Treats acute migraine attacks",
+      "dosage_guidance": "20mg-40mg at onset of migraine",
+      "precautions": "Do not use within 72 hours of strong CYP3A4 inhibitors (e.g., clarithromycin, ketoconazole)",
+      "category": "Triptan",
+      "alternative": "Rizatriptan"
+    },
+    {
+      "name": "Naratriptan (Amerge)",
+      "use": "Treats acute migraine attacks",
+      "dosage_guidance": "1mg-2.5mg at onset of migraine",
+      "precautions": "Slower onset but lasts longer than other triptans, useful for long-lasting migraines",
+      "category": "Triptan",
+      "alternative": "Frovatriptan"
+    },
+    {
+      "name": "Frovatriptan (Frova)",
+      "use": "Treats acute migraine attacks and prevents menstrual migraines",
+      "dosage_guidance": "2.5mg at onset of migraine",
+      "precautions": "Has the longest half-life of all triptans; good for preventing rebound headaches",
+      "category": "Triptan",
+      "alternative": "Naratriptan"
+    },
+    {
+      "name": "Ubrogepant (Ubrelvy)",
+      "use": "Treats acute migraine attacks",
+      "dosage_guidance": "50mg-100mg at onset of migraine",
+      "precautions": "Does not cause blood vessel constriction like triptans; safe for cardiovascular patients",
+      "category": "CGRP Receptor Antagonist",
+      "alternative": "Rimegepant"
+    },
+    {
+      "name": "Rimegepant (Nurtec ODT)",
+      "use": "Treats acute migraine attacks and prevents them",
+      "dosage_guidance": "75mg orally dissolving tablet as needed or every other day",
+      "precautions": "Orally disintegrating tablet works quickly; well-tolerated with less nausea than triptans",
+      "category": "CGRP Receptor Antagonist",
+      "alternative": "Ubrogepant"
+    },
+    {
+      "name": "Erenumab (Aimovig)",
+      "use": "Prevents migraine attacks",
+      "dosage_guidance": "70mg-140mg subcutaneous injection monthly",
+      "precautions": "Can cause significant constipation and high blood pressure",
+      "category": "CGRP Inhibitor",
+      "alternative": "Galcanezumab"
+    },
+    {
+      "name": "Galcanezumab (Emgality)",
+      "use": "Prevents migraine attacks and cluster headaches",
+      "dosage_guidance": "120mg subcutaneous injection monthly",
+      "precautions": "Injection site reactions are common; very effective for episodic and chronic migraines",
+      "category": "CGRP Inhibitor",
+      "alternative": "Fremanezumab"
+    },
+    {
+      "name": "Fremanezumab (Ajovy)",
+      "use": "Prevents migraine attacks",
+      "dosage_guidance": "225mg monthly or 675mg every 3 months subcutaneously",
+      "precautions": "Flexible dosing schedule; injection site pain and redness are common",
+      "category": "CGRP Inhibitor",
+      "alternative": "Erenumab"
+    },
+    {
+      "name": "Botulinum Toxin Type A (Botox)",
+      "use": "Prevents chronic migraines (>15 headache days/month)",
+      "dosage_guidance": "Multiple injections in the head and neck every 12 weeks",
+      "precautions": "Can cause temporary neck pain or muscle weakness/drooping",
+      "category": "Neurotoxin",
+      "alternative": "CGRP Inhibitors"
+    },
+    {
+      "name": "Nortriptyline (Pamelor)",
+      "use": "Prevents migraines and treats nerve pain/depression",
+      "dosage_guidance": "10mg-75mg at bedtime",
+      "precautions": "Similar to amitriptyline but generally better tolerated with fewer anticholinergic effects",
+      "category": "Tricyclic Antidepressant",
+      "alternative": "Amitriptyline"
+    },
+    {
+      "name": "Verapamil (Calan)",
+      "use": "Prevents cluster headaches and migraines",
+      "dosage_guidance": "240mg-480mg daily",
+      "precautions": "Can cause severe constipation and slow heart rate; requires EKG monitoring at high doses",
+      "category": "Calcium Channel Blocker",
+      "alternative": "Divalproex"
+    },
+    {
+      "name": "Prednisone (Deltasone)",
+      "use": "Treats severe inflammation, asthma flares, and autoimmune conditions",
+      "dosage_guidance": "Varies; often given as a 5-day taper pack",
+      "precautions": "Must taper off to prevent adrenal crisis; causes weight gain, fluid retention, and mood changes",
+      "category": "Corticosteroid",
+      "alternative": "Methylprednisolone"
+    },
+    {
+      "name": "Methylprednisolone (Medrol)",
+      "use": "Treats severe inflammation and allergic reactions",
+      "dosage_guidance": "Often given as a 'Medrol Dosepak' 6-day taper",
+      "precautions": "Take with food to prevent severe stomach upset; can increase blood pressure and blood sugar",
+      "category": "Corticosteroid",
+      "alternative": "Prednisone"
+    },
+    {
+      "name": "Hydrocortisone (Cortef)",
+      "use": "Replacement therapy for adrenal insufficiency (Addison's disease)",
+      "dosage_guidance": "15mg-30mg daily in divided doses",
+      "precautions": "Must double or triple dose during illness or stress to prevent life-threatening adrenal crisis",
+      "category": "Corticosteroid",
+      "alternative": "Fludrocortisone"
+    },
+    {
+      "name": "Fludrocortisone (Florinef)",
+      "use": "Replacement therapy for Addison's disease; treats low blood pressure",
+      "dosage_guidance": "0.1mg daily",
+      "precautions": "Causes significant salt and water retention; monitor potassium levels as they can drop",
+      "category": "Mineralocorticoid",
+      "alternative": "Hydrocortisone"
+    }
+  ],
+  "guidance_mapping": [
+    {
+      "symptom": "Fever",
+      "follow_up_questions": [
+        "How long have you had the fever?",
+        "What is your temperature reading?",
+        "Do you have a cough or sore throat?",
+        "Have you travelled recently?",
+        "Are you experiencing chills or night sweats?"
+      ],
+      "possible_conditions": [
+        "Viral Fever",
+        "Influenza (Flu)",
+        "Malaria",
+        "Typhoid Fever",
+        "COVID-19"
+      ],
+      "general_advice": [
+        "Stay well hydrated with water and fluids",
+        "Rest as much as possible",
+        "Use a damp cloth on the forehead to reduce discomfort",
+        "Wear light, comfortable clothing",
+        "Monitor temperature every few hours"
+      ],
+      "when_to_consult_doctor": "If fever is above 103\u00b0F (39.4\u00b0C), lasts more than 3 days, or is accompanied by rash, stiff neck, confusion, or breathing difficulty"
+    },
+    {
+      "symptom": "Headache",
+      "follow_up_questions": [
+        "Where exactly is the pain located?",
+        "How severe is the pain on a scale of 1\u201310?",
+        "Is this a new headache or a recurring one?",
+        "Are you experiencing nausea or vision changes?",
+        "Have you been under stress or sleep-deprived recently?"
+      ],
+      "possible_conditions": [
+        "Tension Headache",
+        "Migraine",
+        "Sinusitis",
+        "Hypertension",
+        "Viral Fever"
+      ],
+      "general_advice": [
+        "Rest in a quiet, dark room",
+        "Stay hydrated and avoid skipping meals",
+        "Apply a cold or warm compress to the head",
+        "Reduce screen time and manage stress",
+        "Avoid loud noises and bright lights"
+      ],
+      "when_to_consult_doctor": "If headache is sudden and severe ('thunderclap'), associated with high fever, stiff neck, visual loss, or follows a head injury"
+    },
+    {
+      "symptom": "Cough",
+      "follow_up_questions": [
+        "Is it a dry cough or are you bringing up mucus?",
+        "How long have you been coughing?",
+        "Do you have a fever or sore throat?",
+        "Do you smoke or have asthma?",
+        "Are you experiencing shortness of breath?"
+      ],
+      "possible_conditions": [
+        "Common Cold",
+        "Bronchitis",
+        "Asthma",
+        "COVID-19",
+        "Allergic Rhinitis"
+      ],
+      "general_advice": [
+        "Stay hydrated and drink warm fluids",
+        "Use honey with warm water to soothe throat",
+        "Avoid cold, dry air and irritants like smoke",
+        "Try steam inhalation for relief",
+        "Rest adequately"
+      ],
+      "when_to_consult_doctor": "If cough lasts more than 3 weeks, is accompanied by blood, high fever, or severe breathing difficulty"
+    },
+    {
+      "symptom": "Sore Throat",
+      "follow_up_questions": [
+        "How long have you had the sore throat?",
+        "Do you have a fever?",
+        "Is it painful to swallow?",
+        "Do you notice any white patches in your throat?",
+        "Are your glands in the neck swollen?"
+      ],
+      "possible_conditions": [
+        "Common Cold",
+        "Tonsillitis",
+        "Influenza (Flu)",
+        "Sinusitis",
+        "Bacterial Infection"
+      ],
+      "general_advice": [
+        "Gargle with warm salt water",
+        "Drink warm liquids like tea or broth",
+        "Avoid cold foods and beverages",
+        "Rest your voice and get adequate sleep",
+        "Use throat lozenges for temporary relief"
+      ],
+      "when_to_consult_doctor": "If throat pain is very severe, there are white patches or pus, fever is high, or symptoms last more than 5\u20137 days"
+    },
+    {
+      "symptom": "Runny Nose",
+      "follow_up_questions": [
+        "Is the discharge clear or coloured (yellow/green)?",
+        "Do you also have sneezing and itchy eyes?",
+        "How long have you had this symptom?",
+        "Any recent exposure to allergens like dust or pollen?",
+        "Do you have a fever?"
+      ],
+      "possible_conditions": [
+        "Common Cold",
+        "Allergic Rhinitis",
+        "Sinusitis"
+      ],
+      "general_advice": [
+        "Blow nose gently, one nostril at a time",
+        "Stay hydrated to thin mucus",
+        "Use saline nasal rinse for relief",
+        "Avoid known allergens if allergy-related",
+        "Rest and keep warm"
+      ],
+      "when_to_consult_doctor": "If discharge is thick yellow/green and lasts more than 10 days, or is accompanied by facial pain and fever"
+    },
+    {
+      "symptom": "Shortness of Breath",
+      "follow_up_questions": [
+        "Did the breathing difficulty start suddenly or gradually?",
+        "Do you have chest pain or tightness?",
+        "Do you have a history of asthma or heart disease?",
+        "Are you currently wheezing?",
+        "Are you able to lie flat comfortably?"
+      ],
+      "possible_conditions": [
+        "Asthma",
+        "Pneumonia",
+        "Panic Disorder",
+        "Bronchitis",
+        "COVID-19"
+      ],
+      "general_advice": [
+        "Sit upright to ease breathing",
+        "Remain calm and breathe slowly and deeply",
+        "Use any prescribed inhaler if available",
+        "Avoid physical exertion",
+        "Ensure fresh air and ventilation"
+      ],
+      "when_to_consult_doctor": "Seek immediate medical attention if severe; also consult if breathing difficulty is new, worsening, or associated with chest pain or bluish lips"
+    },
+    {
+      "symptom": "Chest Pain",
+      "follow_up_questions": [
+        "Is the pain sharp, dull, or pressure-like?",
+        "Does the pain radiate to your arm, jaw, or back?",
+        "Did the pain start with physical activity?",
+        "Are you sweating, nauseated, or short of breath?",
+        "Do you have a history of heart disease?"
+      ],
+      "possible_conditions": [
+        "Hypertension",
+        "Asthma",
+        "Panic Disorder",
+        "Acid Reflux / GERD",
+        "Pneumonia"
+      ],
+      "general_advice": [
+        "Stop all physical activity immediately",
+        "Sit or lie down in a comfortable position",
+        "Do not ignore chest pain",
+        "Do not eat or drink until evaluated",
+        "Call emergency services if symptoms are severe"
+      ],
+      "when_to_consult_doctor": "Seek IMMEDIATE emergency care for any new or unexplained chest pain, especially with sweating, nausea, or pain spreading to arm or jaw"
+    },
+    {
+      "symptom": "Fatigue",
+      "follow_up_questions": [
+        "How long have you been feeling tired?",
+        "Is it affecting your daily activities?",
+        "Do you have changes in appetite or weight?",
+        "Are you sleeping adequately but still tired?",
+        "Do you feel emotionally low or depressed?"
+      ],
+      "possible_conditions": [
+        "Iron Deficiency Anemia",
+        "Hypothyroidism",
+        "Vitamin D Deficiency",
+        "Depression",
+        "Viral Fever"
+      ],
+      "general_advice": [
+        "Ensure 7\u20139 hours of quality sleep per night",
+        "Maintain a balanced, nutritious diet",
+        "Stay hydrated throughout the day",
+        "Take regular breaks and avoid overexertion",
+        "Engage in light physical activity like walking"
+      ],
+      "when_to_consult_doctor": "If fatigue is severe, persists for more than 2 weeks, or is accompanied by significant weight loss, shortness of breath, or chest pain"
+    },
+    {
+      "symptom": "Dizziness",
+      "follow_up_questions": [
+        "Is it a spinning sensation (vertigo) or light-headedness?",
+        "Does it occur when you stand up quickly?",
+        "Are you on any blood pressure medications?",
+        "Do you have nausea or vomiting with it?",
+        "Have you had any recent head injury?"
+      ],
+      "possible_conditions": [
+        "Hypotension",
+        "Dehydration",
+        "Iron Deficiency Anemia",
+        "Migraine",
+        "Viral Fever"
+      ],
+      "general_advice": [
+        "Sit or lie down immediately when dizzy",
+        "Drink water slowly",
+        "Rise slowly from sitting or lying positions",
+        "Avoid sudden head movements",
+        "Ensure you are eating regularly"
+      ],
+      "when_to_consult_doctor": "If dizziness is sudden and severe, recurrent, or accompanied by slurred speech, vision changes, or difficulty walking"
+    },
+    {
+      "symptom": "Nausea",
+      "follow_up_questions": [
+        "Did the nausea start after eating?",
+        "Have you vomited?",
+        "Is there any abdominal pain or cramping?",
+        "Have you travelled or eaten outside food recently?",
+        "Are you pregnant?"
+      ],
+      "possible_conditions": [
+        "Gastroenteritis",
+        "Acid Reflux / GERD",
+        "Gallstones",
+        "Viral Fever",
+        "Dehydration"
+      ],
+      "general_advice": [
+        "Avoid solid food temporarily; sip clear liquids",
+        "Eat small, bland meals like toast or rice",
+        "Avoid spicy, fatty, or heavy foods",
+        "Rest and avoid strong smells",
+        "Sip ginger tea for natural relief"
+      ],
+      "when_to_consult_doctor": "If nausea is persistent for more than 2 days, accompanied by severe abdominal pain, high fever, or blood in vomit"
+    },
+    {
+      "symptom": "Diarrhea",
+      "follow_up_questions": [
+        "How many loose stools per day?",
+        "Is there blood or mucus in the stool?",
+        "Do you have a fever?",
+        "Have you eaten outside or travelled recently?",
+        "Are you feeling dizzy or very weak?"
+      ],
+      "possible_conditions": [
+        "Gastroenteritis",
+        "Irritable Bowel Syndrome",
+        "Typhoid Fever"
+      ],
+      "general_advice": [
+        "Drink ORS to stay hydrated",
+        "Avoid dairy, spicy, and fatty foods",
+        "Eat light foods like bananas, rice, toast",
+        "Wash hands frequently",
+        "Monitor for signs of dehydration"
+      ],
+      "when_to_consult_doctor": "If diarrhea contains blood, lasts more than 2 days, or there are signs of severe dehydration (sunken eyes, no urination)"
+    },
+    {
+      "symptom": "Abdominal Pain",
+      "follow_up_questions": [
+        "Where exactly is the pain located?",
+        "Is the pain constant or does it come and go?",
+        "Does the pain relate to eating?",
+        "Are you also experiencing nausea or vomiting?",
+        "Have you had any change in bowel habits?"
+      ],
+      "possible_conditions": [
+        "Gastroenteritis",
+        "Irritable Bowel Syndrome",
+        "Appendicitis",
+        "Peptic Ulcer",
+        "Gallstones"
+      ],
+      "general_advice": [
+        "Avoid heavy, spicy, or fatty foods",
+        "Eat small, frequent meals",
+        "Stay hydrated with plain water",
+        "Avoid lying down immediately after eating",
+        "Apply a warm compress if cramping"
+      ],
+      "when_to_consult_doctor": "Immediately if pain is severe, sudden, or in the lower right abdomen; also if associated with high fever, vomiting, or rigid abdomen"
+    },
+    {
+      "symptom": "Constipation",
+      "follow_up_questions": [
+        "How many days since your last bowel movement?",
+        "Are stools hard or painful to pass?",
+        "How much water and fibre are you consuming?",
+        "Are you on any medications?",
+        "Is there any bleeding when you pass stool?"
+      ],
+      "possible_conditions": [
+        "Irritable Bowel Syndrome",
+        "Haemorrhoids (Piles)"
+      ],
+      "general_advice": [
+        "Increase water intake to at least 2 litres/day",
+        "Eat high-fibre foods like fruits, vegetables, and whole grains",
+        "Take regular light exercise",
+        "Establish a consistent toilet routine",
+        "Avoid processed foods and excess dairy"
+      ],
+      "when_to_consult_doctor": "If constipation lasts more than 2 weeks, is associated with blood in stool, unexplained weight loss, or severe pain"
+    },
+    {
+      "symptom": "Frequent Urination",
+      "follow_up_questions": [
+        "Is urination painful or burning?",
+        "Are you also excessively thirsty?",
+        "Do you have a fever or lower back pain?",
+        "Have you noticed any change in urine colour?",
+        "Have you been consuming a lot of fluids?"
+      ],
+      "possible_conditions": [
+        "Urinary Tract Infection",
+        "Type 2 Diabetes",
+        "Dehydration"
+      ],
+      "general_advice": [
+        "Drink sufficient water throughout the day",
+        "Avoid caffeine and alcohol which irritate the bladder",
+        "Do not hold in urine for extended periods",
+        "Maintain good hygiene in genital area",
+        "Keep a record of urination frequency"
+      ],
+      "when_to_consult_doctor": "If accompanied by burning, fever, blood in urine, or if excessive thirst and urination suggest possible diabetes"
+    },
+    {
+      "symptom": "Joint Pain",
+      "follow_up_questions": [
+        "Which joints are affected?",
+        "Is there swelling, redness, or warmth in the joint?",
+        "Did the pain start after physical activity or injury?",
+        "Is the pain worse in the morning?",
+        "Do you have a fever along with the joint pain?"
+      ],
+      "possible_conditions": [
+        "Osteoarthritis",
+        "Rheumatoid Arthritis",
+        "Dengue Fever",
+        "Vitamin D Deficiency"
+      ],
+      "general_advice": [
+        "Rest the affected joint",
+        "Apply ice pack for acute pain or swelling",
+        "Apply warm compress for stiffness",
+        "Perform gentle stretching exercises",
+        "Maintain a healthy body weight to reduce joint stress"
+      ],
+      "when_to_consult_doctor": "If joint is very swollen and hot, if pain is accompanied by high fever and rash, or if multiple joints are involved"
+    },
+    {
+      "symptom": "Back Pain",
+      "follow_up_questions": [
+        "Is the pain in the upper, middle, or lower back?",
+        "Did it start after lifting or physical activity?",
+        "Does the pain radiate to your legs?",
+        "Do you have any numbness or tingling in legs?",
+        "Does lying down relieve or worsen the pain?"
+      ],
+      "possible_conditions": [
+        "Lower Back Pain (Muscular)",
+        "Kidney Stones",
+        "Cervical Spondylosis"
+      ],
+      "general_advice": [
+        "Apply warm or cold compress to the area",
+        "Avoid prolonged sitting or lying in one position",
+        "Use a firm mattress for sleep support",
+        "Practice good posture at your desk",
+        "Perform gentle stretching and core exercises"
+      ],
+      "when_to_consult_doctor": "If back pain is severe, radiates to legs with numbness, follows an injury, or is accompanied by urinary problems"
+    },
+    {
+      "symptom": "Skin Rash",
+      "follow_up_questions": [
+        "When did the rash appear?",
+        "Is it itchy, painful, or neither?",
+        "Have you used any new products or eaten new foods?",
+        "Is the rash spreading?",
+        "Do you have a fever along with the rash?"
+      ],
+      "possible_conditions": [
+        "Eczema",
+        "Allergic Rhinitis",
+        "Chickenpox",
+        "Dengue Fever",
+        "Fungal Infection (Skin)"
+      ],
+      "general_advice": [
+        "Do not scratch the affected area",
+        "Keep skin clean and moisturised",
+        "Avoid potential allergens",
+        "Wear loose, breathable clothing",
+        "Apply calamine lotion for itch relief"
+      ],
+      "when_to_consult_doctor": "If rash spreads rapidly, is associated with fever and joint pain, involves face/throat, or does not improve in 3\u20135 days"
+    },
+    {
+      "symptom": "Excessive Thirst",
+      "follow_up_questions": [
+        "Are you also urinating frequently?",
+        "Do you feel unusually tired?",
+        "Have you noticed any unintended weight loss?",
+        "Is your vision blurry at times?",
+        "Do you have a family history of diabetes?"
+      ],
+      "possible_conditions": [
+        "Type 2 Diabetes",
+        "Dehydration",
+        "Heat Stroke"
+      ],
+      "general_advice": [
+        "Drink water regularly and monitor intake",
+        "Avoid sugary drinks and sodas",
+        "Eat balanced meals with controlled sugar",
+        "Note frequency of thirst and urination to share with doctor",
+        "Get blood sugar tested as a precaution"
+      ],
+      "when_to_consult_doctor": "If excessive thirst is accompanied by frequent urination, fatigue, and blurred vision \u2014 get blood sugar checked promptly"
+    },
+    {
+      "symptom": "Anxiety",
+      "follow_up_questions": [
+        "Is the anxiety constant or triggered by specific situations?",
+        "Do you experience physical symptoms like racing heart or sweating?",
+        "How is your sleep quality?",
+        "Have you had panic attacks?",
+        "Have you been under significant stress recently?"
+      ],
+      "possible_conditions": [
+        "Anxiety Disorder",
+        "Panic Disorder",
+        "Insomnia",
+        "Hyperthyroidism"
+      ],
+      "general_advice": [
+        "Practice deep breathing exercises daily",
+        "Limit caffeine and alcohol consumption",
+        "Maintain a regular sleep routine",
+        "Exercise regularly to reduce stress hormones",
+        "Talk to a trusted person about your feelings"
+      ],
+      "when_to_consult_doctor": "If anxiety significantly affects daily functioning, work, or relationships, or if you experience frequent panic attacks"
+    },
+    {
+      "symptom": "Insomnia",
+      "follow_up_questions": [
+        "Do you have trouble falling asleep, staying asleep, or waking too early?",
+        "How many hours of sleep are you getting?",
+        "Do you use screens before bed?",
+        "Are you under significant stress or anxiety?",
+        "Do you consume caffeine or alcohol in the evening?"
+      ],
+      "possible_conditions": [
+        "Insomnia",
+        "Anxiety Disorder",
+        "Depression",
+        "Hyperthyroidism"
+      ],
+      "general_advice": [
+        "Maintain a consistent sleep and wake time",
+        "Avoid screens at least 1 hour before bed",
+        "Keep the bedroom cool, dark, and quiet",
+        "Avoid caffeine after 2 PM",
+        "Try relaxation techniques like deep breathing or meditation"
+      ],
+      "when_to_consult_doctor": "If insomnia persists for more than 4 weeks, significantly affects daily life, or is associated with depression or severe anxiety"
+    },
+    {
+      "symptom": "Weight Loss",
+      "follow_up_questions": [
+        "How much weight have you lost and over what period?",
+        "Was this weight loss intentional?",
+        "Do you have changes in appetite?",
+        "Do you have night sweats or fever?",
+        "Are you experiencing fatigue or weakness?"
+      ],
+      "possible_conditions": [
+        "Hyperthyroidism",
+        "Type 2 Diabetes",
+        "Depression",
+        "Hepatitis B"
+      ],
+      "general_advice": [
+        "Maintain a food diary to track calorie intake",
+        "Eat nutritious, calorie-rich foods",
+        "Avoid skipping meals",
+        "Consult a nutritionist for diet guidance",
+        "Monitor weight weekly"
+      ],
+      "when_to_consult_doctor": "Unintentional weight loss of more than 5% of body weight over 6\u201312 months warrants prompt medical evaluation"
+    },
+    {
+      "symptom": "Palpitations",
+      "follow_up_questions": [
+        "How often do palpitations occur?",
+        "Are they triggered by exercise, stress, or caffeine?",
+        "Do you also feel dizzy or short of breath?",
+        "Do they start and stop suddenly?",
+        "Do you have a history of thyroid or heart disease?"
+      ],
+      "possible_conditions": [
+        "Anxiety Disorder",
+        "Hyperthyroidism",
+        "Hypertension",
+        "Iron Deficiency Anemia",
+        "Panic Disorder"
+      ],
+      "general_advice": [
+        "Reduce caffeine, tea, and energy drink intake",
+        "Practice relaxation techniques",
+        "Stay hydrated and maintain regular meals",
+        "Avoid smoking and excessive alcohol",
+        "Track episodes with timing and triggers"
+      ],
+      "when_to_consult_doctor": "If palpitations are frequent, associated with chest pain, fainting, or shortness of breath \u2014 seek prompt evaluation"
+    },
+    {
+      "symptom": "Eye Redness",
+      "follow_up_questions": [
+        "Is there discharge from the eye?",
+        "Is the redness in one eye or both?",
+        "Is there pain, burning, or itching?",
+        "Have you been exposed to someone with pink eye?",
+        "Are you wearing contact lenses?"
+      ],
+      "possible_conditions": [
+        "Conjunctivitis (Pink Eye)",
+        "Allergic Rhinitis"
+      ],
+      "general_advice": [
+        "Avoid rubbing the eyes",
+        "Wash hands frequently",
+        "Use clean tissues and do not share towels",
+        "Remove contact lenses until symptoms resolve",
+        "Clean eyes gently with clean water"
+      ],
+      "when_to_consult_doctor": "If vision is affected, pain is severe, there is significant discharge, or symptoms do not improve in 3\u20135 days"
+    },
+    {
+      "symptom": "Ear Pain",
+      "follow_up_questions": [
+        "Is the pain in one or both ears?",
+        "Do you have any discharge from the ear?",
+        "Do you have a fever?",
+        "Did the pain start after swimming or flying?",
+        "Is your hearing muffled?"
+      ],
+      "possible_conditions": [
+        "Otitis Media (Ear Infection)",
+        "Common Cold",
+        "Sinusitis"
+      ],
+      "general_advice": [
+        "Avoid inserting objects into the ear",
+        "Apply warm compress to the ear for comfort",
+        "Keep ears dry after bathing",
+        "Avoid blowing nose forcefully",
+        "Rest and take adequate fluids"
+      ],
+      "when_to_consult_doctor": "If pain is severe, discharge is present, hearing is affected, or fever persists"
+    },
+    {
+      "symptom": "Blood in Urine",
+      "follow_up_questions": [
+        "Is it visible to the naked eye or found on a test?",
+        "Do you have pain in the lower back or abdomen?",
+        "Is there a burning sensation when urinating?",
+        "Have you had any recent injury?",
+        "Do you have any known kidney or bladder conditions?"
+      ],
+      "possible_conditions": [
+        "Kidney Stones",
+        "Urinary Tract Infection"
+      ],
+      "general_advice": [
+        "Stay well hydrated with water",
+        "Avoid holding urine for long periods",
+        "Do not self-medicate",
+        "Note colour and frequency for your doctor",
+        "Avoid strenuous physical activity until evaluated"
+      ],
+      "when_to_consult_doctor": "Seek prompt medical evaluation for any blood in urine \u2014 this always needs investigation to rule out serious causes"
+    },
+    {
+      "symptom": "Night Sweats",
+      "follow_up_questions": [
+        "How often do you experience night sweats?",
+        "Do you also have a fever or chills?",
+        "Have you noticed unexplained weight loss?",
+        "Are you going through menopause (if applicable)?",
+        "Are you on any medications?"
+      ],
+      "possible_conditions": [
+        "Viral Fever",
+        "Malaria",
+        "Hyperthyroidism",
+        "Tuberculosis-related conditions"
+      ],
+      "general_advice": [
+        "Keep the bedroom cool and well ventilated",
+        "Use light, breathable bed linen",
+        "Stay hydrated at night",
+        "Wear light, moisture-wicking sleepwear",
+        "Avoid heavy meals before bedtime"
+      ],
+      "when_to_consult_doctor": "If night sweats are persistent, associated with fever, weight loss, or swollen lymph nodes \u2014 consult a doctor promptly"
+    },
+    {
+      "symptom": "Yellowing of Skin",
+      "follow_up_questions": [
+        "Is the white part of your eyes also yellowing?",
+        "Is your urine dark-coloured?",
+        "Do you have abdominal pain or itching?",
+        "Have you been unwell recently or had contact with someone with hepatitis?",
+        "Do you consume alcohol regularly?"
+      ],
+      "possible_conditions": [
+        "Hepatitis A",
+        "Hepatitis B",
+        "Gallstones"
+      ],
+      "general_advice": [
+        "Avoid alcohol completely",
+        "Rest and maintain adequate hydration",
+        "Eat light, easily digestible meals",
+        "Do not share food, utensils, or personal items",
+        "Seek medical attention promptly"
+      ],
+      "when_to_consult_doctor": "Seek immediate medical attention for any yellowing of skin or eyes \u2014 it always requires medical evaluation"
+    },
+    {
+      "symptom": "Swollen Lymph Nodes",
+      "follow_up_questions": [
+        "Where are the swollen nodes (neck, armpit, groin)?",
+        "Are they tender or painful?",
+        "Do you have a fever or recent infection?",
+        "Have you noticed unexplained weight loss?",
+        "Have you had any cuts or injuries nearby?"
+      ],
+      "possible_conditions": [
+        "Bacterial Infection",
+        "Tonsillitis",
+        "Viral Fever"
+      ],
+      "general_advice": [
+        "Rest and allow the body to fight infection",
+        "Stay hydrated and eat nutritious food",
+        "Apply a warm compress to reduce tenderness",
+        "Avoid self-diagnosis",
+        "Monitor for any increase in size"
+      ],
+      "when_to_consult_doctor": "If nodes are very large, hard, painless, or persist for more than 2 weeks, or if unexplained weight loss and night sweats are present"
+    },
+    {
+      "symptom": "Muscle Pain",
+      "follow_up_questions": [
+        "Did the pain start after physical activity?",
+        "Is it localised to one area or widespread?",
+        "Do you have fever with muscle pain?",
+        "Have you recently started new exercise?",
+        "Is the pain constant or does it improve with rest?"
+      ],
+      "possible_conditions": [
+        "Influenza (Flu)",
+        "Dengue Fever",
+        "Vitamin D Deficiency",
+        "Lower Back Pain (Muscular)"
+      ],
+      "general_advice": [
+        "Rest and avoid strenuous activity",
+        "Apply warm or cold compress",
+        "Stay hydrated",
+        "Stretch gently after rest",
+        "Ensure adequate Vitamin D and calcium intake"
+      ],
+      "when_to_consult_doctor": "If muscle pain is severe, widespread, associated with dark urine or significant weakness, or follows high fever"
+    },
+    {
+      "symptom": "Heartburn",
+      "follow_up_questions": [
+        "When does heartburn typically occur \u2014 after meals or at night?",
+        "Do you feel a burning sensation rising in your chest?",
+        "What foods tend to trigger it?",
+        "Do you lie down shortly after eating?",
+        "Have you noticed any difficulty swallowing?"
+      ],
+      "possible_conditions": [
+        "Acid Reflux / GERD",
+        "Peptic Ulcer"
+      ],
+      "general_advice": [
+        "Eat smaller, more frequent meals",
+        "Avoid spicy, fatty, and acidic foods",
+        "Do not lie down for at least 2 hours after eating",
+        "Elevate the head of your bed slightly",
+        "Avoid tight clothing around the abdomen"
+      ],
+      "when_to_consult_doctor": "If heartburn occurs more than twice a week, causes difficulty swallowing, or is associated with weight loss or vomiting"
+    },
+    {
+      "symptom": "Loss of Appetite",
+      "follow_up_questions": [
+        "How long have you had reduced appetite?",
+        "Have you lost weight as a result?",
+        "Do you have nausea or abdominal pain?",
+        "Are you feeling sad or low in mood?",
+        "Are you on any new medications?"
+      ],
+      "possible_conditions": [
+        "Viral Fever",
+        "Depression",
+        "Hepatitis A",
+        "Typhoid Fever"
+      ],
+      "general_advice": [
+        "Eat small amounts every 2\u20133 hours even if not hungry",
+        "Choose nutrient-dense foods",
+        "Avoid skipping meals entirely",
+        "Identify and address underlying stress",
+        "Stay hydrated with soups and fluids"
+      ],
+      "when_to_consult_doctor": "If appetite loss persists for more than a week, is associated with significant weight loss, or accompanied by jaundice, high fever, or persistent nausea"
+    }
+  ]
+}

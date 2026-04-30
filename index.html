@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Health Assistant — Understand symptoms, get medicine guidance, track medication adherence, and manage your health data with AI-powered insights.">
+    <meta name="theme-color" content="#0a0e27">
+    <title>MediPulse — AI Health Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ══ Auth Page ══ -->
+    <div class="auth-page" id="authPage">
+        <!-- Animated background orbs -->
+        <div class="auth-bg-orbs">
+            <div class="auth-orb auth-orb-1"></div>
+            <div class="auth-orb auth-orb-2"></div>
+            <div class="auth-orb auth-orb-3"></div>
+        </div>
+
+        <div class="auth-wrapper">
+            <!-- Left Panel — Branding & Features -->
+            <div class="auth-hero">
+                <div class="auth-hero-content">
+                    <div class="auth-hero-logo">
+                        <i data-lucide="heart-pulse"></i>
+                    </div>
+                    <h1 class="auth-hero-title">MediPulse</h1>
+                    <p class="auth-hero-tagline">Your AI-powered health companion</p>
+
+                    <div class="auth-features">
+                        <div class="auth-feature">
+                            <div class="auth-feature-icon"><i data-lucide="brain"></i></div>
+                            <div>
+                                <strong>AI Symptom Analysis</strong>
+                                <span>Smart guidance powered by Gemini AI</span>
+                            </div>
+                        </div>
+                        <div class="auth-feature">
+                            <div class="auth-feature-icon"><i data-lucide="pill"></i></div>
+                            <div>
+                                <strong>Medicine Tracker</strong>
+                                <span>Never miss a dose with smart reminders</span>
+                            </div>
+                        </div>
+                        <div class="auth-feature">
+                            <div class="auth-feature-icon"><i data-lucide="shield-check"></i></div>
+                            <div>
+                                <strong>Private & Secure</strong>
+                                <span>Your health data, encrypted & protected</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="auth-hero-stats">
+                        <div class="auth-stat"><span class="auth-stat-num">6+</span><span class="auth-stat-label">Health Modules</span></div>
+                        <div class="auth-stat-divider"></div>
+                        <div class="auth-stat"><span class="auth-stat-num">24/7</span><span class="auth-stat-label">AI Available</span></div>
+                        <div class="auth-stat-divider"></div>
+                        <div class="auth-stat"><span class="auth-stat-num">100%</span><span class="auth-stat-label">Free to Use</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel — Auth Forms -->
+            <div class="auth-form-panel">
+                <div class="auth-form-inner">
+                    <!-- Mobile-only logo (shown when hero is hidden) -->
+                    <div class="auth-mobile-brand">
+                        <div class="auth-hero-logo small"><i data-lucide="heart-pulse"></i></div>
+                        <h1>MediPulse</h1>
+                    </div>
+
+                    <!-- Login Form -->
+                    <div class="auth-card" id="loginCard">
+                        <h2>Welcome back</h2>
+                        <p class="auth-subtitle">Sign in to your health dashboard</p>
+                        <div class="auth-error" id="loginError" style="display:none;"></div>
+                        <form class="auth-form" onsubmit="return false;">
+                            <div class="auth-input-group">
+                                <label for="loginEmail">Email address</label>
+                                <div class="auth-input-wrap">
+                                    <i data-lucide="mail" class="auth-input-icon"></i>
+                                    <input type="email" id="loginEmail" placeholder="name@company.com" autocomplete="email" required>
+                                </div>
+                            </div>
+                            <div class="auth-input-group">
+                                <label for="loginPassword">Password</label>
+                                <div class="auth-input-wrap">
+                                    <i data-lucide="lock" class="auth-input-icon"></i>
+                                    <input type="password" id="loginPassword" placeholder="Enter your password" autocomplete="current-password" required>
+                                    <button type="button" class="auth-pw-toggle" onclick="this.previousElementSibling.type = this.previousElementSibling.type === 'password' ? 'text' : 'password'"><i data-lucide="eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="auth-submit-btn" id="loginBtn" type="submit">
+                                Sign In
+                                <i data-lucide="arrow-right" class="auth-btn-arrow"></i>
+                            </button>
+                        </form>
+                        <div class="auth-divider"><span>or</span></div>
+                        <p class="auth-switch">Don't have an account? <a href="#" id="showSignup">Create one free →</a></p>
+                    </div>
+
+                    <!-- Signup Form -->
+                    <div class="auth-card" id="signupCard" style="display:none;">
+                        <h2>Create your account</h2>
+                        <p class="auth-subtitle">Start managing your health smarter</p>
+                        <div class="auth-error" id="signupError" style="display:none;"></div>
+                        <form class="auth-form" onsubmit="return false;">
+                            <div class="auth-input-group">
+                                <label for="signupName">Full name</label>
+                                <div class="auth-input-wrap">
+                                    <i data-lucide="user" class="auth-input-icon"></i>
+                                    <input type="text" id="signupName" placeholder="John Doe" autocomplete="name" required>
+                                </div>
+                            </div>
+                            <div class="auth-input-group">
+                                <label for="signupEmail">Email address</label>
+                                <div class="auth-input-wrap">
+                                    <i data-lucide="mail" class="auth-input-icon"></i>
+                                    <input type="email" id="signupEmail" placeholder="name@company.com" autocomplete="email" required>
+                                </div>
+                            </div>
+                            <div class="auth-input-group">
+                                <label for="signupPassword">Password</label>
+                                <div class="auth-input-wrap">
+                                    <i data-lucide="lock" class="auth-input-icon"></i>
+                                    <input type="password" id="signupPassword" placeholder="Min 6 characters" autocomplete="new-password" required>
+                                    <button type="button" class="auth-pw-toggle" onclick="this.previousElementSibling.type = this.previousElementSibling.type === 'password' ? 'text' : 'password'"><i data-lucide="eye"></i></button>
+                                </div>
+                            </div>
+                            <button class="auth-submit-btn" id="signupBtn" type="submit">
+                                Create Account
+                                <i data-lucide="arrow-right" class="auth-btn-arrow"></i>
+                            </button>
+                        </form>
+                        <div class="auth-divider"><span>or</span></div>
+                        <p class="auth-switch">Already have an account? <a href="#" id="showLogin">← Sign in instead</a></p>
+                    </div>
+
+                    <p class="auth-disclaimer">⚕️ This app provides <strong>guidance only</strong> — not a substitute for professional medical advice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Medical Disclaimer Banner -->
+    <div class="disclaimer-banner hidden" id="disclaimerBanner">
+        <div class="disclaimer-content">
+            <span class="disclaimer-icon">⚕️</span>
+            <p>This app provides <strong>guidance only</strong> and is <strong>not a substitute</strong> for professional medical advice, diagnosis, or treatment.</p>
+            <button class="disclaimer-close" id="disclaimerClose" aria-label="Close disclaimer">
+                <i data-lucide="x" class="icon-sm"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- App Container -->
+    <div class="app-container" id="appContainer" style="display:none;">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="heart-pulse" class="logo-svg"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>MediPulse</h1>
+                        <span class="logo-subtitle">AI Health Assistant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-links">
+                <a href="#dashboard" class="nav-item active" data-module="dashboard" id="nav-dashboard">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#symptom-checker" class="nav-item" data-module="symptom-checker" id="nav-symptom-checker">
+                    <i data-lucide="stethoscope"></i>
+                    <span>Symptom Checker</span>
+                </a>
+                <a href="#medicine-search" class="nav-item" data-module="medicine-search" id="nav-medicine-search">
+                    <i data-lucide="pill"></i>
+                    <span>Medicine Search</span>
+                </a>
+                <a href="#reminder-tracker" class="nav-item" data-module="reminder-tracker" id="nav-reminder-tracker">
+                    <i data-lucide="bell-ring"></i>
+                    <span>Reminders</span>
+                </a>
+                <a href="#mental-health" class="nav-item" data-module="mental-health" id="nav-mental-health">
+                    <i data-lucide="brain"></i>
+                    <span>Mental Health</span>
+                </a>
+                <a href="#eye-test" class="nav-item" data-module="eye-test" id="nav-eye-test">
+                    <i data-lucide="eye"></i>
+                    <span>Eye Test</span>
+                </a>
+                <a href="#health-knowledge" class="nav-item" data-module="health-knowledge" id="nav-health-knowledge">
+                    <i data-lucide="book-open"></i>
+                    <span>Health Library</span>
+                </a>
+                <a href="#pulse-sensor" class="nav-item" data-module="pulse-sensor" id="nav-pulse-sensor">
+                    <i data-lucide="heart-pulse"></i>
+                    <span>Pulse Sensor</span>
+                </a>
+            </div>
+
+            <div class="sidebar-footer" style="flex-direction: column; align-items: stretch; padding: var(--space-md); gap: var(--space-sm);">
+                <!-- API Status (Optional, can be small above or just keep logic in JS) -->
+                <div class="api-status" id="apiStatus" style="padding: 0; background: none; border: none; font-size: 10px; margin-bottom: -4px;">
+                    <div class="status-dot offline"></div>
+                    <span>AI: Offline</span>
+                </div>
+                <!-- User Profile Widget -->
+                <div class="user-profile-widget" style="display: flex; align-items: center; gap: 10px; background: rgba(255, 255, 255, 0.03); padding: 8px 12px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <div class="user-avatar" id="sidebarAvatar" style="width: 32px; height: 32px; min-width: 32px; border-radius: 50%; background: var(--gradient-primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 14px;">
+                        U
+                    </div>
+                    <div class="user-details" style="flex: 1; overflow: hidden; display: flex; flex-direction: column;">
+                        <div class="user-name" id="sidebarName" style="font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-main);">User</div>
+                        <div class="user-email" id="sidebarEmail" style="font-size: 11px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">user@example.com</div>
+                    </div>
+                    <button class="settings-btn" id="settingsBtn" aria-label="Settings" style="background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 4px; border-radius: 4px; transition: all 0.2s ease;">
+                        <i data-lucide="settings" style="width: 18px; height: 18px;"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Header -->
+        <header class="mobile-header" id="mobileHeader">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+            <div class="mobile-logo">
+                <i data-lucide="heart-pulse" class="logo-svg-sm"></i>
+                <span>MediPulse</span>
+            </div>
+            <div class="mobile-spacer"></div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <div class="content-wrapper" id="contentWrapper">
+                <!-- Dynamic content loaded here by router -->
+            </div>
+        </main>
+
+        <!-- Overlay for mobile sidebar -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal-overlay" id="settingsModal">
+        <div class="modal glass-card" style="max-width: 560px;">
+            <div class="modal-header">
+                <h2><i data-lucide="settings" class="icon-sm" style="margin-right: 8px;"></i> Settings</h2>
+                <button class="modal-close" id="settingsModalClose" aria-label="Close settings">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 0;">
+                <!-- Settings Tabs -->
+                <div class="settings-tabs" id="settingsTabs">
+                    <button class="settings-tab active" data-tab="profile"><i data-lucide="user" class="icon-sm"></i> Profile</button>
+                    <button class="settings-tab" data-tab="emergency"><i data-lucide="phone-call" class="icon-sm"></i> Emergency</button>
+                    <button class="settings-tab" data-tab="data"><i data-lucide="database" class="icon-sm"></i> Data</button>
+                    <button class="settings-tab" data-tab="about"><i data-lucide="info" class="icon-sm"></i> About</button>
+                </div>
+
+                <!-- Profile Tab -->
+                <div class="settings-panel active" id="panel-profile">
+                    <div class="setting-group">
+                        <label class="setting-label" for="profileEmail">Email Address</label>
+                        <input type="email" id="profileEmail" class="input" disabled style="background-color: rgba(255, 255, 255, 0.02); color: var(--text-muted); cursor: not-allowed; border-color: transparent;">
+                        <p class="setting-desc" style="margin-top: 4px; font-size: 11px;">Your login email cannot be changed here.</p>
+                    </div>
+                    <div class="setting-group">
+                        <label class="setting-label" for="profileName">Full Name</label>
+                        <input type="text" id="profileName" class="input" placeholder="Enter your name">
+                    </div>
+                    <div class="form-row">
+                        <div class="setting-group">
+                            <label class="setting-label" for="profileAge">Age</label>
+                            <input type="number" id="profileAge" class="input" placeholder="e.g., 28" min="1" max="120">
+                        </div>
+                        <div class="setting-group">
+                            <label class="setting-label" for="profileGender">Gender</label>
+                            <select id="profileGender" class="select">
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                <option value="prefer-not">Prefer not to say</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="setting-group">
+                            <label class="setting-label" for="profileBlood">Blood Group</label>
+                            <select id="profileBlood" class="select">
+                                <option value="">Select</option>
+                                <option value="A+">A+</option><option value="A-">A−</option>
+                                <option value="B+">B+</option><option value="B-">B−</option>
+                                <option value="AB+">AB+</option><option value="AB-">AB−</option>
+                                <option value="O+">O+</option><option value="O-">O−</option>
+                            </select>
+                        </div>
+                        <div class="setting-group">
+                            <label class="setting-label" for="profileAllergies">Known Allergies</label>
+                            <input type="text" id="profileAllergies" class="input" placeholder="e.g., Penicillin, Peanuts">
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <label class="setting-label" for="profileConditions">Existing Conditions</label>
+                        <input type="text" id="profileConditions" class="input" placeholder="e.g., Diabetes, Asthma">
+                    </div>
+                    <div class="setting-actions" style="justify-content: flex-end; padding-top: var(--space-md);">
+                        <button class="btn btn-primary btn-sm" id="saveProfile">
+                            <i data-lucide="save"></i> Save Profile
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Emergency Contacts Tab -->
+                <div class="settings-panel" id="panel-emergency">
+                    <div class="setting-group">
+                        <label class="setting-label">Emergency Contact 1</label>
+                        <div class="form-row">
+                            <input type="text" id="emgName1" class="input" placeholder="Contact name">
+                            <input type="tel" id="emgPhone1" class="input" placeholder="Phone number">
+                        </div>
+                        <div class="form-row" style="margin-top: var(--space-sm);">
+                            <input type="text" id="emgRelation1" class="input" placeholder="Relationship (e.g., Father)">
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <label class="setting-label">Emergency Contact 2</label>
+                        <div class="form-row">
+                            <input type="text" id="emgName2" class="input" placeholder="Contact name">
+                            <input type="tel" id="emgPhone2" class="input" placeholder="Phone number">
+                        </div>
+                        <div class="form-row" style="margin-top: var(--space-sm);">
+                            <input type="text" id="emgRelation2" class="input" placeholder="Relationship (e.g., Spouse)">
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <label class="setting-label" for="emgDoctor">Doctor / Hospital</label>
+                        <div class="form-row">
+                            <input type="text" id="emgDoctor" class="input" placeholder="Doctor's name">
+                            <input type="tel" id="emgDoctorPhone" class="input" placeholder="Phone number">
+                        </div>
+                    </div>
+                    <div class="setting-actions" style="justify-content: flex-end; padding-top: var(--space-md);">
+                        <button class="btn btn-primary btn-sm" id="saveEmergency">
+                            <i data-lucide="save"></i> Save Contacts
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Data Tab -->
+                <div class="settings-panel" id="panel-data">
+                    <div class="setting-group">
+                        <label class="setting-label">Export Health Data</label>
+                        <p class="setting-desc">Download all your health data as a JSON file for backup or portability.</p>
+                        <button class="btn btn-outline btn-sm" id="exportData">
+                            <i data-lucide="download"></i> Export Data
+                        </button>
+                    </div>
+                    <div class="setting-group" style="border-top: 1px solid var(--border-color); padding-top: var(--space-lg);">
+                        <label class="setting-label" style="color: var(--danger);">Danger Zone</label>
+                        <p class="setting-desc">Permanently delete all your health data. This action cannot be undone.</p>
+                        <button class="btn btn-danger btn-sm" id="clearData">
+                            <i data-lucide="trash-2"></i> Clear All Data
+                        </button>
+                    </div>
+                    <div class="setting-group" style="border-top: 1px solid var(--border-color); padding-top: var(--space-lg);">
+                        <label class="setting-label" style="color: var(--danger);">Log Out</label>
+                        <p class="setting-desc">Clear your session and return to the default state.</p>
+                        <button class="btn btn-outline btn-sm" id="logOutBtn" style="border-color: var(--danger); color: var(--danger);">
+                            <i data-lucide="log-out"></i> Log Out
+                        </button>
+                    </div>
+                </div>
+
+                <!-- About Tab -->
+                <div class="settings-panel" id="panel-about">
+                    <div style="text-align: center; padding: var(--space-lg) 0;">
+                        <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md);">
+                            <i data-lucide="heart-pulse" style="color: white; width: 28px; height: 28px;"></i>
+                        </div>
+                        <h3 style="font-size: var(--font-lg); margin-bottom: var(--space-xs);">MediPulse</h3>
+                        <p style="font-size: var(--font-sm); color: var(--text-muted);">AI Health Assistant — v1.0.0</p>
+                    </div>
+                    <div style="font-size: var(--font-sm); color: var(--text-secondary); display: flex; flex-direction: column; gap: var(--space-md);">
+                        <div style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                            <span>AI Engine</span>
+                            <span style="color: var(--success);">Google Gemini 2.0 Flash</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                            <span>Data Storage</span>
+                            <span style="color: var(--success);">Supabase Cloud + Local</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding: var(--space-sm) 0; border-bottom: 1px solid var(--border-color);">
+                            <span>Modules</span>
+                            <span>7 active</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; padding: var(--space-sm) 0;">
+                            <span>Built for</span>
+                            <span>Dyptelgon Hackathon 2026</span>
+                        </div>
+                    </div>
+                    <div style="margin-top: var(--space-lg); padding: var(--space-md); background: var(--bg-glass); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <p style="font-size: var(--font-xs); color: var(--text-muted); text-align: center;">
+                            ⚠️ This application provides general health guidance only and is <strong>not a substitute</strong> for professional medical advice, diagnosis, or treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Scripts -->
+    <script src="js/utils/storage.js"></script>
+    <script src="js/utils/supabase-client.js"></script>
+    <script src="js/utils/ai-service.js"></script>
+    <script src="js/modules/dashboard.js"></script>
+    <script src="js/modules/symptom-checker.js"></script>
+    <script src="js/modules/medicine-search.js"></script>
+    <script src="js/modules/reminder-tracker.js"></script>
+    <script src="js/modules/mental-health.js"></script>
+    <script src="js/modules/eye-test.js"></script>
+    <script src="js/modules/health-knowledge.js"></script>
+    <script src="js/modules/pulse-sensor.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

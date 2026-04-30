@@ -1,0 +1,3650 @@
+{
+  "symptomSets": [
+    {
+      "id": "fever",
+      "name": "Fever",
+      "keywords": [
+        "fever"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How long have you had the fever?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "What is your temperature reading?",
+          "options": [
+            "Normal",
+            "99-100°F (Mild)",
+            "Above 101°F (High)"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a cough or sore throat?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you travelled recently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you experiencing chills or night sweats?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Viral Fever",
+            "Influenza (Flu)",
+            "Malaria",
+            "Typhoid Fever",
+            "COVID-19"
+          ],
+          "advice": "Stay well hydrated with water and fluids. Rest as much as possible. Use a damp cloth on the forehead to reduce discomfort. Wear light, comfortable clothing. Monitor temperature every few hours",
+          "homeRemedies": [
+            "Stay well hydrated with water and fluids",
+            "Rest as much as possible",
+            "Use a damp cloth on the forehead to reduce discomfort",
+            "Wear light, comfortable clothing",
+            "Monitor temperature every few hours"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Viral Fever",
+            "Influenza (Flu)",
+            "Malaria",
+            "Typhoid Fever",
+            "COVID-19"
+          ],
+          "advice": "Stay well hydrated with water and fluids. Rest as much as possible. Use a damp cloth on the forehead to reduce discomfort. Wear light, comfortable clothing. Monitor temperature every few hours",
+          "homeRemedies": [
+            "Stay well hydrated with water and fluids",
+            "Rest as much as possible",
+            "Use a damp cloth on the forehead to reduce discomfort",
+            "Wear light, comfortable clothing",
+            "Monitor temperature every few hours"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If fever is above 103°F (39.4°C), lasts more than 3 days, or is accompanied by rash, stiff neck, confusion, or breathing difficulty"
+        },
+        "high": {
+          "causes": [
+            "Viral Fever",
+            "Influenza (Flu)",
+            "Malaria",
+            "Typhoid Fever",
+            "COVID-19"
+          ],
+          "advice": "Seek immediate medical attention. Stay well hydrated with water and fluids. Rest as much as possible. Use a damp cloth on the forehead to reduce discomfort. Wear light, comfortable clothing. Monitor temperature every few hours",
+          "homeRemedies": [
+            "Stay well hydrated with water and fluids",
+            "Rest as much as possible",
+            "Use a damp cloth on the forehead to reduce discomfort",
+            "Wear light, comfortable clothing",
+            "Monitor temperature every few hours"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If fever is above 103°F (39.4°C), lasts more than 3 days, or is accompanied by rash, stiff neck, confusion, or breathing difficulty"
+        }
+      }
+    },
+    {
+      "id": "headache",
+      "name": "Headache",
+      "keywords": [
+        "headache"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Where exactly is the pain located?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "How severe is the pain on a scale of 1–10?",
+          "options": [
+            "Mild",
+            "Moderate",
+            "Severe"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Is this a new headache or a recurring one?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you experiencing nausea or vision changes?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you been under stress or sleep-deprived recently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Tension Headache",
+            "Migraine",
+            "Sinusitis",
+            "Hypertension",
+            "Viral Fever"
+          ],
+          "advice": "Rest in a quiet, dark room. Stay hydrated and avoid skipping meals. Apply a cold or warm compress to the head. Reduce screen time and manage stress. Avoid loud noises and bright lights",
+          "homeRemedies": [
+            "Rest in a quiet, dark room",
+            "Stay hydrated and avoid skipping meals",
+            "Apply a cold or warm compress to the head",
+            "Reduce screen time and manage stress",
+            "Avoid loud noises and bright lights"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Tension Headache",
+            "Migraine",
+            "Sinusitis",
+            "Hypertension",
+            "Viral Fever"
+          ],
+          "advice": "Rest in a quiet, dark room. Stay hydrated and avoid skipping meals. Apply a cold or warm compress to the head. Reduce screen time and manage stress. Avoid loud noises and bright lights",
+          "homeRemedies": [
+            "Rest in a quiet, dark room",
+            "Stay hydrated and avoid skipping meals",
+            "Apply a cold or warm compress to the head",
+            "Reduce screen time and manage stress",
+            "Avoid loud noises and bright lights"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If headache is sudden and severe ('thunderclap'), associated with high fever, stiff neck, visual loss, or follows a head injury"
+        },
+        "high": {
+          "causes": [
+            "Tension Headache",
+            "Migraine",
+            "Sinusitis",
+            "Hypertension",
+            "Viral Fever"
+          ],
+          "advice": "Seek immediate medical attention. Rest in a quiet, dark room. Stay hydrated and avoid skipping meals. Apply a cold or warm compress to the head. Reduce screen time and manage stress. Avoid loud noises and bright lights",
+          "homeRemedies": [
+            "Rest in a quiet, dark room",
+            "Stay hydrated and avoid skipping meals",
+            "Apply a cold or warm compress to the head",
+            "Reduce screen time and manage stress",
+            "Avoid loud noises and bright lights"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If headache is sudden and severe ('thunderclap'), associated with high fever, stiff neck, visual loss, or follows a head injury"
+        }
+      }
+    },
+    {
+      "id": "cough",
+      "name": "Cough",
+      "keywords": [
+        "cough"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is it a dry cough or are you bringing up mucus?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "How long have you been coughing?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a fever or sore throat?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you smoke or have asthma?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you experiencing shortness of breath?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Common Cold",
+            "Bronchitis",
+            "Asthma",
+            "COVID-19",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Stay hydrated and drink warm fluids. Use honey with warm water to soothe throat. Avoid cold, dry air and irritants like smoke. Try steam inhalation for relief. Rest adequately",
+          "homeRemedies": [
+            "Stay hydrated and drink warm fluids",
+            "Use honey with warm water to soothe throat",
+            "Avoid cold, dry air and irritants like smoke",
+            "Try steam inhalation for relief",
+            "Rest adequately"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Common Cold",
+            "Bronchitis",
+            "Asthma",
+            "COVID-19",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Stay hydrated and drink warm fluids. Use honey with warm water to soothe throat. Avoid cold, dry air and irritants like smoke. Try steam inhalation for relief. Rest adequately",
+          "homeRemedies": [
+            "Stay hydrated and drink warm fluids",
+            "Use honey with warm water to soothe throat",
+            "Avoid cold, dry air and irritants like smoke",
+            "Try steam inhalation for relief",
+            "Rest adequately"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If cough lasts more than 3 weeks, is accompanied by blood, high fever, or severe breathing difficulty"
+        },
+        "high": {
+          "causes": [
+            "Common Cold",
+            "Bronchitis",
+            "Asthma",
+            "COVID-19",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Seek immediate medical attention. Stay hydrated and drink warm fluids. Use honey with warm water to soothe throat. Avoid cold, dry air and irritants like smoke. Try steam inhalation for relief. Rest adequately",
+          "homeRemedies": [
+            "Stay hydrated and drink warm fluids",
+            "Use honey with warm water to soothe throat",
+            "Avoid cold, dry air and irritants like smoke",
+            "Try steam inhalation for relief",
+            "Rest adequately"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If cough lasts more than 3 weeks, is accompanied by blood, high fever, or severe breathing difficulty"
+        }
+      }
+    },
+    {
+      "id": "sore-throat",
+      "name": "Sore Throat",
+      "keywords": [
+        "sore throat"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How long have you had the sore throat?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you have a fever?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Is it painful to swallow?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you notice any white patches in your throat?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are your glands in the neck swollen?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Common Cold",
+            "Tonsillitis",
+            "Influenza (Flu)",
+            "Sinusitis",
+            "Bacterial Infection"
+          ],
+          "advice": "Gargle with warm salt water. Drink warm liquids like tea or broth. Avoid cold foods and beverages. Rest your voice and get adequate sleep. Use throat lozenges for temporary relief",
+          "homeRemedies": [
+            "Gargle with warm salt water",
+            "Drink warm liquids like tea or broth",
+            "Avoid cold foods and beverages",
+            "Rest your voice and get adequate sleep",
+            "Use throat lozenges for temporary relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Common Cold",
+            "Tonsillitis",
+            "Influenza (Flu)",
+            "Sinusitis",
+            "Bacterial Infection"
+          ],
+          "advice": "Gargle with warm salt water. Drink warm liquids like tea or broth. Avoid cold foods and beverages. Rest your voice and get adequate sleep. Use throat lozenges for temporary relief",
+          "homeRemedies": [
+            "Gargle with warm salt water",
+            "Drink warm liquids like tea or broth",
+            "Avoid cold foods and beverages",
+            "Rest your voice and get adequate sleep",
+            "Use throat lozenges for temporary relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If throat pain is very severe, there are white patches or pus, fever is high, or symptoms last more than 5–7 days"
+        },
+        "high": {
+          "causes": [
+            "Common Cold",
+            "Tonsillitis",
+            "Influenza (Flu)",
+            "Sinusitis",
+            "Bacterial Infection"
+          ],
+          "advice": "Seek immediate medical attention. Gargle with warm salt water. Drink warm liquids like tea or broth. Avoid cold foods and beverages. Rest your voice and get adequate sleep. Use throat lozenges for temporary relief",
+          "homeRemedies": [
+            "Gargle with warm salt water",
+            "Drink warm liquids like tea or broth",
+            "Avoid cold foods and beverages",
+            "Rest your voice and get adequate sleep",
+            "Use throat lozenges for temporary relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If throat pain is very severe, there are white patches or pus, fever is high, or symptoms last more than 5–7 days"
+        }
+      }
+    },
+    {
+      "id": "runny-nose",
+      "name": "Runny Nose",
+      "keywords": [
+        "runny nose"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the discharge clear or coloured (yellow/green)?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you also have sneezing and itchy eyes?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "How long have you had this symptom?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Any recent exposure to allergens like dust or pollen?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a fever?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Common Cold",
+            "Allergic Rhinitis",
+            "Sinusitis"
+          ],
+          "advice": "Blow nose gently, one nostril at a time. Stay hydrated to thin mucus. Use saline nasal rinse for relief. Avoid known allergens if allergy-related. Rest and keep warm",
+          "homeRemedies": [
+            "Blow nose gently, one nostril at a time",
+            "Stay hydrated to thin mucus",
+            "Use saline nasal rinse for relief",
+            "Avoid known allergens if allergy-related",
+            "Rest and keep warm"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Common Cold",
+            "Allergic Rhinitis",
+            "Sinusitis"
+          ],
+          "advice": "Blow nose gently, one nostril at a time. Stay hydrated to thin mucus. Use saline nasal rinse for relief. Avoid known allergens if allergy-related. Rest and keep warm",
+          "homeRemedies": [
+            "Blow nose gently, one nostril at a time",
+            "Stay hydrated to thin mucus",
+            "Use saline nasal rinse for relief",
+            "Avoid known allergens if allergy-related",
+            "Rest and keep warm"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If discharge is thick yellow/green and lasts more than 10 days, or is accompanied by facial pain and fever"
+        },
+        "high": {
+          "causes": [
+            "Common Cold",
+            "Allergic Rhinitis",
+            "Sinusitis"
+          ],
+          "advice": "Seek immediate medical attention. Blow nose gently, one nostril at a time. Stay hydrated to thin mucus. Use saline nasal rinse for relief. Avoid known allergens if allergy-related. Rest and keep warm",
+          "homeRemedies": [
+            "Blow nose gently, one nostril at a time",
+            "Stay hydrated to thin mucus",
+            "Use saline nasal rinse for relief",
+            "Avoid known allergens if allergy-related",
+            "Rest and keep warm"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If discharge is thick yellow/green and lasts more than 10 days, or is accompanied by facial pain and fever"
+        }
+      }
+    },
+    {
+      "id": "shortness-of-breath",
+      "name": "Shortness of Breath",
+      "keywords": [
+        "shortness of breath"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Did the breathing difficulty start suddenly or gradually?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you have chest pain or tightness?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a history of asthma or heart disease?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you currently wheezing?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you able to lie flat comfortably?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Asthma",
+            "Pneumonia",
+            "Panic Disorder",
+            "Bronchitis",
+            "COVID-19"
+          ],
+          "advice": "Sit upright to ease breathing. Remain calm and breathe slowly and deeply. Use any prescribed inhaler if available. Avoid physical exertion. Ensure fresh air and ventilation",
+          "homeRemedies": [
+            "Sit upright to ease breathing",
+            "Remain calm and breathe slowly and deeply",
+            "Use any prescribed inhaler if available",
+            "Avoid physical exertion",
+            "Ensure fresh air and ventilation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Asthma",
+            "Pneumonia",
+            "Panic Disorder",
+            "Bronchitis",
+            "COVID-19"
+          ],
+          "advice": "Sit upright to ease breathing. Remain calm and breathe slowly and deeply. Use any prescribed inhaler if available. Avoid physical exertion. Ensure fresh air and ventilation",
+          "homeRemedies": [
+            "Sit upright to ease breathing",
+            "Remain calm and breathe slowly and deeply",
+            "Use any prescribed inhaler if available",
+            "Avoid physical exertion",
+            "Ensure fresh air and ventilation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek immediate medical attention if severe; also consult if breathing difficulty is new, worsening, or associated with chest pain or bluish lips"
+        },
+        "high": {
+          "causes": [
+            "Asthma",
+            "Pneumonia",
+            "Panic Disorder",
+            "Bronchitis",
+            "COVID-19"
+          ],
+          "advice": "Seek immediate medical attention. Sit upright to ease breathing. Remain calm and breathe slowly and deeply. Use any prescribed inhaler if available. Avoid physical exertion. Ensure fresh air and ventilation",
+          "homeRemedies": [
+            "Sit upright to ease breathing",
+            "Remain calm and breathe slowly and deeply",
+            "Use any prescribed inhaler if available",
+            "Avoid physical exertion",
+            "Ensure fresh air and ventilation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek immediate medical attention if severe; also consult if breathing difficulty is new, worsening, or associated with chest pain or bluish lips"
+        }
+      }
+    },
+    {
+      "id": "chest-pain",
+      "name": "Chest Pain",
+      "keywords": [
+        "chest pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the pain sharp, dull, or pressure-like?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Does the pain radiate to your arm, jaw, or back?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Did the pain start with physical activity?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you sweating, nauseated, or short of breath?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a history of heart disease?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Hypertension",
+            "Asthma",
+            "Panic Disorder",
+            "Acid Reflux / GERD",
+            "Pneumonia"
+          ],
+          "advice": "Stop all physical activity immediately. Sit or lie down in a comfortable position. Do not ignore chest pain. Do not eat or drink until evaluated. Call emergency services if symptoms are severe",
+          "homeRemedies": [
+            "Stop all physical activity immediately",
+            "Sit or lie down in a comfortable position",
+            "Do not ignore chest pain",
+            "Do not eat or drink until evaluated",
+            "Call emergency services if symptoms are severe"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Hypertension",
+            "Asthma",
+            "Panic Disorder",
+            "Acid Reflux / GERD",
+            "Pneumonia"
+          ],
+          "advice": "Stop all physical activity immediately. Sit or lie down in a comfortable position. Do not ignore chest pain. Do not eat or drink until evaluated. Call emergency services if symptoms are severe",
+          "homeRemedies": [
+            "Stop all physical activity immediately",
+            "Sit or lie down in a comfortable position",
+            "Do not ignore chest pain",
+            "Do not eat or drink until evaluated",
+            "Call emergency services if symptoms are severe"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek IMMEDIATE emergency care for any new or unexplained chest pain, especially with sweating, nausea, or pain spreading to arm or jaw"
+        },
+        "high": {
+          "causes": [
+            "Hypertension",
+            "Asthma",
+            "Panic Disorder",
+            "Acid Reflux / GERD",
+            "Pneumonia"
+          ],
+          "advice": "Seek immediate medical attention. Stop all physical activity immediately. Sit or lie down in a comfortable position. Do not ignore chest pain. Do not eat or drink until evaluated. Call emergency services if symptoms are severe",
+          "homeRemedies": [
+            "Stop all physical activity immediately",
+            "Sit or lie down in a comfortable position",
+            "Do not ignore chest pain",
+            "Do not eat or drink until evaluated",
+            "Call emergency services if symptoms are severe"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek IMMEDIATE emergency care for any new or unexplained chest pain, especially with sweating, nausea, or pain spreading to arm or jaw"
+        }
+      }
+    },
+    {
+      "id": "fatigue",
+      "name": "Fatigue",
+      "keywords": [
+        "fatigue"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How long have you been feeling tired?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is it affecting your daily activities?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have changes in appetite or weight?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you sleeping adequately but still tired?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you feel emotionally low or depressed?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Iron Deficiency Anemia",
+            "Hypothyroidism",
+            "Vitamin D Deficiency",
+            "Depression",
+            "Viral Fever"
+          ],
+          "advice": "Ensure 7–9 hours of quality sleep per night. Maintain a balanced, nutritious diet. Stay hydrated throughout the day. Take regular breaks and avoid overexertion. Engage in light physical activity like walking",
+          "homeRemedies": [
+            "Ensure 7–9 hours of quality sleep per night",
+            "Maintain a balanced, nutritious diet",
+            "Stay hydrated throughout the day",
+            "Take regular breaks and avoid overexertion",
+            "Engage in light physical activity like walking"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Iron Deficiency Anemia",
+            "Hypothyroidism",
+            "Vitamin D Deficiency",
+            "Depression",
+            "Viral Fever"
+          ],
+          "advice": "Ensure 7–9 hours of quality sleep per night. Maintain a balanced, nutritious diet. Stay hydrated throughout the day. Take regular breaks and avoid overexertion. Engage in light physical activity like walking",
+          "homeRemedies": [
+            "Ensure 7–9 hours of quality sleep per night",
+            "Maintain a balanced, nutritious diet",
+            "Stay hydrated throughout the day",
+            "Take regular breaks and avoid overexertion",
+            "Engage in light physical activity like walking"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If fatigue is severe, persists for more than 2 weeks, or is accompanied by significant weight loss, shortness of breath, or chest pain"
+        },
+        "high": {
+          "causes": [
+            "Iron Deficiency Anemia",
+            "Hypothyroidism",
+            "Vitamin D Deficiency",
+            "Depression",
+            "Viral Fever"
+          ],
+          "advice": "Seek immediate medical attention. Ensure 7–9 hours of quality sleep per night. Maintain a balanced, nutritious diet. Stay hydrated throughout the day. Take regular breaks and avoid overexertion. Engage in light physical activity like walking",
+          "homeRemedies": [
+            "Ensure 7–9 hours of quality sleep per night",
+            "Maintain a balanced, nutritious diet",
+            "Stay hydrated throughout the day",
+            "Take regular breaks and avoid overexertion",
+            "Engage in light physical activity like walking"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If fatigue is severe, persists for more than 2 weeks, or is accompanied by significant weight loss, shortness of breath, or chest pain"
+        }
+      }
+    },
+    {
+      "id": "dizziness",
+      "name": "Dizziness",
+      "keywords": [
+        "dizziness"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is it a spinning sensation (vertigo) or light-headedness?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Does it occur when you stand up quickly?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Are you on any blood pressure medications?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you have nausea or vomiting with it?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you had any recent head injury?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Hypotension",
+            "Dehydration",
+            "Iron Deficiency Anemia",
+            "Migraine",
+            "Viral Fever"
+          ],
+          "advice": "Sit or lie down immediately when dizzy. Drink water slowly. Rise slowly from sitting or lying positions. Avoid sudden head movements. Ensure you are eating regularly",
+          "homeRemedies": [
+            "Sit or lie down immediately when dizzy",
+            "Drink water slowly",
+            "Rise slowly from sitting or lying positions",
+            "Avoid sudden head movements",
+            "Ensure you are eating regularly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Hypotension",
+            "Dehydration",
+            "Iron Deficiency Anemia",
+            "Migraine",
+            "Viral Fever"
+          ],
+          "advice": "Sit or lie down immediately when dizzy. Drink water slowly. Rise slowly from sitting or lying positions. Avoid sudden head movements. Ensure you are eating regularly",
+          "homeRemedies": [
+            "Sit or lie down immediately when dizzy",
+            "Drink water slowly",
+            "Rise slowly from sitting or lying positions",
+            "Avoid sudden head movements",
+            "Ensure you are eating regularly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If dizziness is sudden and severe, recurrent, or accompanied by slurred speech, vision changes, or difficulty walking"
+        },
+        "high": {
+          "causes": [
+            "Hypotension",
+            "Dehydration",
+            "Iron Deficiency Anemia",
+            "Migraine",
+            "Viral Fever"
+          ],
+          "advice": "Seek immediate medical attention. Sit or lie down immediately when dizzy. Drink water slowly. Rise slowly from sitting or lying positions. Avoid sudden head movements. Ensure you are eating regularly",
+          "homeRemedies": [
+            "Sit or lie down immediately when dizzy",
+            "Drink water slowly",
+            "Rise slowly from sitting or lying positions",
+            "Avoid sudden head movements",
+            "Ensure you are eating regularly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If dizziness is sudden and severe, recurrent, or accompanied by slurred speech, vision changes, or difficulty walking"
+        }
+      }
+    },
+    {
+      "id": "nausea",
+      "name": "Nausea",
+      "keywords": [
+        "nausea"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Did the nausea start after eating?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Have you vomited?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Is there any abdominal pain or cramping?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you travelled or eaten outside food recently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you pregnant?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Gastroenteritis",
+            "Acid Reflux / GERD",
+            "Gallstones",
+            "Viral Fever",
+            "Dehydration"
+          ],
+          "advice": "Avoid solid food temporarily; sip clear liquids. Eat small, bland meals like toast or rice. Avoid spicy, fatty, or heavy foods. Rest and avoid strong smells. Sip ginger tea for natural relief",
+          "homeRemedies": [
+            "Avoid solid food temporarily; sip clear liquids",
+            "Eat small, bland meals like toast or rice",
+            "Avoid spicy, fatty, or heavy foods",
+            "Rest and avoid strong smells",
+            "Sip ginger tea for natural relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Gastroenteritis",
+            "Acid Reflux / GERD",
+            "Gallstones",
+            "Viral Fever",
+            "Dehydration"
+          ],
+          "advice": "Avoid solid food temporarily; sip clear liquids. Eat small, bland meals like toast or rice. Avoid spicy, fatty, or heavy foods. Rest and avoid strong smells. Sip ginger tea for natural relief",
+          "homeRemedies": [
+            "Avoid solid food temporarily; sip clear liquids",
+            "Eat small, bland meals like toast or rice",
+            "Avoid spicy, fatty, or heavy foods",
+            "Rest and avoid strong smells",
+            "Sip ginger tea for natural relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If nausea is persistent for more than 2 days, accompanied by severe abdominal pain, high fever, or blood in vomit"
+        },
+        "high": {
+          "causes": [
+            "Gastroenteritis",
+            "Acid Reflux / GERD",
+            "Gallstones",
+            "Viral Fever",
+            "Dehydration"
+          ],
+          "advice": "Seek immediate medical attention. Avoid solid food temporarily; sip clear liquids. Eat small, bland meals like toast or rice. Avoid spicy, fatty, or heavy foods. Rest and avoid strong smells. Sip ginger tea for natural relief",
+          "homeRemedies": [
+            "Avoid solid food temporarily; sip clear liquids",
+            "Eat small, bland meals like toast or rice",
+            "Avoid spicy, fatty, or heavy foods",
+            "Rest and avoid strong smells",
+            "Sip ginger tea for natural relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If nausea is persistent for more than 2 days, accompanied by severe abdominal pain, high fever, or blood in vomit"
+        }
+      }
+    },
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea",
+      "keywords": [
+        "diarrhea"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How many loose stools per day?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is there blood or mucus in the stool?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a fever?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you eaten outside or travelled recently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you feeling dizzy or very weak?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Typhoid Fever"
+          ],
+          "advice": "Drink ORS to stay hydrated. Avoid dairy, spicy, and fatty foods. Eat light foods like bananas, rice, toast. Wash hands frequently. Monitor for signs of dehydration",
+          "homeRemedies": [
+            "Drink ORS to stay hydrated",
+            "Avoid dairy, spicy, and fatty foods",
+            "Eat light foods like bananas, rice, toast",
+            "Wash hands frequently",
+            "Monitor for signs of dehydration"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Typhoid Fever"
+          ],
+          "advice": "Drink ORS to stay hydrated. Avoid dairy, spicy, and fatty foods. Eat light foods like bananas, rice, toast. Wash hands frequently. Monitor for signs of dehydration",
+          "homeRemedies": [
+            "Drink ORS to stay hydrated",
+            "Avoid dairy, spicy, and fatty foods",
+            "Eat light foods like bananas, rice, toast",
+            "Wash hands frequently",
+            "Monitor for signs of dehydration"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If diarrhea contains blood, lasts more than 2 days, or there are signs of severe dehydration (sunken eyes, no urination)"
+        },
+        "high": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Typhoid Fever"
+          ],
+          "advice": "Seek immediate medical attention. Drink ORS to stay hydrated. Avoid dairy, spicy, and fatty foods. Eat light foods like bananas, rice, toast. Wash hands frequently. Monitor for signs of dehydration",
+          "homeRemedies": [
+            "Drink ORS to stay hydrated",
+            "Avoid dairy, spicy, and fatty foods",
+            "Eat light foods like bananas, rice, toast",
+            "Wash hands frequently",
+            "Monitor for signs of dehydration"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If diarrhea contains blood, lasts more than 2 days, or there are signs of severe dehydration (sunken eyes, no urination)"
+        }
+      }
+    },
+    {
+      "id": "abdominal-pain",
+      "name": "Abdominal Pain",
+      "keywords": [
+        "abdominal pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Where exactly is the pain located?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is the pain constant or does it come and go?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Does the pain relate to eating?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you also experiencing nausea or vomiting?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you had any change in bowel habits?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Appendicitis",
+            "Peptic Ulcer",
+            "Gallstones"
+          ],
+          "advice": "Avoid heavy, spicy, or fatty foods. Eat small, frequent meals. Stay hydrated with plain water. Avoid lying down immediately after eating. Apply a warm compress if cramping",
+          "homeRemedies": [
+            "Avoid heavy, spicy, or fatty foods",
+            "Eat small, frequent meals",
+            "Stay hydrated with plain water",
+            "Avoid lying down immediately after eating",
+            "Apply a warm compress if cramping"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Appendicitis",
+            "Peptic Ulcer",
+            "Gallstones"
+          ],
+          "advice": "Avoid heavy, spicy, or fatty foods. Eat small, frequent meals. Stay hydrated with plain water. Avoid lying down immediately after eating. Apply a warm compress if cramping",
+          "homeRemedies": [
+            "Avoid heavy, spicy, or fatty foods",
+            "Eat small, frequent meals",
+            "Stay hydrated with plain water",
+            "Avoid lying down immediately after eating",
+            "Apply a warm compress if cramping"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Immediately if pain is severe, sudden, or in the lower right abdomen; also if associated with high fever, vomiting, or rigid abdomen"
+        },
+        "high": {
+          "causes": [
+            "Gastroenteritis",
+            "Irritable Bowel Syndrome",
+            "Appendicitis",
+            "Peptic Ulcer",
+            "Gallstones"
+          ],
+          "advice": "Seek immediate medical attention. Avoid heavy, spicy, or fatty foods. Eat small, frequent meals. Stay hydrated with plain water. Avoid lying down immediately after eating. Apply a warm compress if cramping",
+          "homeRemedies": [
+            "Avoid heavy, spicy, or fatty foods",
+            "Eat small, frequent meals",
+            "Stay hydrated with plain water",
+            "Avoid lying down immediately after eating",
+            "Apply a warm compress if cramping"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Immediately if pain is severe, sudden, or in the lower right abdomen; also if associated with high fever, vomiting, or rigid abdomen"
+        }
+      }
+    },
+    {
+      "id": "constipation",
+      "name": "Constipation",
+      "keywords": [
+        "constipation"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How many days since your last bowel movement?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Are stools hard or painful to pass?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "How much water and fibre are you consuming?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you on any medications?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Is there any bleeding when you pass stool?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Irritable Bowel Syndrome",
+            "Haemorrhoids (Piles)"
+          ],
+          "advice": "Increase water intake to at least 2 litres/day. Eat high-fibre foods like fruits, vegetables, and whole grains. Take regular light exercise. Establish a consistent toilet routine. Avoid processed foods and excess dairy",
+          "homeRemedies": [
+            "Increase water intake to at least 2 litres/day",
+            "Eat high-fibre foods like fruits, vegetables, and whole grains",
+            "Take regular light exercise",
+            "Establish a consistent toilet routine",
+            "Avoid processed foods and excess dairy"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Irritable Bowel Syndrome",
+            "Haemorrhoids (Piles)"
+          ],
+          "advice": "Increase water intake to at least 2 litres/day. Eat high-fibre foods like fruits, vegetables, and whole grains. Take regular light exercise. Establish a consistent toilet routine. Avoid processed foods and excess dairy",
+          "homeRemedies": [
+            "Increase water intake to at least 2 litres/day",
+            "Eat high-fibre foods like fruits, vegetables, and whole grains",
+            "Take regular light exercise",
+            "Establish a consistent toilet routine",
+            "Avoid processed foods and excess dairy"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If constipation lasts more than 2 weeks, is associated with blood in stool, unexplained weight loss, or severe pain"
+        },
+        "high": {
+          "causes": [
+            "Irritable Bowel Syndrome",
+            "Haemorrhoids (Piles)"
+          ],
+          "advice": "Seek immediate medical attention. Increase water intake to at least 2 litres/day. Eat high-fibre foods like fruits, vegetables, and whole grains. Take regular light exercise. Establish a consistent toilet routine. Avoid processed foods and excess dairy",
+          "homeRemedies": [
+            "Increase water intake to at least 2 litres/day",
+            "Eat high-fibre foods like fruits, vegetables, and whole grains",
+            "Take regular light exercise",
+            "Establish a consistent toilet routine",
+            "Avoid processed foods and excess dairy"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If constipation lasts more than 2 weeks, is associated with blood in stool, unexplained weight loss, or severe pain"
+        }
+      }
+    },
+    {
+      "id": "frequent-urination",
+      "name": "Frequent Urination",
+      "keywords": [
+        "frequent urination"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is urination painful or burning?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Are you also excessively thirsty?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a fever or lower back pain?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you noticed any change in urine colour?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you been consuming a lot of fluids?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Urinary Tract Infection",
+            "Type 2 Diabetes",
+            "Dehydration"
+          ],
+          "advice": "Drink sufficient water throughout the day. Avoid caffeine and alcohol which irritate the bladder. Do not hold in urine for extended periods. Maintain good hygiene in genital area. Keep a record of urination frequency",
+          "homeRemedies": [
+            "Drink sufficient water throughout the day",
+            "Avoid caffeine and alcohol which irritate the bladder",
+            "Do not hold in urine for extended periods",
+            "Maintain good hygiene in genital area",
+            "Keep a record of urination frequency"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Urinary Tract Infection",
+            "Type 2 Diabetes",
+            "Dehydration"
+          ],
+          "advice": "Drink sufficient water throughout the day. Avoid caffeine and alcohol which irritate the bladder. Do not hold in urine for extended periods. Maintain good hygiene in genital area. Keep a record of urination frequency",
+          "homeRemedies": [
+            "Drink sufficient water throughout the day",
+            "Avoid caffeine and alcohol which irritate the bladder",
+            "Do not hold in urine for extended periods",
+            "Maintain good hygiene in genital area",
+            "Keep a record of urination frequency"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If accompanied by burning, fever, blood in urine, or if excessive thirst and urination suggest possible diabetes"
+        },
+        "high": {
+          "causes": [
+            "Urinary Tract Infection",
+            "Type 2 Diabetes",
+            "Dehydration"
+          ],
+          "advice": "Seek immediate medical attention. Drink sufficient water throughout the day. Avoid caffeine and alcohol which irritate the bladder. Do not hold in urine for extended periods. Maintain good hygiene in genital area. Keep a record of urination frequency",
+          "homeRemedies": [
+            "Drink sufficient water throughout the day",
+            "Avoid caffeine and alcohol which irritate the bladder",
+            "Do not hold in urine for extended periods",
+            "Maintain good hygiene in genital area",
+            "Keep a record of urination frequency"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If accompanied by burning, fever, blood in urine, or if excessive thirst and urination suggest possible diabetes"
+        }
+      }
+    },
+    {
+      "id": "joint-pain",
+      "name": "Joint Pain",
+      "keywords": [
+        "joint pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Which joints are affected?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is there swelling, redness, or warmth in the joint?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Did the pain start after physical activity or injury?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Is the pain worse in the morning?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a fever along with the joint pain?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Osteoarthritis",
+            "Rheumatoid Arthritis",
+            "Dengue Fever",
+            "Vitamin D Deficiency"
+          ],
+          "advice": "Rest the affected joint. Apply ice pack for acute pain or swelling. Apply warm compress for stiffness. Perform gentle stretching exercises. Maintain a healthy body weight to reduce joint stress",
+          "homeRemedies": [
+            "Rest the affected joint",
+            "Apply ice pack for acute pain or swelling",
+            "Apply warm compress for stiffness",
+            "Perform gentle stretching exercises",
+            "Maintain a healthy body weight to reduce joint stress"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Osteoarthritis",
+            "Rheumatoid Arthritis",
+            "Dengue Fever",
+            "Vitamin D Deficiency"
+          ],
+          "advice": "Rest the affected joint. Apply ice pack for acute pain or swelling. Apply warm compress for stiffness. Perform gentle stretching exercises. Maintain a healthy body weight to reduce joint stress",
+          "homeRemedies": [
+            "Rest the affected joint",
+            "Apply ice pack for acute pain or swelling",
+            "Apply warm compress for stiffness",
+            "Perform gentle stretching exercises",
+            "Maintain a healthy body weight to reduce joint stress"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If joint is very swollen and hot, if pain is accompanied by high fever and rash, or if multiple joints are involved"
+        },
+        "high": {
+          "causes": [
+            "Osteoarthritis",
+            "Rheumatoid Arthritis",
+            "Dengue Fever",
+            "Vitamin D Deficiency"
+          ],
+          "advice": "Seek immediate medical attention. Rest the affected joint. Apply ice pack for acute pain or swelling. Apply warm compress for stiffness. Perform gentle stretching exercises. Maintain a healthy body weight to reduce joint stress",
+          "homeRemedies": [
+            "Rest the affected joint",
+            "Apply ice pack for acute pain or swelling",
+            "Apply warm compress for stiffness",
+            "Perform gentle stretching exercises",
+            "Maintain a healthy body weight to reduce joint stress"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If joint is very swollen and hot, if pain is accompanied by high fever and rash, or if multiple joints are involved"
+        }
+      }
+    },
+    {
+      "id": "back-pain",
+      "name": "Back Pain",
+      "keywords": [
+        "back pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the pain in the upper, middle, or lower back?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Did it start after lifting or physical activity?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Does the pain radiate to your legs?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you have any numbness or tingling in legs?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Does lying down relieve or worsen the pain?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Lower Back Pain (Muscular)",
+            "Kidney Stones",
+            "Cervical Spondylosis"
+          ],
+          "advice": "Apply warm or cold compress to the area. Avoid prolonged sitting or lying in one position. Use a firm mattress for sleep support. Practice good posture at your desk. Perform gentle stretching and core exercises",
+          "homeRemedies": [
+            "Apply warm or cold compress to the area",
+            "Avoid prolonged sitting or lying in one position",
+            "Use a firm mattress for sleep support",
+            "Practice good posture at your desk",
+            "Perform gentle stretching and core exercises"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Lower Back Pain (Muscular)",
+            "Kidney Stones",
+            "Cervical Spondylosis"
+          ],
+          "advice": "Apply warm or cold compress to the area. Avoid prolonged sitting or lying in one position. Use a firm mattress for sleep support. Practice good posture at your desk. Perform gentle stretching and core exercises",
+          "homeRemedies": [
+            "Apply warm or cold compress to the area",
+            "Avoid prolonged sitting or lying in one position",
+            "Use a firm mattress for sleep support",
+            "Practice good posture at your desk",
+            "Perform gentle stretching and core exercises"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If back pain is severe, radiates to legs with numbness, follows an injury, or is accompanied by urinary problems"
+        },
+        "high": {
+          "causes": [
+            "Lower Back Pain (Muscular)",
+            "Kidney Stones",
+            "Cervical Spondylosis"
+          ],
+          "advice": "Seek immediate medical attention. Apply warm or cold compress to the area. Avoid prolonged sitting or lying in one position. Use a firm mattress for sleep support. Practice good posture at your desk. Perform gentle stretching and core exercises",
+          "homeRemedies": [
+            "Apply warm or cold compress to the area",
+            "Avoid prolonged sitting or lying in one position",
+            "Use a firm mattress for sleep support",
+            "Practice good posture at your desk",
+            "Perform gentle stretching and core exercises"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If back pain is severe, radiates to legs with numbness, follows an injury, or is accompanied by urinary problems"
+        }
+      }
+    },
+    {
+      "id": "skin-rash",
+      "name": "Skin Rash",
+      "keywords": [
+        "skin rash"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "When did the rash appear?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is it itchy, painful, or neither?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Have you used any new products or eaten new foods?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Is the rash spreading?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a fever along with the rash?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Eczema",
+            "Allergic Rhinitis",
+            "Chickenpox",
+            "Dengue Fever",
+            "Fungal Infection (Skin)"
+          ],
+          "advice": "Do not scratch the affected area. Keep skin clean and moisturised. Avoid potential allergens. Wear loose, breathable clothing. Apply calamine lotion for itch relief",
+          "homeRemedies": [
+            "Do not scratch the affected area",
+            "Keep skin clean and moisturised",
+            "Avoid potential allergens",
+            "Wear loose, breathable clothing",
+            "Apply calamine lotion for itch relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Eczema",
+            "Allergic Rhinitis",
+            "Chickenpox",
+            "Dengue Fever",
+            "Fungal Infection (Skin)"
+          ],
+          "advice": "Do not scratch the affected area. Keep skin clean and moisturised. Avoid potential allergens. Wear loose, breathable clothing. Apply calamine lotion for itch relief",
+          "homeRemedies": [
+            "Do not scratch the affected area",
+            "Keep skin clean and moisturised",
+            "Avoid potential allergens",
+            "Wear loose, breathable clothing",
+            "Apply calamine lotion for itch relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If rash spreads rapidly, is associated with fever and joint pain, involves face/throat, or does not improve in 3–5 days"
+        },
+        "high": {
+          "causes": [
+            "Eczema",
+            "Allergic Rhinitis",
+            "Chickenpox",
+            "Dengue Fever",
+            "Fungal Infection (Skin)"
+          ],
+          "advice": "Seek immediate medical attention. Do not scratch the affected area. Keep skin clean and moisturised. Avoid potential allergens. Wear loose, breathable clothing. Apply calamine lotion for itch relief",
+          "homeRemedies": [
+            "Do not scratch the affected area",
+            "Keep skin clean and moisturised",
+            "Avoid potential allergens",
+            "Wear loose, breathable clothing",
+            "Apply calamine lotion for itch relief"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If rash spreads rapidly, is associated with fever and joint pain, involves face/throat, or does not improve in 3–5 days"
+        }
+      }
+    },
+    {
+      "id": "excessive-thirst",
+      "name": "Excessive Thirst",
+      "keywords": [
+        "excessive thirst"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Are you also urinating frequently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you feel unusually tired?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Have you noticed any unintended weight loss?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Is your vision blurry at times?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a family history of diabetes?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Type 2 Diabetes",
+            "Dehydration",
+            "Heat Stroke"
+          ],
+          "advice": "Drink water regularly and monitor intake. Avoid sugary drinks and sodas. Eat balanced meals with controlled sugar. Note frequency of thirst and urination to share with doctor. Get blood sugar tested as a precaution",
+          "homeRemedies": [
+            "Drink water regularly and monitor intake",
+            "Avoid sugary drinks and sodas",
+            "Eat balanced meals with controlled sugar",
+            "Note frequency of thirst and urination to share with doctor",
+            "Get blood sugar tested as a precaution"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Type 2 Diabetes",
+            "Dehydration",
+            "Heat Stroke"
+          ],
+          "advice": "Drink water regularly and monitor intake. Avoid sugary drinks and sodas. Eat balanced meals with controlled sugar. Note frequency of thirst and urination to share with doctor. Get blood sugar tested as a precaution",
+          "homeRemedies": [
+            "Drink water regularly and monitor intake",
+            "Avoid sugary drinks and sodas",
+            "Eat balanced meals with controlled sugar",
+            "Note frequency of thirst and urination to share with doctor",
+            "Get blood sugar tested as a precaution"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If excessive thirst is accompanied by frequent urination, fatigue, and blurred vision — get blood sugar checked promptly"
+        },
+        "high": {
+          "causes": [
+            "Type 2 Diabetes",
+            "Dehydration",
+            "Heat Stroke"
+          ],
+          "advice": "Seek immediate medical attention. Drink water regularly and monitor intake. Avoid sugary drinks and sodas. Eat balanced meals with controlled sugar. Note frequency of thirst and urination to share with doctor. Get blood sugar tested as a precaution",
+          "homeRemedies": [
+            "Drink water regularly and monitor intake",
+            "Avoid sugary drinks and sodas",
+            "Eat balanced meals with controlled sugar",
+            "Note frequency of thirst and urination to share with doctor",
+            "Get blood sugar tested as a precaution"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If excessive thirst is accompanied by frequent urination, fatigue, and blurred vision — get blood sugar checked promptly"
+        }
+      }
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety",
+      "keywords": [
+        "anxiety"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the anxiety constant or triggered by specific situations?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you experience physical symptoms like racing heart or sweating?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "How is your sleep quality?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you had panic attacks?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you been under significant stress recently?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Anxiety Disorder",
+            "Panic Disorder",
+            "Insomnia",
+            "Hyperthyroidism"
+          ],
+          "advice": "Practice deep breathing exercises daily. Limit caffeine and alcohol consumption. Maintain a regular sleep routine. Exercise regularly to reduce stress hormones. Talk to a trusted person about your feelings",
+          "homeRemedies": [
+            "Practice deep breathing exercises daily",
+            "Limit caffeine and alcohol consumption",
+            "Maintain a regular sleep routine",
+            "Exercise regularly to reduce stress hormones",
+            "Talk to a trusted person about your feelings"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Anxiety Disorder",
+            "Panic Disorder",
+            "Insomnia",
+            "Hyperthyroidism"
+          ],
+          "advice": "Practice deep breathing exercises daily. Limit caffeine and alcohol consumption. Maintain a regular sleep routine. Exercise regularly to reduce stress hormones. Talk to a trusted person about your feelings",
+          "homeRemedies": [
+            "Practice deep breathing exercises daily",
+            "Limit caffeine and alcohol consumption",
+            "Maintain a regular sleep routine",
+            "Exercise regularly to reduce stress hormones",
+            "Talk to a trusted person about your feelings"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If anxiety significantly affects daily functioning, work, or relationships, or if you experience frequent panic attacks"
+        },
+        "high": {
+          "causes": [
+            "Anxiety Disorder",
+            "Panic Disorder",
+            "Insomnia",
+            "Hyperthyroidism"
+          ],
+          "advice": "Seek immediate medical attention. Practice deep breathing exercises daily. Limit caffeine and alcohol consumption. Maintain a regular sleep routine. Exercise regularly to reduce stress hormones. Talk to a trusted person about your feelings",
+          "homeRemedies": [
+            "Practice deep breathing exercises daily",
+            "Limit caffeine and alcohol consumption",
+            "Maintain a regular sleep routine",
+            "Exercise regularly to reduce stress hormones",
+            "Talk to a trusted person about your feelings"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If anxiety significantly affects daily functioning, work, or relationships, or if you experience frequent panic attacks"
+        }
+      }
+    },
+    {
+      "id": "insomnia",
+      "name": "Insomnia",
+      "keywords": [
+        "insomnia"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Do you have trouble falling asleep, staying asleep, or waking too early?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "How many hours of sleep are you getting?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you use screens before bed?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you under significant stress or anxiety?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you consume caffeine or alcohol in the evening?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Insomnia",
+            "Anxiety Disorder",
+            "Depression",
+            "Hyperthyroidism"
+          ],
+          "advice": "Maintain a consistent sleep and wake time. Avoid screens at least 1 hour before bed. Keep the bedroom cool, dark, and quiet. Avoid caffeine after 2 PM. Try relaxation techniques like deep breathing or meditation",
+          "homeRemedies": [
+            "Maintain a consistent sleep and wake time",
+            "Avoid screens at least 1 hour before bed",
+            "Keep the bedroom cool, dark, and quiet",
+            "Avoid caffeine after 2 PM",
+            "Try relaxation techniques like deep breathing or meditation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Insomnia",
+            "Anxiety Disorder",
+            "Depression",
+            "Hyperthyroidism"
+          ],
+          "advice": "Maintain a consistent sleep and wake time. Avoid screens at least 1 hour before bed. Keep the bedroom cool, dark, and quiet. Avoid caffeine after 2 PM. Try relaxation techniques like deep breathing or meditation",
+          "homeRemedies": [
+            "Maintain a consistent sleep and wake time",
+            "Avoid screens at least 1 hour before bed",
+            "Keep the bedroom cool, dark, and quiet",
+            "Avoid caffeine after 2 PM",
+            "Try relaxation techniques like deep breathing or meditation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If insomnia persists for more than 4 weeks, significantly affects daily life, or is associated with depression or severe anxiety"
+        },
+        "high": {
+          "causes": [
+            "Insomnia",
+            "Anxiety Disorder",
+            "Depression",
+            "Hyperthyroidism"
+          ],
+          "advice": "Seek immediate medical attention. Maintain a consistent sleep and wake time. Avoid screens at least 1 hour before bed. Keep the bedroom cool, dark, and quiet. Avoid caffeine after 2 PM. Try relaxation techniques like deep breathing or meditation",
+          "homeRemedies": [
+            "Maintain a consistent sleep and wake time",
+            "Avoid screens at least 1 hour before bed",
+            "Keep the bedroom cool, dark, and quiet",
+            "Avoid caffeine after 2 PM",
+            "Try relaxation techniques like deep breathing or meditation"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If insomnia persists for more than 4 weeks, significantly affects daily life, or is associated with depression or severe anxiety"
+        }
+      }
+    },
+    {
+      "id": "weight-loss",
+      "name": "Weight Loss",
+      "keywords": [
+        "weight loss"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How much weight have you lost and over what period?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Was this weight loss intentional?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have changes in appetite?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you have night sweats or fever?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you experiencing fatigue or weakness?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Hyperthyroidism",
+            "Type 2 Diabetes",
+            "Depression",
+            "Hepatitis B"
+          ],
+          "advice": "Maintain a food diary to track calorie intake. Eat nutritious, calorie-rich foods. Avoid skipping meals. Consult a nutritionist for diet guidance. Monitor weight weekly",
+          "homeRemedies": [
+            "Maintain a food diary to track calorie intake",
+            "Eat nutritious, calorie-rich foods",
+            "Avoid skipping meals",
+            "Consult a nutritionist for diet guidance",
+            "Monitor weight weekly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Hyperthyroidism",
+            "Type 2 Diabetes",
+            "Depression",
+            "Hepatitis B"
+          ],
+          "advice": "Maintain a food diary to track calorie intake. Eat nutritious, calorie-rich foods. Avoid skipping meals. Consult a nutritionist for diet guidance. Monitor weight weekly",
+          "homeRemedies": [
+            "Maintain a food diary to track calorie intake",
+            "Eat nutritious, calorie-rich foods",
+            "Avoid skipping meals",
+            "Consult a nutritionist for diet guidance",
+            "Monitor weight weekly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Unintentional weight loss of more than 5% of body weight over 6–12 months warrants prompt medical evaluation"
+        },
+        "high": {
+          "causes": [
+            "Hyperthyroidism",
+            "Type 2 Diabetes",
+            "Depression",
+            "Hepatitis B"
+          ],
+          "advice": "Seek immediate medical attention. Maintain a food diary to track calorie intake. Eat nutritious, calorie-rich foods. Avoid skipping meals. Consult a nutritionist for diet guidance. Monitor weight weekly",
+          "homeRemedies": [
+            "Maintain a food diary to track calorie intake",
+            "Eat nutritious, calorie-rich foods",
+            "Avoid skipping meals",
+            "Consult a nutritionist for diet guidance",
+            "Monitor weight weekly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Unintentional weight loss of more than 5% of body weight over 6–12 months warrants prompt medical evaluation"
+        }
+      }
+    },
+    {
+      "id": "palpitations",
+      "name": "Palpitations",
+      "keywords": [
+        "palpitations"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How often do palpitations occur?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Are they triggered by exercise, stress, or caffeine?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you also feel dizzy or short of breath?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do they start and stop suddenly?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have a history of thyroid or heart disease?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Anxiety Disorder",
+            "Hyperthyroidism",
+            "Hypertension",
+            "Iron Deficiency Anemia",
+            "Panic Disorder"
+          ],
+          "advice": "Reduce caffeine, tea, and energy drink intake. Practice relaxation techniques. Stay hydrated and maintain regular meals. Avoid smoking and excessive alcohol. Track episodes with timing and triggers",
+          "homeRemedies": [
+            "Reduce caffeine, tea, and energy drink intake",
+            "Practice relaxation techniques",
+            "Stay hydrated and maintain regular meals",
+            "Avoid smoking and excessive alcohol",
+            "Track episodes with timing and triggers"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Anxiety Disorder",
+            "Hyperthyroidism",
+            "Hypertension",
+            "Iron Deficiency Anemia",
+            "Panic Disorder"
+          ],
+          "advice": "Reduce caffeine, tea, and energy drink intake. Practice relaxation techniques. Stay hydrated and maintain regular meals. Avoid smoking and excessive alcohol. Track episodes with timing and triggers",
+          "homeRemedies": [
+            "Reduce caffeine, tea, and energy drink intake",
+            "Practice relaxation techniques",
+            "Stay hydrated and maintain regular meals",
+            "Avoid smoking and excessive alcohol",
+            "Track episodes with timing and triggers"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If palpitations are frequent, associated with chest pain, fainting, or shortness of breath — seek prompt evaluation"
+        },
+        "high": {
+          "causes": [
+            "Anxiety Disorder",
+            "Hyperthyroidism",
+            "Hypertension",
+            "Iron Deficiency Anemia",
+            "Panic Disorder"
+          ],
+          "advice": "Seek immediate medical attention. Reduce caffeine, tea, and energy drink intake. Practice relaxation techniques. Stay hydrated and maintain regular meals. Avoid smoking and excessive alcohol. Track episodes with timing and triggers",
+          "homeRemedies": [
+            "Reduce caffeine, tea, and energy drink intake",
+            "Practice relaxation techniques",
+            "Stay hydrated and maintain regular meals",
+            "Avoid smoking and excessive alcohol",
+            "Track episodes with timing and triggers"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If palpitations are frequent, associated with chest pain, fainting, or shortness of breath — seek prompt evaluation"
+        }
+      }
+    },
+    {
+      "id": "eye-redness",
+      "name": "Eye Redness",
+      "keywords": [
+        "eye redness"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is there discharge from the eye?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is the redness in one eye or both?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Is there pain, burning, or itching?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you been exposed to someone with pink eye?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you wearing contact lenses?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Conjunctivitis (Pink Eye)",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Avoid rubbing the eyes. Wash hands frequently. Use clean tissues and do not share towels. Remove contact lenses until symptoms resolve. Clean eyes gently with clean water",
+          "homeRemedies": [
+            "Avoid rubbing the eyes",
+            "Wash hands frequently",
+            "Use clean tissues and do not share towels",
+            "Remove contact lenses until symptoms resolve",
+            "Clean eyes gently with clean water"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Conjunctivitis (Pink Eye)",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Avoid rubbing the eyes. Wash hands frequently. Use clean tissues and do not share towels. Remove contact lenses until symptoms resolve. Clean eyes gently with clean water",
+          "homeRemedies": [
+            "Avoid rubbing the eyes",
+            "Wash hands frequently",
+            "Use clean tissues and do not share towels",
+            "Remove contact lenses until symptoms resolve",
+            "Clean eyes gently with clean water"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If vision is affected, pain is severe, there is significant discharge, or symptoms do not improve in 3–5 days"
+        },
+        "high": {
+          "causes": [
+            "Conjunctivitis (Pink Eye)",
+            "Allergic Rhinitis"
+          ],
+          "advice": "Seek immediate medical attention. Avoid rubbing the eyes. Wash hands frequently. Use clean tissues and do not share towels. Remove contact lenses until symptoms resolve. Clean eyes gently with clean water",
+          "homeRemedies": [
+            "Avoid rubbing the eyes",
+            "Wash hands frequently",
+            "Use clean tissues and do not share towels",
+            "Remove contact lenses until symptoms resolve",
+            "Clean eyes gently with clean water"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If vision is affected, pain is severe, there is significant discharge, or symptoms do not improve in 3–5 days"
+        }
+      }
+    },
+    {
+      "id": "ear-pain",
+      "name": "Ear Pain",
+      "keywords": [
+        "ear pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the pain in one or both ears?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you have any discharge from the ear?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a fever?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Did the pain start after swimming or flying?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Is your hearing muffled?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Otitis Media (Ear Infection)",
+            "Common Cold",
+            "Sinusitis"
+          ],
+          "advice": "Avoid inserting objects into the ear. Apply warm compress to the ear for comfort. Keep ears dry after bathing. Avoid blowing nose forcefully. Rest and take adequate fluids",
+          "homeRemedies": [
+            "Avoid inserting objects into the ear",
+            "Apply warm compress to the ear for comfort",
+            "Keep ears dry after bathing",
+            "Avoid blowing nose forcefully",
+            "Rest and take adequate fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Otitis Media (Ear Infection)",
+            "Common Cold",
+            "Sinusitis"
+          ],
+          "advice": "Avoid inserting objects into the ear. Apply warm compress to the ear for comfort. Keep ears dry after bathing. Avoid blowing nose forcefully. Rest and take adequate fluids",
+          "homeRemedies": [
+            "Avoid inserting objects into the ear",
+            "Apply warm compress to the ear for comfort",
+            "Keep ears dry after bathing",
+            "Avoid blowing nose forcefully",
+            "Rest and take adequate fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If pain is severe, discharge is present, hearing is affected, or fever persists"
+        },
+        "high": {
+          "causes": [
+            "Otitis Media (Ear Infection)",
+            "Common Cold",
+            "Sinusitis"
+          ],
+          "advice": "Seek immediate medical attention. Avoid inserting objects into the ear. Apply warm compress to the ear for comfort. Keep ears dry after bathing. Avoid blowing nose forcefully. Rest and take adequate fluids",
+          "homeRemedies": [
+            "Avoid inserting objects into the ear",
+            "Apply warm compress to the ear for comfort",
+            "Keep ears dry after bathing",
+            "Avoid blowing nose forcefully",
+            "Rest and take adequate fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If pain is severe, discharge is present, hearing is affected, or fever persists"
+        }
+      }
+    },
+    {
+      "id": "blood-in-urine",
+      "name": "Blood in Urine",
+      "keywords": [
+        "blood in urine"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is it visible to the naked eye or found on a test?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you have pain in the lower back or abdomen?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Is there a burning sensation when urinating?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you had any recent injury?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you have any known kidney or bladder conditions?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Kidney Stones",
+            "Urinary Tract Infection"
+          ],
+          "advice": "Stay well hydrated with water. Avoid holding urine for long periods. Do not self-medicate. Note colour and frequency for your doctor. Avoid strenuous physical activity until evaluated",
+          "homeRemedies": [
+            "Stay well hydrated with water",
+            "Avoid holding urine for long periods",
+            "Do not self-medicate",
+            "Note colour and frequency for your doctor",
+            "Avoid strenuous physical activity until evaluated"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Kidney Stones",
+            "Urinary Tract Infection"
+          ],
+          "advice": "Stay well hydrated with water. Avoid holding urine for long periods. Do not self-medicate. Note colour and frequency for your doctor. Avoid strenuous physical activity until evaluated",
+          "homeRemedies": [
+            "Stay well hydrated with water",
+            "Avoid holding urine for long periods",
+            "Do not self-medicate",
+            "Note colour and frequency for your doctor",
+            "Avoid strenuous physical activity until evaluated"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek prompt medical evaluation for any blood in urine — this always needs investigation to rule out serious causes"
+        },
+        "high": {
+          "causes": [
+            "Kidney Stones",
+            "Urinary Tract Infection"
+          ],
+          "advice": "Seek immediate medical attention. Stay well hydrated with water. Avoid holding urine for long periods. Do not self-medicate. Note colour and frequency for your doctor. Avoid strenuous physical activity until evaluated",
+          "homeRemedies": [
+            "Stay well hydrated with water",
+            "Avoid holding urine for long periods",
+            "Do not self-medicate",
+            "Note colour and frequency for your doctor",
+            "Avoid strenuous physical activity until evaluated"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek prompt medical evaluation for any blood in urine — this always needs investigation to rule out serious causes"
+        }
+      }
+    },
+    {
+      "id": "night-sweats",
+      "name": "Night Sweats",
+      "keywords": [
+        "night sweats"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How often do you experience night sweats?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you also have a fever or chills?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Have you noticed unexplained weight loss?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you going through menopause (if applicable)?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you on any medications?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Viral Fever",
+            "Malaria",
+            "Hyperthyroidism",
+            "Tuberculosis-related conditions"
+          ],
+          "advice": "Keep the bedroom cool and well ventilated. Use light, breathable bed linen. Stay hydrated at night. Wear light, moisture-wicking sleepwear. Avoid heavy meals before bedtime",
+          "homeRemedies": [
+            "Keep the bedroom cool and well ventilated",
+            "Use light, breathable bed linen",
+            "Stay hydrated at night",
+            "Wear light, moisture-wicking sleepwear",
+            "Avoid heavy meals before bedtime"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Viral Fever",
+            "Malaria",
+            "Hyperthyroidism",
+            "Tuberculosis-related conditions"
+          ],
+          "advice": "Keep the bedroom cool and well ventilated. Use light, breathable bed linen. Stay hydrated at night. Wear light, moisture-wicking sleepwear. Avoid heavy meals before bedtime",
+          "homeRemedies": [
+            "Keep the bedroom cool and well ventilated",
+            "Use light, breathable bed linen",
+            "Stay hydrated at night",
+            "Wear light, moisture-wicking sleepwear",
+            "Avoid heavy meals before bedtime"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If night sweats are persistent, associated with fever, weight loss, or swollen lymph nodes — consult a doctor promptly"
+        },
+        "high": {
+          "causes": [
+            "Viral Fever",
+            "Malaria",
+            "Hyperthyroidism",
+            "Tuberculosis-related conditions"
+          ],
+          "advice": "Seek immediate medical attention. Keep the bedroom cool and well ventilated. Use light, breathable bed linen. Stay hydrated at night. Wear light, moisture-wicking sleepwear. Avoid heavy meals before bedtime",
+          "homeRemedies": [
+            "Keep the bedroom cool and well ventilated",
+            "Use light, breathable bed linen",
+            "Stay hydrated at night",
+            "Wear light, moisture-wicking sleepwear",
+            "Avoid heavy meals before bedtime"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If night sweats are persistent, associated with fever, weight loss, or swollen lymph nodes — consult a doctor promptly"
+        }
+      }
+    },
+    {
+      "id": "yellowing-of-skin",
+      "name": "Yellowing of Skin",
+      "keywords": [
+        "yellowing of skin"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Is the white part of your eyes also yellowing?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is your urine dark-coloured?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have abdominal pain or itching?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you been unwell recently or had contact with someone with hepatitis?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Do you consume alcohol regularly?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Hepatitis A",
+            "Hepatitis B",
+            "Gallstones"
+          ],
+          "advice": "Avoid alcohol completely. Rest and maintain adequate hydration. Eat light, easily digestible meals. Do not share food, utensils, or personal items. Seek medical attention promptly",
+          "homeRemedies": [
+            "Avoid alcohol completely",
+            "Rest and maintain adequate hydration",
+            "Eat light, easily digestible meals",
+            "Do not share food, utensils, or personal items",
+            "Seek medical attention promptly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Hepatitis A",
+            "Hepatitis B",
+            "Gallstones"
+          ],
+          "advice": "Avoid alcohol completely. Rest and maintain adequate hydration. Eat light, easily digestible meals. Do not share food, utensils, or personal items. Seek medical attention promptly",
+          "homeRemedies": [
+            "Avoid alcohol completely",
+            "Rest and maintain adequate hydration",
+            "Eat light, easily digestible meals",
+            "Do not share food, utensils, or personal items",
+            "Seek medical attention promptly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek immediate medical attention for any yellowing of skin or eyes — it always requires medical evaluation"
+        },
+        "high": {
+          "causes": [
+            "Hepatitis A",
+            "Hepatitis B",
+            "Gallstones"
+          ],
+          "advice": "Seek immediate medical attention. Avoid alcohol completely. Rest and maintain adequate hydration. Eat light, easily digestible meals. Do not share food, utensils, or personal items. Seek medical attention promptly",
+          "homeRemedies": [
+            "Avoid alcohol completely",
+            "Rest and maintain adequate hydration",
+            "Eat light, easily digestible meals",
+            "Do not share food, utensils, or personal items",
+            "Seek medical attention promptly"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "Seek immediate medical attention for any yellowing of skin or eyes — it always requires medical evaluation"
+        }
+      }
+    },
+    {
+      "id": "swollen-lymph-nodes",
+      "name": "Swollen Lymph Nodes",
+      "keywords": [
+        "swollen lymph nodes"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Where are the swollen nodes (neck, armpit, groin)?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Are they tender or painful?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have a fever or recent infection?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you noticed unexplained weight loss?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you had any cuts or injuries nearby?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Bacterial Infection",
+            "Tonsillitis",
+            "Viral Fever"
+          ],
+          "advice": "Rest and allow the body to fight infection. Stay hydrated and eat nutritious food. Apply a warm compress to reduce tenderness. Avoid self-diagnosis. Monitor for any increase in size",
+          "homeRemedies": [
+            "Rest and allow the body to fight infection",
+            "Stay hydrated and eat nutritious food",
+            "Apply a warm compress to reduce tenderness",
+            "Avoid self-diagnosis",
+            "Monitor for any increase in size"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Bacterial Infection",
+            "Tonsillitis",
+            "Viral Fever"
+          ],
+          "advice": "Rest and allow the body to fight infection. Stay hydrated and eat nutritious food. Apply a warm compress to reduce tenderness. Avoid self-diagnosis. Monitor for any increase in size",
+          "homeRemedies": [
+            "Rest and allow the body to fight infection",
+            "Stay hydrated and eat nutritious food",
+            "Apply a warm compress to reduce tenderness",
+            "Avoid self-diagnosis",
+            "Monitor for any increase in size"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If nodes are very large, hard, painless, or persist for more than 2 weeks, or if unexplained weight loss and night sweats are present"
+        },
+        "high": {
+          "causes": [
+            "Bacterial Infection",
+            "Tonsillitis",
+            "Viral Fever"
+          ],
+          "advice": "Seek immediate medical attention. Rest and allow the body to fight infection. Stay hydrated and eat nutritious food. Apply a warm compress to reduce tenderness. Avoid self-diagnosis. Monitor for any increase in size",
+          "homeRemedies": [
+            "Rest and allow the body to fight infection",
+            "Stay hydrated and eat nutritious food",
+            "Apply a warm compress to reduce tenderness",
+            "Avoid self-diagnosis",
+            "Monitor for any increase in size"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If nodes are very large, hard, painless, or persist for more than 2 weeks, or if unexplained weight loss and night sweats are present"
+        }
+      }
+    },
+    {
+      "id": "muscle-pain",
+      "name": "Muscle Pain",
+      "keywords": [
+        "muscle pain"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "Did the pain start after physical activity?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Is it localised to one area or widespread?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have fever with muscle pain?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Have you recently started new exercise?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Is the pain constant or does it improve with rest?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Influenza (Flu)",
+            "Dengue Fever",
+            "Vitamin D Deficiency",
+            "Lower Back Pain (Muscular)"
+          ],
+          "advice": "Rest and avoid strenuous activity. Apply warm or cold compress. Stay hydrated. Stretch gently after rest. Ensure adequate Vitamin D and calcium intake",
+          "homeRemedies": [
+            "Rest and avoid strenuous activity",
+            "Apply warm or cold compress",
+            "Stay hydrated",
+            "Stretch gently after rest",
+            "Ensure adequate Vitamin D and calcium intake"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Influenza (Flu)",
+            "Dengue Fever",
+            "Vitamin D Deficiency",
+            "Lower Back Pain (Muscular)"
+          ],
+          "advice": "Rest and avoid strenuous activity. Apply warm or cold compress. Stay hydrated. Stretch gently after rest. Ensure adequate Vitamin D and calcium intake",
+          "homeRemedies": [
+            "Rest and avoid strenuous activity",
+            "Apply warm or cold compress",
+            "Stay hydrated",
+            "Stretch gently after rest",
+            "Ensure adequate Vitamin D and calcium intake"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If muscle pain is severe, widespread, associated with dark urine or significant weakness, or follows high fever"
+        },
+        "high": {
+          "causes": [
+            "Influenza (Flu)",
+            "Dengue Fever",
+            "Vitamin D Deficiency",
+            "Lower Back Pain (Muscular)"
+          ],
+          "advice": "Seek immediate medical attention. Rest and avoid strenuous activity. Apply warm or cold compress. Stay hydrated. Stretch gently after rest. Ensure adequate Vitamin D and calcium intake",
+          "homeRemedies": [
+            "Rest and avoid strenuous activity",
+            "Apply warm or cold compress",
+            "Stay hydrated",
+            "Stretch gently after rest",
+            "Ensure adequate Vitamin D and calcium intake"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If muscle pain is severe, widespread, associated with dark urine or significant weakness, or follows high fever"
+        }
+      }
+    },
+    {
+      "id": "heartburn",
+      "name": "Heartburn",
+      "keywords": [
+        "heartburn"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "When does heartburn typically occur — after meals or at night?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Do you feel a burning sensation rising in your chest?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "What foods tend to trigger it?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Do you lie down shortly after eating?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Have you noticed any difficulty swallowing?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Acid Reflux / GERD",
+            "Peptic Ulcer"
+          ],
+          "advice": "Eat smaller, more frequent meals. Avoid spicy, fatty, and acidic foods. Do not lie down for at least 2 hours after eating. Elevate the head of your bed slightly. Avoid tight clothing around the abdomen",
+          "homeRemedies": [
+            "Eat smaller, more frequent meals",
+            "Avoid spicy, fatty, and acidic foods",
+            "Do not lie down for at least 2 hours after eating",
+            "Elevate the head of your bed slightly",
+            "Avoid tight clothing around the abdomen"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Acid Reflux / GERD",
+            "Peptic Ulcer"
+          ],
+          "advice": "Eat smaller, more frequent meals. Avoid spicy, fatty, and acidic foods. Do not lie down for at least 2 hours after eating. Elevate the head of your bed slightly. Avoid tight clothing around the abdomen",
+          "homeRemedies": [
+            "Eat smaller, more frequent meals",
+            "Avoid spicy, fatty, and acidic foods",
+            "Do not lie down for at least 2 hours after eating",
+            "Elevate the head of your bed slightly",
+            "Avoid tight clothing around the abdomen"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If heartburn occurs more than twice a week, causes difficulty swallowing, or is associated with weight loss or vomiting"
+        },
+        "high": {
+          "causes": [
+            "Acid Reflux / GERD",
+            "Peptic Ulcer"
+          ],
+          "advice": "Seek immediate medical attention. Eat smaller, more frequent meals. Avoid spicy, fatty, and acidic foods. Do not lie down for at least 2 hours after eating. Elevate the head of your bed slightly. Avoid tight clothing around the abdomen",
+          "homeRemedies": [
+            "Eat smaller, more frequent meals",
+            "Avoid spicy, fatty, and acidic foods",
+            "Do not lie down for at least 2 hours after eating",
+            "Elevate the head of your bed slightly",
+            "Avoid tight clothing around the abdomen"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If heartburn occurs more than twice a week, causes difficulty swallowing, or is associated with weight loss or vomiting"
+        }
+      }
+    },
+    {
+      "id": "loss-of-appetite",
+      "name": "Loss of Appetite",
+      "keywords": [
+        "loss of appetite"
+      ],
+      "followUp": [
+        {
+          "id": "q0",
+          "question": "How long have you had reduced appetite?",
+          "options": [
+            "Less than 2 days",
+            "2-5 days",
+            "More than a week"
+          ]
+        },
+        {
+          "id": "q1",
+          "question": "Have you lost weight as a result?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Do you have nausea or abdominal pain?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Are you feeling sad or low in mood?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Are you on any new medications?",
+          "options": [
+            "Yes",
+            "No",
+            "Not sure"
+          ]
+        }
+      ],
+      "results": {
+        "mild": {
+          "causes": [
+            "Viral Fever",
+            "Depression",
+            "Hepatitis A",
+            "Typhoid Fever"
+          ],
+          "advice": "Eat small amounts every 2–3 hours even if not hungry. Choose nutrient-dense foods. Avoid skipping meals entirely. Identify and address underlying stress. Stay hydrated with soups and fluids",
+          "homeRemedies": [
+            "Eat small amounts every 2–3 hours even if not hungry",
+            "Choose nutrient-dense foods",
+            "Avoid skipping meals entirely",
+            "Identify and address underlying stress",
+            "Stay hydrated with soups and fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": false
+        },
+        "moderate": {
+          "causes": [
+            "Viral Fever",
+            "Depression",
+            "Hepatitis A",
+            "Typhoid Fever"
+          ],
+          "advice": "Eat small amounts every 2–3 hours even if not hungry. Choose nutrient-dense foods. Avoid skipping meals entirely. Identify and address underlying stress. Stay hydrated with soups and fluids",
+          "homeRemedies": [
+            "Eat small amounts every 2–3 hours even if not hungry",
+            "Choose nutrient-dense foods",
+            "Avoid skipping meals entirely",
+            "Identify and address underlying stress",
+            "Stay hydrated with soups and fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If appetite loss persists for more than a week, is associated with significant weight loss, or accompanied by jaundice, high fever, or persistent nausea"
+        },
+        "high": {
+          "causes": [
+            "Viral Fever",
+            "Depression",
+            "Hepatitis A",
+            "Typhoid Fever"
+          ],
+          "advice": "Seek immediate medical attention. Eat small amounts every 2–3 hours even if not hungry. Choose nutrient-dense foods. Avoid skipping meals entirely. Identify and address underlying stress. Stay hydrated with soups and fluids",
+          "homeRemedies": [
+            "Eat small amounts every 2–3 hours even if not hungry",
+            "Choose nutrient-dense foods",
+            "Avoid skipping meals entirely",
+            "Identify and address underlying stress",
+            "Stay hydrated with soups and fluids"
+          ],
+          "medicines": [
+            "Consult a doctor or pharmacist"
+          ],
+          "seeDoctor": true,
+          "doctorReason": "If appetite loss persists for more than a week, is associated with significant weight loss, or accompanied by jaundice, high fever, or persistent nausea"
+        }
+      }
+    }
+  ]
+}
